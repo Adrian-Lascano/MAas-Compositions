@@ -1,0 +1,199 @@
+/* ===================== */
+/* Desktop (Base Styles) */
+/* ===================== */
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template:
+	'main main right';
+	align-items: center;
+	justify-content: center;
+}
+	#main-header {
+		grid-area: main;
+		display: flex;
+		flex-direction: column;
+		padding: 9% 20% 10%;
+	}
+	h1 {
+		margin-left: 0%;
+		color: #2A9D8F;
+		letter-spacing: 2px;
+		font-size: 6.5vw;
+		font-family: Impact;
+		animation: h1 1.5s ease forwards;
+	}
+	.subtext {
+		color: #2E2E2E;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+		font-size: 2vw;
+		font-family: sans-serif;
+		text-align: center;
+		width: 170%;
+		letter-spacing: 1.5px;
+		animation: subtext 2s ease forwards;
+	}
+#image-container {	
+	grid-area: right;
+	margin: 8% 40% 8%;
+	width: 40%;
+	height: auto;
+}
+	#main-image {
+		width: 100%;
+		height: auto;
+		animation: img1 3s forwards;
+		border-radius: 25px;
+	}
+.featured-songs-box {
+	margin: auto;
+	padding: 1% 2% 2%;
+	width: 86%;
+	height: auto;
+	background: rgb(0, 39, 54, 0.75);
+	border-radius: 3vw;
+	font-family: Verdana;
+}
+	.fs-header {
+		color: white;
+		letter-spacing: 2px;
+		font-size: 1.5vw;
+	}
+	.song-covers {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr); /* 5 items in one row */
+		gap: 32px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	#featured-song {
+		text-align: center;
+	}
+	#featured-song img {
+		width: 100%;
+		max-width: 200px;
+		height: auto;
+		margin: 0 auto 12px;
+		display: block;
+		transition: transform 0.25s ease, box-shadow 0.25s ease;
+	}
+	#featured-song img:hover {
+		transform: scale(1.05);
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+	}
+	#featured-song .title {
+		font-size: 1.1vw;
+		color: rgb(243, 243, 243);
+	}
+
+/* ===================== */
+/* Tablet/iPad Overrides */
+/* ===================== */
+
+body[data-device="Tablet/iPad"] .main {
+    grid-template-columns: 1fr 1.5fr 1fr; /* Narrower right column */
+}
+	body[data-device="Tablet/iPad"] #main-header {
+		padding: 6% 15% 7% 15%; /* Reduced padding */
+	}
+	body[data-device="Tablet/iPad"] .subtext {
+		width: 85%; /* Reduced width */
+	}
+body[data-device="Tablet/iPad"] #image-container {
+	margin: 6% 0; /* Adjusted margins */
+	width: 70%; /* Slightly larger */
+}
+body[data-device="Tablet/iPad"] .featured-songs-box {
+	width: 90%; /* Slightly wider */
+}
+	body[data-device="Tablet/iPad"] .song-covers {
+		grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+		gap: 24px; /* Reduced gap */
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	body[data-device="Tablet/iPad"] #featured-song img {
+		max-width: 150px; /* Smaller max-width */
+	}
+	body[data-device="Tablet/iPad"] .song-covers #featured-song:nth-child(n+4) {
+		display: none;
+	}
+
+/* ===================== */
+/* Phone Overrides       */
+/* ===================== */
+
+body[data-device="Phone"]{
+	background-size: 100% 80%;
+}
+body[data-device="Phone"] .main {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+}
+	body[data-device="Phone"] #main-header {
+		padding: 5% 10% 5%; /* Minimal padding */
+		text-align: center; /* Center align */
+	}
+	body[data-device="Phone"] h1 {
+		font-size: 13vw; /* Larger relative size */
+	}
+	body[data-device="Phone"] .subtext {
+		margin-top: -1em;
+		font-size: 3.5vw; /* Larger for readability */
+		width: 100%; /* Full width */
+		letter-spacing: 1px;
+	}
+body[data-device="Phone"] #image-container {
+	width: 0;
+	position: absolute;
+}
+body[data-device="Phone"] .featured-songs-box {
+	margin-top: 10%;
+	padding: 2% 3% 3%;
+	width: 95%; /* Near-full width */
+	border-radius: 5vw; /* Larger radius */
+}
+	body[data-device="Phone"] .fs-header {
+		letter-spacing: 1px;
+		font-size: 4vw; /* Larger for phones */
+	}
+	body[data-device="Phone"] .song-covers {
+		grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+		gap: 16px; /* Smaller gap */
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	body[data-device="Phone"] #featured-song img {
+		max-width: 120px; /* Smaller for phones */
+		margin: 0 auto 8px;
+	}
+	body[data-device="Phone"] .song-covers #featured-song:nth-child(n+5) {
+		display: none;
+	}
+	body[data-device="Phone"] #featured-song .title {
+		font-size: 3vw; /* Larger for readability */
+	}
+
+/* ================================= */
+/* Keyframes (Shared Across Devices) */
+/* ================================= */
+
+@keyframes h1 {
+    0% { transform: translateY(10px); color: transparent; text-shadow: none; }
+    20% { color: transparent; text-shadow: none; }
+    50% { color: transparent; text-shadow: none; }
+    100% { transform: translateY(15%); }
+}
+@keyframes subtext {
+    0% { opacity: 0.0; font-size: 0vw; }
+    50% { opacity: 0.0; }
+    60% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+@keyframes img1 {
+    0% { opacity: 0.0; }
+    40% { opacity: 0.0; }
+    100% { opacity: 1; }
+}

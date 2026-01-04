@@ -1,0 +1,234 @@
+/* ===================== */
+/* Desktop (Base Styles) */
+/* ===================== */
+
+.text-name {
+    color: #2A9D8F;
+    font-size: 3vw;
+    width: 85%;
+    position: absolute;
+    padding-top: 3%;
+    margin-left: 7%;
+    z-index: 2;
+}
+    h1 {
+        letter-spacing: 2px;
+        font-family: 'Playfair Display', serif;
+        line-height: 1;
+        margin-bottom: 0.2em;
+        animation: fadein 5s ease forwards;
+        mask-repeat: no-repeat;
+    }
+    #under-text {
+        font-size: 2vw;
+        margin: 0;
+        animation: undertextfade 2s ease forwards;
+        animation-delay: 2s;
+        color: white;
+    }
+    #underline {
+        background: repeating-linear-gradient(to left, transparent, transparent 12px,#2A9D8F 100%);
+        height: 3px;
+        width: 0;
+        border-radius: 10px;
+        margin: 0.2em 0 0.8em 0;
+        animation: underlineFade 2s ease forwards;
+        animation-delay: 2s;
+    }
+    #text-tt {
+        font-size: 1.5vw;
+        font-family: Arial, sans-serif;
+        color: white;
+        line-height: 1.3;
+        margin-top: 0;
+        animation: subtext 2s ease forwards;
+        animation-delay: 4s;
+    }
+    #spotify-link {
+        text-decoration: none;
+        background-color: #2A9D8F;
+        border-radius: 50px;
+        color: white;
+        font-size: 1.5vw;
+        padding: 10px 20px;
+        animation: link 3s ease forwards;
+        animation-delay: 4s;
+        opacity: 0;
+    }
+    #spotify-link:hover {
+        background-color: #0f3934;
+    }
+    .social-links {
+        width: 25%;
+        margin-top: 20px;
+        animation: link 3s ease forwards;
+        animation-delay: 4s;
+        opacity: 0;
+    }
+    .social-links a img {
+        width: 50px;
+    }
+.aga-fade {
+    max-width: 500px;
+    border-radius: 40px;
+    float: right;
+    margin-right: 7%;
+    margin-top: 5%;
+    opacity: 0.0;
+    animation: image 5s ease forwards;
+    z-index: 1;
+}
+.images-row {
+        width: 80%;
+        margin: 5% auto;
+        padding-top: 80px;
+        column-count: 4;
+        column-gap: 16px;
+}
+    .images-row img {
+        width: 100%;
+        height: auto; /* Preserve aspect ratios */
+        margin-bottom: 16px;
+        display: block;
+        break-inside: avoid;
+        opacity: 1;
+        animation: imagebox 3s ease forwards;
+        animation-delay: 5s;
+    }
+
+/* ===================== */
+/* Tablet/iPad Overrides */
+/* ===================== */
+body[data-device="Tablet/iPad"] .text-name{
+    padding-top: 1%;
+}
+    body[data-device="Tablet/iPad"] .text-name h1 {
+        font-size: 6vw; /* Reduced from 3vw base */
+    }
+    body[data-device="Tablet/iPad"] #under-text {
+        font-size: 2.3vw; /* Reduced from 2vw */
+    }
+    body[data-device="Tablet/iPad"] #underline {
+        margin: 0.2em 0 0.4em 0;
+    }
+    body[data-device="Tablet/iPad"] #text-tt {
+        font-size: 1.7vw; /* Reduced from 1.5vw */
+    }
+    body[data-device="Tablet/iPad"] #spotify-link {
+        font-size: 2vw; /* Reduced from 1.5vw */
+    }
+    body[data-device="Tablet/iPad"] .social-links {
+        justify-content: center;
+        width: 30%; /* Slightly wider */
+    }
+body[data-device="Tablet/iPad"] .aga-fade {
+    max-width: 320px; /* Smaller image */
+    margin: 3% 7% 4% 0;
+}
+body[data-device="Tablet/iPad"] .images-row {
+    column-count: 3; /* Fewer columns */
+    width: 85%; /* Slightly wider */
+}
+
+/* ===================== */
+/* Phone Overrides       */
+/* ===================== */
+
+body[data-device="Phone"] .text-name h1 {
+    font-size: 7vw; /* Larger for readability */
+}
+    body[data-device="Phone"] #under-text {
+        font-size: 2.5vw; /* Larger from 2vw */
+    }
+    body[data-device="Phone"] #text-tt {
+        font-size: 2.2vw; /* Larger from 1.5vw */
+        margin-bottom: 10px;
+    }
+    body[data-device="Phone"] #spotify-link {
+        font-size: 2.5vw; /* Larger for touch */
+        padding: 5px 10px;
+    }
+    body[data-device="Phone"] .social-links {
+        display: flex; /* Force horizontal layout */
+        flex-wrap: nowrap; /* Prevent wrapping to new rows */
+        width: 100%; /* Full width to fit all images */
+        margin-top: 15px;
+    }
+    body[data-device="Phone"] .social-links img {
+        width: 30px; /* Smaller icons */
+    }
+body[data-device="Phone"] .aga-fade {
+    max-width: 200px; /* Smaller image */
+    margin: 5% auto; /* Center */
+    float: right;
+}
+body[data-device="Phone"] .images-row {
+    column-count: 2; /* Fewer columns for phones */
+    width: 90%; /* Wider for small screens */
+    padding-top: 40px; /* Reduced padding */
+}
+
+/* ================================= */
+/* Keyframes (Shared Across Devices) */
+/* ================================= */
+
+@keyframes fadein {
+    0% {
+        mask-size: 0%;
+        mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1) 70%,
+            rgba(0, 0, 0, 0)
+        );
+    }
+    100% {
+        mask-size: 100%;
+        mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1) 70%,
+            rgba(0, 0, 0, 0)
+        );
+    }
+}
+@keyframes undertextfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        color: #2A9D8F;
+        opacity: 0.8;
+    }
+}
+@keyframes underlineFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        width: 27%;
+        opacity: 0.8;
+    }
+}
+@keyframes subtext {
+    from {
+        opacity: 0;
+    }
+    to {
+        color: #2E2E2E;
+        opacity: 0.8;
+    }
+}
+@keyframes link {
+    to {
+        opacity: 1.0;
+    }
+}
+@keyframes image {
+    to {
+        opacity: 1.0;
+    }
+}
+@keyframes imagebox {
+    to {
+        opacity: 0.9;
+    }
+}

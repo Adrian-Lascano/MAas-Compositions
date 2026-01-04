@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MAas' Song Compositions</title>
+	<link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
+	<link rel="stylesheet" type="text/css" href="index.css"> <!-- ONLY FOR HOME PAGE -->
+	<link rel="Icon" href="images/Title_Icon.png">
+</head>
+<body>
+
+	<nav id="navigation" class="sidenav"> <!-- OPEN/LEFT NAVIGATION -->
+		<div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
+
+			<a href="index.html" style="display: inline;"><img src="images/Home.png" id="home-btn"></a>
+		</div>
+
+		<input type="text" id="search-input" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
+			<ul id="song-menu"></ul>
+	</nav>
+
+	<div class="topnav" id="top-nav"> <!-- TOP NAVIGATION -->
+		<p>
+			<span id="nav-songs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
+			<a href="Composer.html" id="nav-link">Composer</a>
+			<a href="Dedication.html" id="nav-link">Dedication</a>
+			<br>
+		</p>
+	</div>
+	
+
+	<div class="main">
+		<header id="main-header">
+					<!-- MAIN HEADER -->
+			<h1><b>MAas'<br>Compositions</b></h1>
+
+			<div class="subtext"> <!-- SUB HEADER -->
+				<p id="intro-text">
+					Where melodies turn into memories
+						<br>
+					and every song tells a piece of my story.
+				</p>
+			</div>
+		</header>
+		<div id="image-container"><img src="images/AGA Guitar.png" id="main-image"></div>
+	</div>
+
+
+	<div class="featured-songs-box"> <!-- FEATURED SONGS -->
+
+		<h2 class="fs-header">Featured Songs</h2>
+
+		<div class="song-covers">
+			<div id="featured-song">
+				<a href="lyrics.html?song=Samantha"><img src="images/Home.png"></a>
+				<p class="title">Samantha</p>
+			</div>
+
+			<div id="featured-song">
+				<a href="lyrics.html?song=Seth_and_Seren"><img src="images/Home.png"></a>
+				<p class="title">Seth & Seren</p>
+			</div>
+
+			<div id="featured-song">
+				<a href="lyrics.html?song=NnB.html"><img src="images/Home.png"></a>
+				<p class="title">Ningning Ng Bituin</p>
+			</div>
+
+			<div id="featured-song">
+				<a href="lyrics.html?song=Everyday"><img src="images/Home.png"></a>
+				<p class="title">Everyday</p>
+			</div>
+
+			<div id="featured-song">
+				<a href="lyrics.html?song=HIV"><img src="images/Home.png"></a>
+				<p class="title">HIV</p>
+			</div>
+		</div>
+		
+	</div>
+
+<script src="lyrics.js"></script><!-- DATA LYRICS -->
+<script>
+
+		// Set Style with user's device
+
+	function detectDevice() {
+		const body = document.body;
+		const width = window.innerWidth;
+		const height = window.innerHeight;
+		const isPortrait = height > width;
+
+		let device;
+
+		if (width > 1200) {
+			device = "Desktop";
+		} else if (isPortrait && width <= 768) {
+			device = "Phone";
+		} else {
+			device = "Tablet/iPad";
+		}
+
+		body.setAttribute("data-device", device);
+		document.getElementById("debug").innerHTML = device;
+
+		console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
+	}
+
+		// Call detectDevice on page load
+		
+	document.addEventListener("DOMContentLoaded", function() {
+		detectDevice();
+	});
+
+		// Optional: Also call on window resize for dynamic updates
+		
+	window.addEventListener("resize", detectDevice);
+
+        // Navigation
+
+    function openNav() {
+        document.getElementById("navigation").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("navigation").style.width = "0";
+    }
+
+    function myFunction() {
+        var x = document.getElementById("top-nav");
+        if (x.classList === "topnav") {
+            x.classList += " responsive";
+        } else {
+            x.classList = "topnav";
+        }
+    }
+
+        // Search Bar
+
+    function mySearch() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("search-input");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("song-menu");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+            } else {
+            li[i].style.display = "none";
+            }
+        }
+    }
+
+        // Side Nav Song Titles
+
+    const menu = document.getElementById("song-menu");
+
+        Object.entries(lyricsData)
+        .sort((a, b) => a[1].title.localeCompare(b[1].title))
+        .forEach(([key, song]) => {
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+
+            a.href = `lyrics.html?song=${key}`;
+            a.textContent = song.title;
+
+            li.appendChild(a);
+            menu.appendChild(li);
+        });
+</script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="lyrics.css"> <!-- LYRICS DESIGN -->
+	<link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
+	<link rel="Icon" href="images/Title_Icon.png">
+	<title id="page-title"></title>
+</head>
+<body>
+	
+	<nav id="navigation" class="sidenav"> <!-- OPEN/CLOSE SIDE NAVIGATION -->
+		<div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
+
+			<a href="index.html" style="display: inline;"><img src="images/Home.png" id="home-btn"></a>
+		</div>
+
+		<input type="text" id="search-input" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
+			<ul id="song-menu"></ul>
+	</nav>
+
+	<div class="topnav" id="top-nav"> <!-- TOP NAVIGATION -->
+		<p>
+			<span id="nav-songs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
+			<a href="Composer.html" id="nav-link">Composer</a>
+			<a href="Dedication.html" id="nav-link">Dedication</a>
+			<br>
+		</p>
+	</div>
+
+	<!-- MAIN ITEMS -->
+
+	<div class="title">
+		<h1 id="song-title"></h1><p id="song-author"></p>
+	</div>
+
+		<hr>
+	<div class="song">
+		<div id="main-lyrics">
+				<p id="song-lyrics"></p>
+		</div>
+
+		<div id="music-tab">
+			<img src="images/Title_Icon.png" alt="">
+
+			<div class="audio-player">
+				<audio id="audio-element">
+					<source src=".m4a" type="audio/mpeg">
+					<!-- Fallback text for browsers that do not support the audio element -->
+					Your browser does not support the audio element.
+				</audio>
+				
+				<!-- Custom Controls -->
+				<input type="range" id="progress-bar" min="0" value="0" step="0.1" max="100">
+				<span id="current-time">0:00</span><div id="spacer"></div><span id="duration">0:00</span>
+    			<button type="button" onclick="restartAudio()" id="reset">&#x21BB</button>
+				<button id="play-pause-button">&#9654</button>
+				<a href="songs/.m4a" download>&#10515</a>
+			</div>
+		</div>
+	</div>	
+
+
+<script src="lyrics.js"></script><!-- DATA LYRICS -->
+<script>
+
+		// Set Style with user's device
+
+	function detectDevice() {
+		const body = document.body;
+		const width = window.innerWidth;
+		const height = window.innerHeight;
+		const isPortrait = height > width;
+
+		let device;
+
+		if (width > 1200) {
+			device = "Desktop";
+		} else if (isPortrait && width <= 768) {
+			device = "Phone";
+		} else {
+			device = "Tablet/iPad";
+		}
+
+		body.setAttribute("data-device", device);
+		document.getElementById("debug").innerHTML = device;
+
+		console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
+	}
+
+		// Call detectDevice on page load
+
+	document.addEventListener("DOMContentLoaded", function() {
+		detectDevice();
+	});
+
+		// Optional: Also call on window resize for dynamic updates
+
+	window.addEventListener("resize", detectDevice);
+
+		//Navigation
+
+	function openNav() {
+		document.getElementById("navigation").style.width = "250px";
+	}
+	function closeNav() {
+		document.getElementById("navigation").style.width = "0";
+	}
+	function myFunction() {
+		var x = document.getElementById("top-nav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+
+		//Search Bar
+
+    function mySearch() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("search-input");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("song-menu");
+        li = ul.getElementsByTagName("li");
+
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+            } else {
+            li[i].style.display = "none";
+            }
+        }
+    }
+	
+		// Get references to the audio element and custom controls
+	const audio = document.getElementById('audio-element');
+	const playPauseButton = document.getElementById('play-pause-button');
+	const progressBar = document.getElementById('progress-bar');
+	const currentTimeDisplay = document.getElementById('current-time');
+	const durationDisplay = document.getElementById('duration');
+	const repeatButton = document.getElementById("repeat-button");
+	function formatTime(seconds) {
+		const mins = Math.floor(seconds / 60);
+		const secs = Math.floor(seconds % 60);
+		return `${mins}:${secs.toString().padStart(2, '0')}`;
+	}
+
+		// Update duration when metadata loads
+	audio.addEventListener('loadedmetadata', () => {
+		durationDisplay.textContent = formatTime(audio.duration);
+		progressBar.max = audio.duration;
+	});
+
+		// Update progress bar and current time as audio plays
+	audio.addEventListener('timeupdate', () => {
+		progressBar.value = audio.currentTime;
+		currentTimeDisplay.textContent = formatTime(audio.currentTime);
+	});
+
+		// Seek functionality via progress bar
+	progressBar.addEventListener('input', () => {
+		audio.currentTime = progressBar.value;
+	});
+
+		// Handle audio end
+	audio.addEventListener('ended', () => {
+		playPauseButton.textContent = 'Play';
+		progressBar.value = 0;
+		currentTimeDisplay.textContent = '0:00';
+	});
+
+		// Error handling
+	audio.addEventListener('error', () => {
+		alert('Error loading audio file. Check the file path.');
+		});
+
+		// Restart audio
+	function restartAudio() {
+		audio.currentTime = 0;
+		audio.play();
+	}
+
+		// Play/Pause button functionality
+	playPauseButton.addEventListener('click', () => {
+		if (audio.paused) {
+			audio.play();
+			playPauseButton.textContent = '⏸';
+		} else {
+			audio.pause();
+			playPauseButton.textContent = '▶';
+		}
+	});
+
+		// Find Song ID
+
+	const params = new URLSearchParams(window.location.search);
+	const songKey = params.get("song");
+
+		if (!songKey || !lyricsData[songKey]) {
+		document.getElementById("song-title").textContent = "Song not found";
+		} else {
+		const song = lyricsData[songKey];
+		document.getElementById("page-title").textContent = song.title;
+		document.getElementById("song-title").textContent = song.title;
+		document.getElementById("song-author").textContent = `by ${song.author}`;
+		document.getElementById("song-lyrics").innerHTML = song.lyrics;
+	}
+
+		//Side Nav Song Titles
+
+	const menu = document.getElementById("song-menu");
+
+		Object.entries(lyricsData)
+		.sort((a, b) => a[1].title.localeCompare(b[1].title))
+		.forEach(([key, song]) => {
+			const li = document.createElement("li");
+			const a = document.createElement("a");
+			a.href = `lyrics.html?song=${key}`;
+			a.textContent = song.title;
+			li.appendChild(a);
+			menu.appendChild(li);
+		});
+</script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+/* ===================== */
+/* Desktop (Base Styles) */
+/* ===================== */
+
+body {
+	background-image: url(images/MAas_Composition_Background.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+    background-color: #144A52;
+	overflow-x: hidden;
+}
+        ::-webkit-scrollbar{
+            width: 0.7vw;
+        }
+        ::-webkit-scrollbar-track{
+            opacity: 0.1;
+            background-color: black;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: #68d2d4; 
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+        background: #155152; 
+        }
+.topnav {
+	background-color: #142024;
+	margin-top: -38px;
+	margin-left: -10px;
+	width: 105%;
+	font-size: 25px;
+	height: 50%;
+	color: white;
+	text-decoration: none;
+	text-shadow: 2px 2px 8px grey;
+	overflow: hidden;
+	display: block;
+}
+        .topnav a, span{ 
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: auto;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .topnav .icon {
+            display: none;
+        }
+.sidenav {
+    height: 99%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0f6194;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 5px;
+    overflow-y: auto;
+    z-index: 3;
+}
+        .sidenav a {
+            padding: 8px 8px 40px 32px; /* Top, Right, Bottom, Left */
+            text-decoration: none;
+            font-size: 25px;
+            font-family: Bold Italic;
+            display: block;
+            transition: 0.3s;
+            text-shadow: 3px 3px 8px black;
+            color: white;
+        }
+        .sidenav a:hover {
+            color: #042324;
+        }
+        a:hover {
+            color: #424242;
+        }
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            left: -5%;
+            font-size: 50px;
+            color: white;
+        }
+        #home-btn {
+            max-height: 40px;
+            position: absolute;
+            right: 5%;
+            top: 3%;
+            filter: invert(92%);
+        }
+        #home-btn:hover {
+            filter: invert(5%);
+        }
+        #song-menu {
+            text-decoration: none;
+            list-style-type: none;
+            margin-left: -20%;
+        }
+        #song-menu li:last-child {
+            padding-bottom: 40px;
+        }
+        #search-input {
+            width: 80%;
+            font-size: 18px;
+            padding: 11px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-left: 5%;
+        }
+        #nav-link{
+            color: white;
+            text-decoration: none;
+            text-shadow: 2px 2px 8px grey;
+        }
+
+/* ===================== */
+/* Tablet/iPad Overrides */
+/* ===================== */
+
+body[data-device="Tablet/iPad"] {
+    background-size: 100% 90%; /* Slightly adjust for tablet aspect */
+}
+    body[data-device="Tablet/iPad"] ::-webkit-scrollbar {
+        width: 0.6vw; /* Slightly narrower scrollbar */
+    }
+body[data-device="Tablet/iPad"] .topnav {
+    margin-top: -30px; /* Reduced margin */
+    margin-left: -8px;
+    width: 102%; /* Slightly narrower */
+    font-size: 22px; /* Smaller font */
+    height: 45%; /* Reduced height */
+}
+body[data-device="Tablet/iPad"] .topnav a, body[data-device="Tablet/iPad"] .topnav span {
+    padding: 12px 14px; /* Reduced padding */
+    font-size: 18px; /* Smaller font */
+}
+body[data-device="Tablet/iPad"] .sidenav {
+    padding-top: 50px; /* Reduced padding */
+}
+    body[data-device="Tablet/iPad"] .sidenav a {
+        padding: 6px 6px 30px 28px; /* Reduced padding */
+        font-size: 22px; /* Smaller font */
+    }
+    body[data-device="Tablet/iPad"] .sidenav .closebtn {
+        font-size: 45px; /* Smaller close button */
+    }
+    body[data-device="Tablet/iPad"] #home-btn {
+        max-height: 35px; /* Smaller button */
+        right: 4%;
+        top: 2.5%;
+    }
+    body[data-device="Tablet/iPad"] #song-menu {
+        margin-left: -15%; /* Adjusted margin */
+    }
+    body[data-device="Tablet/iPad"] #search-input {
+        width: 85%; /* Wider input */
+        font-size: 16px; /* Smaller font */
+        padding: 10px;
+        margin-left: 4%;
+    }
+
+/* ===================== */
+/* Phone Overrides       */
+/* ===================== */
+
+body[data-device="Phone"] {
+    background-size: 100% 80%; /* Compressed for phone */
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+}
+    body[data-device="Phone"] ::-webkit-scrollbar {
+        width: 2vw; /* Thicker for touch */
+    }
+body[data-device="Phone"] .sidenav {
+    padding-top: 40px; /* Reduced padding */
+    height: 100%; /* Full height */
+}
+    body[data-device="Phone"] .sidenav a {
+        padding: 10px 10px 25px 20px; /* Adjusted for touch */
+        font-size: 20px; /* Larger for readability */
+    }
+    body[data-device="Phone"] .sidenav .closebtn {
+        font-size: 40px; /* Smaller close button */
+        left: 0; /* Adjust position */
+    }
+    body[data-device="Phone"] #home-btn {
+        max-height: 30px; /* Smaller button */
+        right: 7%;
+        top: 2%;
+    }
+    body[data-device="Phone"] #song-menu {
+        margin-left: -10%; /* Adjusted margin */
+    }
+    body[data-device="Phone"] #song-menu li:last-child {
+        padding-bottom: 40px; /* Reduced bottom padding */
+    }
+    body[data-device="Phone"] #search-input {
+        width: 84%; /* Near-full width */
+        font-size: 16px; /* Readable size */
+        padding: 12px; /* Larger padding for touch */
+        margin-left: 3%;
+    }

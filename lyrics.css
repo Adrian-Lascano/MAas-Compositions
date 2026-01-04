@@ -1,0 +1,251 @@
+/* ===================== */
+/* Desktop (Base Styles) */
+/* ===================== */
+
+.title {
+	color: #2E2E2E;
+	font-size: 2vw;
+	animation: fadein 5s ease forwards;
+	mask-repeat: no-repeat;
+	display: flex;
+	align-items: baseline;
+}
+	h1 {
+		color: #2A9D8F;
+		font-size: 5vw;
+		padding: 0 15px 0 50px;
+		margin: 0.4em 0;
+	}
+	hr {
+		width: 97.5%;
+		opacity: 1.0;
+		animation: fade 9s ease forwards;
+	}
+.song {
+	display: flex;
+}
+	#main-lyrics {
+		background-color: rgb(215, 215, 215, 0.4);
+		border-radius: 20px;
+		width: 50%;
+		margin: 3% 5%;
+		font-size: 1.3vw;
+		color: #2E2E2E;
+		padding-left: 1%;
+	}
+	#music-tab {
+		overflow: hidden;
+		background-image: url(images/MusicTab.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 50px;
+		width: 500px;
+		height: 500px;
+		margin: 3% 5% 0 0;
+		position: relative;
+	}
+	#music-tab img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 4.9%;
+		width: 243px;
+		border-radius: 40px;
+		border: 2px solid #000;
+	}
+	#music-tab audio {
+		background-color: #f5f5f5;
+		border-radius: 5px;
+	}
+	#music-tab span {
+		color: white;
+	}
+	.audio-player {
+		display: grid;
+		grid-template:
+		'Bar Bar Bar'
+		'Time Main Duration'
+		'Reset Play Download';
+		place-items: center;
+		grid-template-columns: auto 1fr auto;
+		margin-top: 68%;
+		border-radius: 10px;
+		padding: 0 20px;
+	}
+	#progress-bar {
+		grid-area: Bar;
+		width: 440px;
+	}
+	#current-time {
+		grid-area: Time;
+		justify-self: start;
+		padding-bottom: 30px;
+		font-size: 1vw;
+	}
+	#duration {
+		grid-area: Duration;
+		justify-self: end;
+		font-size: 1vw;
+		padding-bottom: 30px;
+	}
+	#reset {
+		grid-area: Reset;
+		cursor: pointer;
+		font-size: 1.5vw;
+		color: white;
+		background-color: transparent;
+		border: none;
+	}
+	#play-pause-button {
+		grid-area: Play;
+		cursor: pointer;
+		font-size: 3vw;
+		color: white;
+		background-color: transparent;
+		border: none;
+		margin-left: 20%;
+	}
+	.audio-player a {
+		grid-area: Download;
+		font-size: 1.5vw;
+		color: white;
+	}
+	audio {
+		display: none;
+	}
+
+/* ===================== */
+/* Tablet/iPad Overrides */
+/* ===================== */
+
+body[data-device="Tablet/iPad"] .title {
+    font-size: 1.5vw; /* Reduced from 2vw */
+	margin-top: 1%; /* Makes even spacing */
+}
+	body[data-device="Tablet/iPad"] h1 {
+		font-size: 4vw; /* Reduced from 5vw */
+		padding: 0 12px 0 40px; /* Reduced padding */
+		margin: 0.3em 0; /* Reduced margin */
+	}
+	body[data-device="Tablet/iPad"] hr {
+		width: 95%; /* Slightly narrower */
+	}
+body[data-device="Tablet/iPad"] .song {
+    display: flex; /* Keep flex but adjust sizes */
+}
+	body[data-device="Tablet/iPad"] #main-lyrics {
+		width: 55%; /* Slightly wider */
+		margin: 2.5% 4%; /* Reduced margins */
+		font-size: 1.5vw; /* Enlarged from 1.3vw */
+		padding-left: 0.8%; /* Reduced padding */
+	}
+	body[data-device="Tablet/iPad"] #music-tab {
+		width: 400px; /* Smaller width */
+		height: 400px; /* Smaller height */
+		margin: 2.5% 4% 0 0; /* Reduced margins */
+	}
+	body[data-device="Tablet/iPad"] #music-tab img {
+		margin: 4%; /* Reduced margin */
+		width: 200px; /* Smaller image */
+	}
+	body[data-device="Tablet/iPad"] .audio-player {
+		margin-top: 65%; /* Adjusted margin */
+		padding: 0 15px; /* Reduced padding */
+	}
+	body[data-device="Tablet/iPad"] #progress-bar {
+		width: 350px; /* Smaller bar */
+	}
+	body[data-device="Tablet/iPad"] #current-time,
+	body[data-device="Tablet/iPad"] #duration {
+		font-size: 0.9vw; /* Reduced from 1vw */
+		padding-bottom: 25px; /* Reduced padding */
+	}
+	body[data-device="Tablet/iPad"] #reset,
+	body[data-device="Tablet/iPad"] .audio-player a {
+		font-size: 1.3vw; /* Reduced from 1.5vw */
+	}
+	body[data-device="Tablet/iPad"] #play-pause-button {
+		font-size: 2.5vw; /* Reduced from 3vw */
+	}
+/* ===================== */
+/* Phone Overrides       */
+/* ===================== */
+
+body[data-device="Phone"] .title {
+    font-size: 4vw; /* Larger for readability */
+	margin-top: 2%; /* Makes even spacing */
+}
+	body[data-device="Phone"] h1 {
+		font-size: 8vw; /* Larger relative size */
+		padding: 0 10px 0 20px; /* Reduced padding */
+		margin: 0.2em 0; /* Reduced margin */
+	}
+	body[data-device="Phone"] hr {
+		width: 90%; /* Narrower for phone */
+	}
+body[data-device="Phone"] .song {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center; /* Center align */
+}
+	body[data-device="Phone"] #main-lyrics {
+		width: 90%; /* Near-full width */
+		margin: 5% 5%; /* Adjusted margins */
+		font-size: 3.5vw; /* Larger for readability */
+		padding-left: 2%; /* Increased padding */
+	}
+	body[data-device="Phone"] #music-tab {
+		width: 300px; /* Smaller for phone */
+		height: 300px; /* Smaller height */
+		margin: 5% 5% 0 0; /* Adjusted margins */
+	}
+	body[data-device="Phone"] #music-tab img {
+		margin: 5%; /* Adjusted margin */
+		width: 150px; /* Smaller image */
+	}
+	body[data-device="Phone"] .audio-player {
+		margin-top: 60%; /* Adjusted for smaller tab */
+		padding: 0 10px; /* Reduced padding */
+	}
+	body[data-device="Phone"] #progress-bar {
+		width: 250px; /* Smaller bar */
+	}
+	body[data-device="Phone"] #current-time,
+	body[data-device="Phone"] #duration {
+		font-size: 2.5vw; /* Larger for touch */
+		padding-bottom: 20px; /* Reduced padding */
+	}
+	body[data-device="Phone"] #reset,
+	body[data-device="Phone"] .audio-player a {
+		font-size: 3vw; /* Larger for touch */
+	}
+	body[data-device="Phone"] #play-pause-button {
+		font-size: 5vw; /* Larger for touch */
+		margin-left: 10%; /* Adjusted margin */
+	}
+
+/* ================================= */
+/* Keyframes (Shared Across Devices) */
+/* ================================= */
+
+@keyframes fadein {
+    0% {
+        mask-size: 0%;
+        mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1) 70%,
+            rgba(0, 0, 0, 0)
+        );
+    }
+    100% {
+        mask-size: 100%;
+        mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 1) 70%,
+            rgba(0, 0, 0, 0)
+        );
+    }
+}
+@keyframes fade {
+    0% { opacity: 0.0; }
+}
