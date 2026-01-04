@@ -91,7 +91,7 @@
         margin-bottom: 16px;
         display: block;
         break-inside: avoid;
-        opacity: 1;
+        opacity: 0.0;
         animation: imagebox 3s ease forwards;
         animation-delay: 5s;
     }
@@ -231,4 +231,5 @@ body[data-device="Phone"] .images-row {
     to {
         opacity: 0.9;
     }
+
 }
