@@ -31,7 +31,7 @@
 		margin: 3% 5%;
 		font-size: 1.3vw;
 		color: #2E2E2E;
-		padding-left: 1%;
+		padding: 0 1%;
 	}
 	#music-tab {
 		overflow: hidden;
@@ -137,7 +137,7 @@ body[data-device="Tablet/iPad"] .song {
 		width: 55%; /* Slightly wider */
 		margin: 2.5% 4%; /* Reduced margins */
 		font-size: 1.5vw; /* Enlarged from 1.3vw */
-		padding-left: 0.8%; /* Reduced padding */
+		padding: 0 0.8%; /* Reduced padding */
 	}
 	body[data-device="Tablet/iPad"] #music-tab {
 		width: 400px; /* Smaller width */
@@ -192,7 +192,7 @@ body[data-device="Phone"] .song {
 		width: 90%; /* Near-full width */
 		margin: 5% 5%; /* Adjusted margins */
 		font-size: 3.5vw; /* Larger for readability */
-		padding-left: 2%; /* Increased padding */
+		padding: 0 2%; /* Increased padding */
 	}
 	body[data-device="Phone"] #music-tab {
 		width: 300px; /* Smaller for phone */
@@ -248,4 +248,5 @@ body[data-device="Phone"] .song {
 }
 @keyframes fade {
     0% { opacity: 0.0; }
+
 }
