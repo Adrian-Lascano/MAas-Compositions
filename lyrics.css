@@ -62,7 +62,6 @@
 	}
 	#coverTitle p {
 		width: 92%;
-		border: 1px solid black;
 		font-size: 2vw;
 		padding-left: 4%;
 	}
@@ -272,5 +271,6 @@ body[data-device="Phone"] .song {
 }
 @keyframes fade {
     0% { opacity: 0.0; }
+
 
 }
