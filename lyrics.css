@@ -25,7 +25,10 @@
 	display: flex;
 }
 	#main-lyrics {
-		background-color: rgb(215, 215, 215, 0.4);
+		background: rgba(255, 255, 255, 0.15);
+  		backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+  		box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
 		border-radius: 20px;
 		width: 50%;
 		margin: 3% 5%;
@@ -35,80 +38,91 @@
 	}
 	#music-tab {
 		overflow: hidden;
-		background-image: url(images/MusicTab.png);
-		background-repeat: no-repeat;
-		background-size: cover;
+		background: rgba(255, 255, 255, 0.15);
+  		backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 255, 255, 0.2);
+  		box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
 		border-radius: 50px;
 		width: 500px;
-		height: 500px;
-		margin: 3% 5% 0 0;
-		position: relative;
+		height: 350px;
+		margin: 3% 5% 3% 0;
+		padding: 2%;
 	}
-	#music-tab img {
-		position: absolute;
+	#coverTitle {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	#coverTitle img {
 		top: 0;
 		left: 0;
-		margin: 4.9%;
-		width: 243px;
+		width: 200px;
 		border-radius: 40px;
 		border: 2px solid #000;
 	}
+	#coverTitle p {
+		width: 92%;
+		border: 1px solid black;
+		font-size: 2vw;
+		padding-left: 4%;
+	}
 	#music-tab audio {
-		background-color: #f5f5f5;
+		background-color: black;
 		border-radius: 5px;
 	}
 	#music-tab span {
-		color: white;
+		color: black;
 	}
 	.audio-player {
 		display: grid;
 		grid-template:
 		'Bar Bar Bar'
-		'Time Main Duration'
+		'Time Duration Duration'
 		'Reset Play Download';
 		place-items: center;
-		grid-template-columns: auto 1fr auto;
-		margin-top: 68%;
+		grid-template-columns: 1fr 1fr 1fr;
 		border-radius: 10px;
-		padding: 0 20px;
+		margin-top: 5%;
 	}
 	#progress-bar {
 		grid-area: Bar;
-		width: 440px;
+		width: 95%;
 	}
 	#current-time {
 		grid-area: Time;
 		justify-self: start;
-		padding-bottom: 30px;
 		font-size: 1vw;
 	}
 	#duration {
 		grid-area: Duration;
 		justify-self: end;
 		font-size: 1vw;
-		padding-bottom: 30px;
 	}
 	#reset {
 		grid-area: Reset;
+		margin-left: 20%;
+		justify-self: start;
 		cursor: pointer;
 		font-size: 1.5vw;
-		color: white;
+		color: black;
 		background-color: transparent;
 		border: none;
 	}
 	#play-pause-button {
 		grid-area: Play;
 		cursor: pointer;
-		font-size: 3vw;
-		color: white;
+		font-size: 45px;
+		color: black;
 		background-color: transparent;
 		border: none;
-		margin-left: 20%;
+		place-self: center;
 	}
 	.audio-player a {
 		grid-area: Download;
+		justify-self: end;
+		margin-right: 20%;
 		font-size: 1.5vw;
-		color: white;
+		color: black;
 	}
 	audio {
 		display: none;
@@ -144,9 +158,14 @@ body[data-device="Tablet/iPad"] .song {
 		height: 400px; /* Smaller height */
 		margin: 2.5% 4% 0 0; /* Reduced margins */
 	}
-	body[data-device="Tablet/iPad"] #music-tab img {
+	body[data-device="Tablet/iPad"] #coverTitle img {
 		margin: 4%; /* Reduced margin */
 		width: 200px; /* Smaller image */
+	}
+	body[data-device="Tablet/iPad"] #coverTitle p {
+		width: 92%;
+		font-size: 2vw;					/* 				TO BE CHANGED			 */
+		padding: 0 4%;
 	}
 	body[data-device="Tablet/iPad"] .audio-player {
 		margin-top: 65%; /* Adjusted margin */
@@ -190,25 +209,30 @@ body[data-device="Phone"] .song {
 }
 	body[data-device="Phone"] #main-lyrics {
 		width: 90%; /* Near-full width */
-		margin: 5% 5%; /* Adjusted margins */
+		margin: 5% 5% 0; /* Adjusted margins */
 		font-size: 3.5vw; /* Larger for readability */
 		padding: 0 2%; /* Increased padding */
 	}
 	body[data-device="Phone"] #music-tab {
-		width: 300px; /* Smaller for phone */
-		height: 300px; /* Smaller height */
-		margin: 5% 5% 0 0; /* Adjusted margins */
+		width: 90%; /* Smaller for phone */
+		height: auto;
+		margin: 5% 5%;
+		padding-bottom: 20px;
 	}
-	body[data-device="Phone"] #music-tab img {
-		margin: 5%; /* Adjusted margin */
-		width: 150px; /* Smaller image */
+	body[data-device="Phone"] #coverTitle img {
+		display: none;
+	}
+	body[data-device="Phone"] #coverTitle p {
+		width: 92%;
+		font-size: 6vw;
+		padding: 0 4%;
 	}
 	body[data-device="Phone"] .audio-player {
-		margin-top: 60%; /* Adjusted for smaller tab */
+		margin-top: 3%; /* Adjusted for smaller tab */
 		padding: 0 10px; /* Reduced padding */
 	}
 	body[data-device="Phone"] #progress-bar {
-		width: 250px; /* Smaller bar */
+		width: 80vw; /* Smaller bar */
 	}
 	body[data-device="Phone"] #current-time,
 	body[data-device="Phone"] #duration {

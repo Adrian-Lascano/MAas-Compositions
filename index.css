@@ -47,44 +47,66 @@
 		border-radius: 25px;
 	}
 .featured-songs-box {
-	margin: auto;
-	padding: 1% 2% 2%;
+	margin: auto auto 5%;
+	padding-top: 1%;
+	padding-left: 2%;
 	width: 86%;
 	height: auto;
-	background: rgb(0, 39, 54, 0.75);
+	background: rgba(0, 14, 43, 0.2);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
 	border-radius: 3vw;
 	font-family: Verdana;
-}
+}	
+	#featured-song::-webkit-scrollbar {
+		height: 0.5vw;
+	}
 	.fs-header {
-		color: white;
+		color: #2A9D8F;
 		letter-spacing: 2px;
-		font-size: 1.5vw;
+		font-size: 2vw;
+		margin-left: 1%;
+		text-shadow: 0px 0px 20px rgb(255, 255, 255);
 	}
 	.song-covers {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr); /* 5 items in one row */
-		gap: 32px;
-		padding-left: 60px;
-		padding-right: 60px;
+		overflow-y: hidden;
+		grid-template-columns: 20% 30% 20% 30%;
+		grid-template-rows: repeat(3, 1fr);
+		row-gap: 20px;
+		align-items: start;
+		overflow: visible;
 	}
-	#featured-song {
-		text-align: center;
+	#featured-song p {
+		font-size: 1.7vw;
+		color: #c2a500;
+		text-decoration: none;
+		align-self: start;
+		margin-top: 0;
+		text-shadow: 0px 0px 50px rgb(255, 255, 255);
+	}
+	#featured-song span {
+		font-size: 1.2vw;
+		line-height: 1.5rem;
+		color: rgb(243, 243, 243);
+		text-decoration: none;
+		text-align: justify;
+		text-indent: 20px;
+		padding-right: 30px;
+		text-shadow: 0px 0px 0px rgb(255, 255, 255);
 	}
 	#featured-song img {
 		width: 100%;
 		max-width: 200px;
 		height: auto;
-		margin: 0 auto 12px;
 		display: block;
+		margin-top: 5%;
 		transition: transform 0.25s ease, box-shadow 0.25s ease;
 	}
 	#featured-song img:hover {
 		transform: scale(1.05);
 		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-	}
-	#featured-song .title {
-		font-size: 1.1vw;
-		color: rgb(243, 243, 243);
 	}
 
 /* ===================== */
@@ -92,7 +114,10 @@
 /* ===================== */
 
 body[data-device="Tablet/iPad"] .main {
-    grid-template-columns: 1fr 1.5fr 1fr; /* Narrower right column */
+		grid-template-columns: repeat(8, minmax(150px, 1fr));
+		overflow-x: auto;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
 }
 	body[data-device="Tablet/iPad"] #main-header {
 		padding: 6% 15% 7% 15%; /* Reduced padding */
@@ -108,16 +133,19 @@ body[data-device="Tablet/iPad"] .featured-songs-box {
 	width: 90%; /* Slightly wider */
 }
 	body[data-device="Tablet/iPad"] .song-covers {
-		grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-		gap: 24px; /* Reduced gap */
-		padding-left: 40px;
-		padding-right: 40px;
+		display: o;
 	}
 	body[data-device="Tablet/iPad"] #featured-song img {
 		max-width: 150px; /* Smaller max-width */
 	}
-	body[data-device="Tablet/iPad"] .song-covers #featured-song:nth-child(n+4) {
-		display: none;
+	body[data-device="Phone"] #featured-song p {
+		font-size: 3.5vw;
+	}
+	body[data-device="Phone"] #featured-song span {
+		font-size: 2.5vw;
+		line-height: 0.8rem;
+		text-indent: 15px;
+		padding-right: 20px;
 	}
 
 /* ===================== */
@@ -151,29 +179,31 @@ body[data-device="Phone"] #image-container {
 }
 body[data-device="Phone"] .featured-songs-box {
 	margin-top: 10%;
-	padding: 2% 3% 3%;
+	padding-left: 5%;
 	width: 95%; /* Near-full width */
 	border-radius: 5vw; /* Larger radius */
 }
 	body[data-device="Phone"] .fs-header {
+		margin-left: 2%;
 		letter-spacing: 1px;
 		font-size: 4vw; /* Larger for phones */
 	}
 	body[data-device="Phone"] .song-covers {
-		grid-template-columns: repeat(2, 1fr); /* 2 items per row */
-		gap: 16px; /* Smaller gap */
-		padding-left: 20px;
-		padding-right: 20px;
+		grid-template-columns: 20% auto;
+		row-gap: 10px; /* Smaller gap */
+		column-gap: 20px;
 	}
 	body[data-device="Phone"] #featured-song img {
 		max-width: 120px; /* Smaller for phones */
-		margin: 0 auto 8px;
 	}
-	body[data-device="Phone"] .song-covers #featured-song:nth-child(n+5) {
-		display: none;
+	body[data-device="Phone"] #featured-song p {
+		font-size: 3.5vw;
 	}
-	body[data-device="Phone"] #featured-song .title {
-		font-size: 3vw; /* Larger for readability */
+	body[data-device="Phone"] #featured-song span {
+		font-size: 2.5vw;
+		line-height: 0.8rem;
+		text-indent: 15px;
+		padding-right: 20px;
 	}
 
 /* ================================= */

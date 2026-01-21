@@ -43,7 +43,11 @@
 		</div>
 
 		<div id="music-tab">
-			<img src="images/Title_Icon.png" alt="">
+			<div id="coverTitle">
+				<img src="images/Title_Icon.png" alt="">
+
+				<p id="playingTitle">loading..</p>
+			</div>
 
 			<div class="audio-player">
 				<audio id="audio-element">
@@ -206,6 +210,7 @@
 		const song = lyricsData[songKey];
 		document.getElementById("page-title").textContent = song.title;
 		document.getElementById("song-title").textContent = song.title;
+		document.getElementById("playingTitle").textContent = song.title;
 		document.getElementById("song-author").textContent = `by ${song.author}`;
 		document.getElementById("song-lyrics").innerHTML = song.lyrics;
 	}

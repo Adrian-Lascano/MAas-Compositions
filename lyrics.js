@@ -1213,7 +1213,7 @@ const lyricsData = {
 
     "Kalipay": {
         title: "Kalipay",
-        author: "A. Lascano",
+        author: "A. Lascano & M. Macasero",
         lyrics: 
             `Sa lahat ng oras na aking sinayang<br>
             'Di ko akalain ika'y aking mapapasaya<br>
@@ -1664,7 +1664,7 @@ const lyricsData = {
             A great persona here`
     },
 
-// 35 -------------------------------------------------------------------------------------
+// 36 -------------------------------------------------------------------------------------
 
     "Pamana": {
         title: "Pamana",
@@ -1710,5 +1710,281 @@ const lyricsData = {
             Halika na at tayo lang ang magkasama<br>
             Wala ng ibang hahanapin pang<br>
             Pagibig na alay sayo`
+    }
+};
+
+const featuredSongList = {
+    "Samantha": {
+        title: "Samantha",
+        author: "A. Lascano",
+        cover: ".png",
+        details: `Samantha was made after I visited Bicol Naga.
+                I saw this girl and we ended up together in a picture.
+                I sent her the pictures through her social media.
+                That's when she told me everything inside this song.`,
+        lyrics: 
+            `She said something that I won't forget, so small to be a lawyer, do you get it<br>
+            Her hobbies are painting baking reading, not just a girl but wife for life<br>
+        <br>
+            You can call me AGA short for my first names, I want to be your friend, wait it's not the end<br>
+            I can cook, I can sing you everyday, even wrote you this a song to play<br>
+        <br>
+            This is something I want to live about<br>
+            I just want to make my papa proud<br>
+            And if you are not saying yes to this<br>
+            You got no choice, you're into this<br>
+            Samantha it is<br>
+        <br>
+            I'm sorry for thinking all these things,, I just want us to have some kinds of this<br>
+            A perfect life, husband wife and kids, nothing more but wife for life<br>
+        <br>
+            This is something I want to live about<br>
+            I just want to make my papa proud<br>
+            And if you are not saying yes to this<br>
+            You got no choice, you're into this<br>
+        <br>
+            I wake up everyday and I think of all the ways, is it possible to ask you out<br>
+            I think I found a way, this would be a special way, letting all my feelings out<br>
+        <br>
+            There is a problem with me<br>
+            'Cuz you know, I want you all for me<br>
+            I may not be the first, the second, or the third<br>
+            But remember this, “I'll be your final kiss”<br>
+        <br>
+            This is something I want to live about<br>
+            Something that would make my papa proud<br>
+            And I just heard you whispered yes to this<br>
+            I have no choice<br>
+            I wanna love you like this<br>
+        <br>
+            I'm gonna kiss you like this<br>
+        <br>
+            Samantha it is`
+    },
+    "NnB": {
+        title: "Ningning ng Bituin",
+        author: "A. Lascano",
+        cover: ".png",
+        details: `This song is about looking into someone's eyes.
+                Looking at the most beautiful eyes you've ever seen, 
+                reminding you how you fell in love.`,
+        lyrics: 
+            `Sa iyong mata ako'y natutulala, bigla nalang bumabagal ang mundo<br>
+            Sa bawat kislap ng pilikmata, alam ko na, nahulog na nga 'ko sa'yo<br>
+        <br>
+            Araw araw, kong tinitingnan<br>
+            Ang litratong kay ganda<br>
+        <br>
+            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
+            Maaari bang mapasakin ang<br>
+            Nag-iisang bituin<br>
+        <br>
+            Natatanging hiling ko lang sa iyo, hayaan mo sanang pagmasdan sa malayo<br>
+            Pinapangako kong wala ng ibang mata ang aking pagmamasdan, ikaw lamang sinta<br>
+        <br>
+            Araw araw, kong tinitingnan<br>
+            Ang litratong kay ganda<br>
+        <br>
+            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
+            Maaari bang mapasakin ang<br>
+            Nag-iisang bituin<br>
+        <br>
+            Sa mga mata mo, kita ko ang mga tanawin<br>
+            Kung alam mo lang, ikaw ang nagbigay liwanag<br>
+            Sa gabing madilim, ikaw lang ang hinahanap<br>
+            Wala ng iba, o'kay ganda ng ningning<br>
+            Ng bituin (Ng bituin)<br>
+        <br>
+            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
+            Maaari bang mapasakin ang<br>
+            Nag-iisang bituin<br>
+        <br>
+            Ang bituin<br>
+        <br>
+            And dami ko nang nakita<br>
+            Paborito ko ang<br>
+            Nag-iisa iyong bituin`
+    },
+    "Everyday": {
+        title: "Everyday",
+        author: "A. Lascano",
+        cover: ".png",
+        details: `This is a song is initially for a friend, which turned out to be
+            the best person you could ask for. Then, the second verse came from the
+            cycle of my activities per month through the whole year.`,
+        lyrics: 
+            `We've been talking everyday, I never thought that there's a way<br>
+            For us to hold on even though I never told you I was wrong<br>
+        <br>
+            I want to waste my time with you, with feelings that you can't feel it too<br>
+            So I could be that man that you want, everyday I will be your man<br>
+        <br>
+            So I will be there forever, near y'a<br>
+            So we will be together, forever<br>
+            I don't want this night to end<br>
+            I just want to be here again<br>
+            So I will be your man and I will be yours everyday!<br>
+        <br>
+            We will start a new January, I will be with you on Febuary<br>
+            Going up on stage on the month of March, I won't fool you on April<br>
+            May is the month you'll have so much care, June and July is our summer<br>
+            I will dance with you on the rain on August, catching leaves on September<br>
+            We'll celebrate my birthday on October, go to our ancestors on November<br>
+            Christmas on December!<br>
+        <br>
+            So I will be there forever, near y'a<br>
+            So we will be together, forever<br>
+            I don't want this night to end<br>
+            I just want to be here again<br>
+            So I will be your man and I will be yours everyday!<br>
+        <br>
+            So I will be there forever, near y'a<br>
+            So we will be together, forever<br>
+            I don't want this night to end<br>
+            I just want to be here again<br>
+            So I will be your man and I will be yours everyday!`
+    },
+    "Kalipay": {
+        title: "Kalipay",
+        author: "A. Lascano & M. Macasero",
+        cover: ".png",
+        details: `Kalipay from Bisaya is Joy in English. I can't find a special way to make lyrics when i was writing this song
+                I remembered that I've encountered new people in my life last June 2025, She was wrote the Bisaya lyric parts of this song.`,
+        lyrics: 
+            `Sa lahat ng oras na aking sinayang<br>
+            'Di ko akalain ika'y aking mapapasaya<br>
+            Sa lahat ng kwento, sa ilalim ng buwan<br>
+            'Wag mo lang makalimutan ang iyong kagandahan<br>
+        <br>
+            Hawakan mo ang kamay ko<br>
+            At dadalhin kahit saan mo gusto<br>
+            Ikaw lang ang kasama ko<br>
+            Hanggang sa dulo<br>
+        <br>
+            Bisan asa, ikaw gihapon ang balay<br>
+            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
+            Walay lain pa na makapahapsay sa akong kasakit<br>
+            Kay ikaw akong kalipay, akong pahulay, akong langit<br>
+            (Ohhh)<br>
+        <br>
+            Bisan pa'g ang ulan moabot ug kalit<br>
+            Ikaw gihapon ang akong kalipay ug langit<br>
+            Kung mawala man ko sa landong sa kagabhion<br>
+            Ayaw kalimti, ikaw ang akong direksyon<br>
+        <br>
+            Pa-ra-pap-pa (6x)<br>
+        <br>
+            Kahit na ako ay malaos<br>
+            Ang pag-ibig ko'y hindi mauubos<br>
+            Sa pagdating ng unos<br>
+            At kahit pa ako'y mapaos<br>
+        <br>
+            Sa matag buntag nga mohayag ang adlaw<br>
+            Imong ngisi maoy akong kusog, akong paglaum<br>
+            Bisan layo ka, ikaw ra gihapon, ang kanta sa dughan, hangtod sa walay katapusan<br>
+            Hangtod sa walay<br>
+        <br>
+            Bisan asa, ikaw gihapon ang balay<br>
+            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
+            Walay lain pa na makapahapsay sa akong kasakit<br>
+            Kay ikaw akong kalipay, akong pa-<br>
+        <br>
+            Bisan asa, ikaw gihapon ang balay<br>
+            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
+            Walay lain pa na makapahapsay sa akong kasakit<br>
+            Kay ikaw akong kalipay, akong pahulay, akong langit<br>
+        <br>
+            Akong langit<br>
+            Akong kalipay<br>
+            Akong pahulay<br>
+            Akong langit<br>
+        <br>
+            Kalipay, Pahulay, Langit`
+    },
+    "Seth_and_Seren": {
+        title: "Seth and Seren",
+        author: "A. Lascano",
+        cover: ".png",
+        details: `Seth and Seren are names with special meaning. This song also came after the song Samantha,
+                just before the song Kalipay. Lyrics on this song are the message of the father to his two children.`,
+        lyrics: 
+            `I met your mom<br>
+            She is the most beautiful thing<br>
+            I laid my eyes on<br>
+        <br>
+            Now you're here<br>
+            Two of my treasures in life are with me<br>
+            Because you are so dear<br>
+        <br>
+            I can't put into words how I feel<br>
+            And I just wanted you to feel<br>
+        <br>
+            You're the most precious thing I have in my life<br>
+            I just want to hold you, I'll be holding you tight<br>
+        <br>
+            Seth and Seren<br>
+            Take care of your mom for me<br>
+            Just so you know I'll be always here<br>
+        <br>
+            Seth and Seren<br>
+            Love you both unconditionally<br>
+            Only that I wish that you'll remember me<br>
+        <br>
+            I can't put into words how I feel<br>
+            And I just wanted you to feel<br>
+        <br>
+            You're the most precious thing I have in my life<br>
+            I just want to hold you, I'll be holding you tight<br>
+            Now in the night, turn off the light<br>
+            I'll be your guiding light`
+    },
+    "SHnS": {
+        title: "Sa Habambuhay na Sandali",
+        author: "A. Lascano",
+        cover: ".png",
+        details: `This is a lullaby song for someone who you want to be resting on your chest as you both lay down.
+                This song assures to that person it is safe to in your presence.`,
+        lyrics: 
+            `Itatanong ko lang kung nais mo rin naman akong alayan ng mga kantang walang<br>
+            Panghihinayang sa lahat ng oras na magkasama ikaw lang ang aking isasama<br>
+        <br>
+            Sa lahat ng tatahakin ko sa'king kinabukasan hinding hindi maiiwasan na ika'y<br>
+            Mapusuan kasi nga sa 'yong pagkadalaga ay nagbabadya ng katangitanging mong kagandahan<br>
+        <br>
+            Kaya naman ako'y iyong samahan sa lahat hindi maiiwanan at lagi lang tapat<br>
+            Ako sayo at wala ng ibang hinahanap humimlay na muna kasama ako<br>
+        <br>
+            Sa'king pahinga<br>
+            Sa dibdib ay humiga<br>
+            Hindi mo na kailangan pang<br>
+            Maghanap ng ibang yayakap kasi<br>
+        <br>
+            Hindi na bibitiw sa yakap<br>
+            Sayo lang ang lahat<br>
+            Ibibigay ang kumot<br>
+            Basta't lahat sapat<br>
+            Ipikit na 'yong mga mata<br>
+            At iyong makikita<br>
+            Lahat ng ninanais mo'y makakamit mo na<br>
+        <br>
+            La la la la…<br>
+            (Ohhhh)<br>
+        <br>
+            Wag na wag ka ng mangangamba nandito pa<br>
+            Hindi naman aalis pagkat andyan ka na<br>
+            Makakasama mo ako at maaasahan sa lahat ng 'yong gagawin ikaw ay sasamahan<br>
+        <br>
+            Sa habambuhay na sandali ikaw ay aking babantayan na at iingatan pa<br>
+            Mula sa lahat ng problemang malilimutan mo na lahat ng paulit-ulit kaya naman ay<br>
+        <br>
+            Kung may sagot ka na sa'king tanong ay maaari bang malaman ang 'yong naramdaman<br>
+            Na sa gabing kay lamig na may yakap at halik ibabalik ko ang lahat ng nakaw kong halik<br>
+        <br>
+            Hayaan mo sana ako'y magmasid-masid sayong kagandahan ako'y nananabik<br>
+            At sa pagmulat ko nagulat akong ngiting-ngiti na saking tabi ay mayroong napakarikit<br>
+            At habang tayo'y natutulog ay kay sarap naman pagmasdan ng iyong kagandahan<br>
+            At lalo na sa malapitan hindi ko na naman mapiligan ang nararamdaman kong<br>
+            Saya at kaba bakit ba hindi na mawala sa isip ko<br>
+            Tulog na, pahinga, at aalagaan kita mahal ko`
     }
 };

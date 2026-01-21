@@ -186,7 +186,7 @@ body[data-device="Phone"] {
     }
 body[data-device="Phone"] .sidenav {
     padding-top: 40px; /* Reduced padding */
-    height: 100vh; /* Full height */
+    height: 100%; /* Full height */
 }
     body[data-device="Phone"] .sidenav a {
         padding: 10px 10px 25px 20px; /* Adjusted for touch */

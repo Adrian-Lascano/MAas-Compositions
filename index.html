@@ -49,36 +49,8 @@
 
 
 	<div class="featured-songs-box"> <!-- FEATURED SONGS -->
-
 		<h2 class="fs-header">Featured Songs</h2>
-
-		<div class="song-covers">
-			<div id="featured-song">
-				<a href="lyrics.html?song=Samantha"><img src="images/Home.png"></a>
-				<p class="title">Samantha</p>
-			</div>
-
-			<div id="featured-song">
-				<a href="lyrics.html?song=Seth_and_Seren"><img src="images/Home.png"></a>
-				<p class="title">Seth & Seren</p>
-			</div>
-
-			<div id="featured-song">
-				<a href="lyrics.html?song=NnB.html"><img src="images/Home.png"></a>
-				<p class="title">Ningning Ng Bituin</p>
-			</div>
-
-			<div id="featured-song">
-				<a href="lyrics.html?song=Everyday"><img src="images/Home.png"></a>
-				<p class="title">Everyday</p>
-			</div>
-
-			<div id="featured-song">
-				<a href="lyrics.html?song=HIV"><img src="images/Home.png"></a>
-				<p class="title">HIV</p>
-			</div>
-		</div>
-		
+		<div class="song-covers" id="featured-song"></div>
 	</div>
 
 <script src="lyrics.js"></script><!-- DATA LYRICS -->
@@ -115,7 +87,7 @@
 	});
 
 		// Optional: Also call on window resize for dynamic updates
-		
+
 	window.addEventListener("resize", detectDevice);
 
         // Navigation
@@ -172,7 +144,28 @@
             li.appendChild(a);
             menu.appendChild(li);
         });
+
+		// Featured Songs
+
+	const featuredSong = document.getElementById("featured-song")
+
+        Object.entries(featuredSongList)
+        .forEach(([key, song]) => {
+            const a = document.createElement("a");
+			const img = document.createElement("img");
+            const p = document.createElement("p");
+			const span = document.createElement("span")
+
+			img.src = song.cover;
+            a.href = `lyrics.html?song=${key}`;
+            p.textContent = song.title;
+			span.textContent = song.details;
+
+            featuredSong.appendChild(a);
+            a.appendChild(img);
+			featuredSong.appendChild(p);
+			p.appendChild(span);
+        });
 </script>
 </body>
-
 </html>
