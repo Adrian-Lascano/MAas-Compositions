@@ -581,7 +581,7 @@ const lyricsData = {
         <br>
             Ang bituin<br>
         <br>
-            And dami ko nang nakita<br>
+            Ang dami ko nang nakita<br>
             Paborito ko ang<br>
             Nag-iisa iyong bituin`
     },
