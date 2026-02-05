@@ -1,133 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="lyrics.css"> <!-- LYRICS DESIGN -->
-	<link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
-	<link rel="Icon" href="images/Title_Icon.png">
-	<title id="page-title"></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="lyrics.css"> <!-- LYRICS DESIGN -->
+    <link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
+    <link rel="Icon" href="images/Title_Icon.png">
+    <title id="pageTitle"></title>
 </head>
 <body>
-	
-	<nav id="navigation" class="sidenav"> <!-- OPEN/CLOSE SIDE NAVIGATION -->
-		<div>
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
+    
+    <nav id="navigation" class="sideNav"> <!-- OPEN/CLOSE SIDE NAVIGATION -->
+        <div>
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
 
-			<a href="index.html" style="display: inline;"><img src="images/Home.png" id="home-btn"></a>
-		</div>
+            <a href="index.html" style="display: inline;"><img src="images/Home.png" id="homeBtn"></a>
+        </div>
 
-		<input type="text" id="search-input" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
-			<ul id="song-menu"></ul>
-	</nav>
+        <input type="text" id="searchInput" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
+            <ul id="songMenu"></ul>
+    </nav>
 
-	<div class="topnav" id="top-nav"> <!-- TOP NAVIGATION -->
-		<p>
-			<span id="nav-songs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
-			<a href="composer.html" id="nav-link">Composer</a>
-			<a href="dedication.html" id="nav-link">Dedication</a>
-			<br>
-		</p>
-	</div>
+    <div class="topNav" id="topNav"> <!-- TOP NAVIGATION -->
+        <p>
+            <span id="navSongs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
+            <a href="composer.html" id="navLink">Composer</a>
+            <a href="dedication.html" id="navLink">Dedication</a>
+            <br>
+        </p>
+    </div>
 
-	<!-- MAIN ITEMS -->
+    <!-- MAIN ITEMS -->
 
-	<div class="title">
-		<h1 id="song-title"></h1><p id="song-author"></p>
-	</div>
+    <div class="title">
+        <h1 id="songTitle"></h1><p id="songAuthor"></p>
+    </div>
 
-		<hr>
-	<div class="song">
-		<div id="main-lyrics">
-				<p id="song-lyrics"></p>
-		</div>
+        <hr>
+    <div class="song">
+        <div id="mainLyrics">
+                <p id="songLyrics"></p>
+        </div>
 
-		<div id="music-tab">
-			<div id="coverTitle">
-				<img src="images/Title_Icon.png" alt="">
+        <div id="musicTab">
+            <div id="coverTitle">
+                <img src="images/Title_Icon.png" alt="">
 
-				<p id="playingTitle">loading..</p>
-			</div>
+                <p id="playingTitle">loading..</p>
+            </div>
 
-			<div class="audio-player">
-				<audio id="audio-element">
-					<source src=".m4a" type="audio/mpeg">
-					<!-- Fallback text for browsers that do not support the audio element -->
-					Your browser does not support the audio element.
-				</audio>
-				
-				<!-- Custom Controls -->
-				<input type="range" id="progress-bar" min="0" value="0" step="0.1" max="100">
-				<span id="current-time">0:00</span><div id="spacer"></div><span id="duration">0:00</span>
-    			<button type="button" onclick="restartAudio()" id="reset">&#x21BB</button>
-				<button id="play-pause-button">&#9654</button>
-				<a href="songs/.m4a" download>&#10515</a>
-			</div>
-		</div>
-	</div>	
+            <div class="audioPlayer">
+           <audio id="audioElement">
+                    <source src=".m4a" type="audio/mpeg">
+                    <!-- Fallback text for browsers that do not support the audio element -->
+                    Your browser does not support the audio element.
+                	</audio>
+                
+                <!-- Custom Controls -->
+                <input type="range" id="progressBar" min="0" value="0" step="0.1" max="100">
+                
+           <div class="timeContainer">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+                
+                <div class="controls">
+                    <button type="button" onclick="restartAudio()" id="reset">&#x21BB</button>
+                    <button id="playPauseButton">&#9654</button>
+                    <a href="songs/.m4a" download>&#10515</a>
+                </div>
+            </div>
+        </div>
+    </div>    
 
 
 <script src="lyrics.js"></script><!-- DATA LYRICS -->
+
+<!-- JavaScript script on the UI/UX -->
 <script>
 
-		// Set Style with user's device
+        // Set Style with user's device
 
-	function detectDevice() {
-		const body = document.body;
-		const width = window.innerWidth;
-		const height = window.innerHeight;
-		const isPortrait = height > width;
+    function detectDevice() {
+        const body = document.body;
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const isPortrait = height > width;
 
-		let device;
+        let device;
 
-		if (width > 1200) {
-			device = "Desktop";
-		} else if (isPortrait && width <= 768) {
-			device = "Phone";
-		} else {
-			device = "Tablet/iPad";
-		}
+        if (width > 1200) {
+            device = "Desktop";
+        } else if (isPortrait && width <= 768) {
+            device = "Phone";
+        } else {
+            device = "Tablet/iPad";
+        }
 
-		body.setAttribute("data-device", device);
-		document.getElementById("debug").innerHTML = device;
+        body.setAttribute("data-device", device);
+        document.getElementById("debug").innerHTML = device;
 
-		console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
-	}
+        console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
+    }
 
-		// Call detectDevice on page load
+        // Call detectDevice on page load
 
-	document.addEventListener("DOMContentLoaded", function() {
-		detectDevice();
-	});
+    document.addEventListener("DOMContentLoaded", function() {
+        detectDevice();
+    });
 
-		// Optional: Also call on window resize for dynamic updates
+        // Optional: Also call on window resize for dynamic updates
 
-	window.addEventListener("resize", detectDevice);
+    window.addEventListener("resize", detectDevice);
 
-		//Navigation
+        //Navigation
 
-	function openNav() {
-		document.getElementById("navigation").style.width = "250px";
-	}
-	function closeNav() {
-		document.getElementById("navigation").style.width = "0";
-	}
-	function myFunction() {
-		var x = document.getElementById("top-nav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
-		}
-	}
+    function openNav() {
+        document.getElementById("navigation").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("navigation").style.width = "0";
+    }
+    function myFunction() {
+        var x = document.getElementById("topNav");
+        if (x.className === "topNav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topNav";
+        }
+    }
 
-		//Search Bar
+        //Search Bar
 
     function mySearch() {
         var input, filter, ul, li, a, i;
-        input = document.getElementById("search-input");
+        input = document.getElementById("searchInput");
         filter = input.value.toUpperCase();
-        ul = document.getElementById("song-menu");
+        ul = document.getElementById("songMenu");
         li = ul.getElementsByTagName("li");
 
         for (i = 0; i < li.length; i++) {
@@ -139,96 +148,96 @@
             }
         }
     }
-	
-		// Get references to the audio element and custom controls
-	const audio = document.getElementById('audio-element');
-	const playPauseButton = document.getElementById('play-pause-button');
-	const progressBar = document.getElementById('progress-bar');
-	const currentTimeDisplay = document.getElementById('current-time');
-	const durationDisplay = document.getElementById('duration');
-	const repeatButton = document.getElementById("repeat-button");
-	function formatTime(seconds) {
-		const mins = Math.floor(seconds / 60);
-		const secs = Math.floor(seconds % 60);
-		return `${mins}:${secs.toString().padStart(2, '0')}`;
-	}
+    
+        // Get references to the audio element and custom controls
+    const audio = document.getElementById('audioElement');
+    const playPauseButton = document.getElementById('playPauseButton');
+    const progressBar = document.getElementById('progressBar');
+    const currentTimeDisplay = document.getElementById('currentTime');
+    const durationDisplay = document.getElementById('duration');
+    const repeatButton = document.getElementById("repeat-button");
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
 
-		// Update duration when metadata loads
-	audio.addEventListener('loadedmetadata', () => {
-		durationDisplay.textContent = formatTime(audio.duration);
-		progressBar.max = audio.duration;
-	});
+        // Update duration when metadata loads
+    audio.addEventListener('loadedmetadata', () => {
+        durationDisplay.textContent = formatTime(audio.duration);
+        progressBar.max = audio.duration;
+    });
 
-		// Update progress bar and current time as audio plays
-	audio.addEventListener('timeupdate', () => {
-		progressBar.value = audio.currentTime;
-		currentTimeDisplay.textContent = formatTime(audio.currentTime);
-	});
+        // Update progress bar and current time as audio plays
+    audio.addEventListener('timeupdate', () => {
+        progressBar.value = audio.currentTime;
+        currentTimeDisplay.textContent = formatTime(audio.currentTime);
+    });
 
-		// Seek functionality via progress bar
-	progressBar.addEventListener('input', () => {
-		audio.currentTime = progressBar.value;
-	});
+        // Seek functionality via progress bar
+    progressBar.addEventListener('input', () => {
+        audio.currentTime = progressBar.value;
+    });
 
-		// Handle audio end
-	audio.addEventListener('ended', () => {
-		playPauseButton.textContent = 'Play';
-		progressBar.value = 0;
-		currentTimeDisplay.textContent = '0:00';
-	});
+        // Handle audio end
+    audio.addEventListener('ended', () => {
+        playPauseButton.textContent = 'Play';
+        progressBar.value = 0;
+        currentTimeDisplay.textContent = '0:00';
+    });
 
-		// Error handling
-	audio.addEventListener('error', () => {
-		alert('Error loading audio file. Check the file path.');
-		});
+        // Error handling
+    audio.addEventListener('error', () => {
+        alert('Error loading audio file. Check the file path.');
+        });
 
-		// Restart audio
-	function restartAudio() {
-		audio.currentTime = 0;
-		audio.play();
-	}
+        // Restart audio
+    function restartAudio() {
+        audio.currentTime = 0;
+        audio.play();
+    }
 
-		// Play/Pause button functionality
-	playPauseButton.addEventListener('click', () => {
-		if (audio.paused) {
-			audio.play();
-			playPauseButton.textContent = '⏸';
-		} else {
-			audio.pause();
-			playPauseButton.textContent = '▶';
-		}
-	});
+        // Play/Pause button functionality
+    playPauseButton.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.textContent = '⏸';
+        } else {
+            audio.pause();
+            playPauseButton.textContent = '▶';
+        }
+    });
 
-		// Find Song ID
+        // Find Song ID
 
-	const params = new URLSearchParams(window.location.search);
-	const songKey = params.get("song");
+    const params = new URLSearchParams(window.location.search);
+    const songKey = params.get("song");
 
-		if (!songKey || !lyricsData[songKey]) {
-		document.getElementById("song-title").textContent = "Song not found";
-		} else {
-		const song = lyricsData[songKey];
-		document.getElementById("page-title").textContent = song.title;
-		document.getElementById("song-title").textContent = song.title;
-		document.getElementById("playingTitle").textContent = song.title;
-		document.getElementById("song-author").textContent = `by ${song.author}`;
-		document.getElementById("song-lyrics").innerHTML = song.lyrics;
-	}
+        if (!songKey || !lyricsData[songKey]) {
+        document.getElementById("songTitle").textContent = "Song not found";
+        } else {
+        const song = lyricsData[songKey];
+        document.getElementById("pageTitle").textContent = song.title;
+        document.getElementById("songTitle").textContent = song.title;
+        document.getElementById("playingTitle").textContent = song.title;
+        document.getElementById("songAuthor").textContent = `by ${song.author}`;
+        document.getElementById("songLyrics").innerHTML = song.lyrics;
+    }
 
-		//Side Nav Song Titles
+        //Side Nav Song Titles
 
-	const menu = document.getElementById("song-menu");
+    const menu = document.getElementById("songMenu");
 
-		Object.entries(lyricsData)
-		.sort((a, b) => a[1].title.localeCompare(b[1].title))
-		.forEach(([key, song]) => {
-			const li = document.createElement("li");
-			const a = document.createElement("a");
-			a.href = `lyrics.html?song=${key}`;
-			a.textContent = song.title;
-			li.appendChild(a);
-			menu.appendChild(li);
-		});
+        Object.entries(lyricsData)
+        .sort((a, b) => a[1].title.localeCompare(b[1].title))
+        .forEach(([key, song]) => {
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.href = `lyrics.html?song=${key}`;
+            a.textContent = song.title;
+            li.appendChild(a);
+            menu.appendChild(li);
+        });
 </script>
 </body>
 </html>

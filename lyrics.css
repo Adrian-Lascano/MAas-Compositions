@@ -3,129 +3,130 @@
 /* ===================== */
 
 .title {
-	color: #2E2E2E;
-	font-size: 2vw;
-	animation: fadein 5s ease forwards;
-	mask-repeat: no-repeat;
-	display: flex;
-	align-items: baseline;
+    color: #2E2E2E;
+    font-size: 2vw;
+    animation: fadein 5s ease forwards;
+    mask-repeat: no-repeat;
+    display: flex;
+    align-items: baseline;
 }
-	h1 {
-		color: #2A9D8F;
-		font-size: 5vw;
-		padding: 0 15px 0 50px;
-		margin: 0.4em 0;
-	}
-	hr {
-		width: 97.5%;
-		opacity: 1.0;
-		animation: fade 9s ease forwards;
-	}
+    h1 {
+        color: #2A9D8F;
+        font-size: 5vw;
+        padding: 0 15px 0 50px;
+        margin: 0.4em 0;
+    }
+    hr {
+        width: 97.5%;
+        opacity: 1.0;
+        animation: fade 9s ease forwards;
+    }
 .song {
-	display: flex;
+    display: flex;
 }
-	#main-lyrics {
-		background: rgba(255, 255, 255, 0.15);
-  		backdrop-filter: blur(10px);
-		border: 1px solid rgba(255, 255, 255, 0.2);
-  		box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
-		border-radius: 20px;
-		width: 50%;
-		margin: 3% 5%;
-		font-size: 1.3vw;
-		color: #2E2E2E;
-		padding: 0 1%;
-	}
-	#music-tab {
-		overflow: hidden;
-		background: rgba(255, 255, 255, 0.15);
-  		backdrop-filter: blur(10px);
-		border: 1px solid rgba(255, 255, 255, 0.2);
-  		box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
-		border-radius: 50px;
-		width: 500px;
-		height: 350px;
-		margin: 3% 5% 3% 0;
-		padding: 2%;
-	}
-	#coverTitle {
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-	}
-	#coverTitle img {
-		top: 0;
-		left: 0;
-		width: 200px;
-		border-radius: 40px;
-		border: 2px solid #000;
-	}
-	#coverTitle p {
-		width: 92%;
-		font-size: 2vw;
-		padding-left: 4%;
-	}
-	#music-tab audio {
-		background-color: black;
-		border-radius: 5px;
-	}
-	#music-tab span {
-		color: black;
-	}
-	.audio-player {
-		display: grid;
-		grid-template:
-		'Bar Bar Bar'
-		'Time Duration Duration'
-		'Reset Play Download';
-		place-items: center;
-		grid-template-columns: 1fr 1fr 1fr;
-		border-radius: 10px;
-		margin-top: 5%;
-	}
-	#progress-bar {
-		grid-area: Bar;
-		width: 95%;
-	}
-	#current-time {
-		grid-area: Time;
+    #mainLyrics {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
+        border-radius: 20px;
+        width: 50%;
+        margin: 3% 5%;
+        font-size: 1.3vw;
+        color: #2E2E2E;
+        padding: 0 1%;
+    }
+    #musicTab {
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
+        border-radius: 50px;
+        width: 500px;
+        height: 350px;
+        margin: 3% 5% 3% 0;
+        padding: 2%;
+    }
+    #coverTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    #coverTitle img {
+        top: 0;
+        left: 0;
+        width: 200px;
+        border-radius: 40px;
+        border: 2px solid #000;
+    }
+    #coverTitle p {
+        width: 92%;
+        font-size: 2vw;
+        padding-left: 4%;
+    }
+    #musicTab audio {
+        background-color: black;
+        border-radius: 5px;
+    }
+    #musicTab span {
+        color: black;
+    }
+    .audioPlayer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 5%;
+    }
+    #progressBar {
+        width: 95%;
+        margin-bottom: 10px; /* Space below the bar */
+    }
+    .timeContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin-bottom: 10px; /* Space below the times */
+    }
+    #currentTime {
 		justify-self: start;
-		font-size: 1vw;
-	}
+        border: 2px solid black;
+        font-size: 1vw;
+    }
 	#duration {
-		grid-area: Duration;
-		justify-self: end;
-		font-size: 1vw;
-	}
-	#reset {
-		grid-area: Reset;
-		margin-left: 20%;
-		justify-self: start;
-		cursor: pointer;
-		font-size: 1.5vw;
-		color: black;
-		background-color: transparent;
-		border: none;
-	}
-	#play-pause-button {
-		grid-area: Play;
-		cursor: pointer;
-		font-size: 45px;
-		color: black;
-		background-color: transparent;
-		border: none;
-		place-self: center;
-	}
-	.audio-player a {
-		grid-area: Download;
-		justify-self: end;
-		margin-right: 20%;
-		font-size: 1.5vw;
-		color: black;
-	}
-	audio {
-		display: none;
-	}
+        border: 2px solid black;
+        font-size: 1vw;
+    }
+    .controls {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    #reset {
+        justify-self: start; /* Align to the left within controls */
+        cursor: pointer;
+        font-size: 1.5vw;
+        color: black;
+        background-color: transparent;
+        border: none;
+    }
+    #playPauseButton {
+        cursor: pointer;
+        font-size: 45px;
+        color: black;
+        background-color: transparent;
+        border: none;
+        place-self: center;
+    }
+    .audioPlayer a {
+        justify-self: end; /* Align to the right within controls */
+        font-size: 1.5vw;
+        color: black;
+    }
+    audio {
+        display: none;
+    }
 
 /* ===================== */
 /* Tablet/iPad Overrides */
@@ -133,118 +134,129 @@
 
 body[data-device="Tablet/iPad"] .title {
     font-size: 1.5vw; /* Reduced from 2vw */
-	margin-top: 1%; /* Makes even spacing */
+    margin-top: 1%; /* Makes even spacing */
 }
-	body[data-device="Tablet/iPad"] h1 {
-		font-size: 4vw; /* Reduced from 5vw */
-		padding: 0 12px 0 40px; /* Reduced padding */
-		margin: 0.3em 0; /* Reduced margin */
-	}
-	body[data-device="Tablet/iPad"] hr {
-		width: 95%; /* Slightly narrower */
-	}
+    body[data-device="Tablet/iPad"] h1 {
+        font-size: 4vw; /* Reduced from 5vw */
+        padding: 0 12px 0 40px; /* Reduced padding */
+        margin: 0.3em 0; /* Reduced margin */
+    }
+    body[data-device="Tablet/iPad"] hr {
+        width: 95%; /* Slightly narrower */
+    }
 body[data-device="Tablet/iPad"] .song {
     display: flex; /* Keep flex but adjust sizes */
 }
-	body[data-device="Tablet/iPad"] #main-lyrics {
-		width: 55%; /* Slightly wider */
-		margin: 2.5% 4%; /* Reduced margins */
-		font-size: 1.5vw; /* Enlarged from 1.3vw */
-		padding: 0 0.8%; /* Reduced padding */
+    body[data-device="Tablet/iPad"] #mainLyrics {
+        width: 55%; /* Slightly wider */
+        margin: 2.5% 4%; /* Reduced margins */
+        font-size: 1.5vw; /* Enlarged from 1.3vw */
+        padding: 0 0.8%; /* Reduced padding */
+    }
+    body[data-device="Tablet/iPad"] #musicTab {
+        width: 400px; /* Smaller width */
+        height: 400px; /* Smaller height */
+        margin: 2.5% 4% 0 0; /* Reduced margins */
+    }
+    body[data-device="Tablet/iPad"] #coverTitle img {
+        display: none;
+    }
+    body[data-device="Tablet/iPad"] #coverTitle p {
+        font-size: 4vw;
+    }
+    body[data-device="Tablet/iPad"] .audioPlayer {
+        margin-top: 5%; /* Adjusted margin */
+        padding: 0 15px; /* Reduced padding */
+    }
+    body[data-device="Tablet/iPad"] #progressBar {
+        width: 95%; /* Keep consistent with base; adjust if needed for exact pixel match */
+        margin-bottom: 10px;
+    }
+    body[data-device="Tablet/iPad"] .timeContainer {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    body[data-device="Tablet/iPad"] #currentTime,
+    body[data-device="Tablet/iPad"] #duration {
+        font-size: 0.9vw; /* Reduced from 1vw */
+        padding-bottom: 25px; /* Reduced padding */
+    }
+    body[data-device="Tablet/iPad"] #reset {
+		font-size: 1.5vw; /* Reduced from 1.5vw */
 	}
-	body[data-device="Tablet/iPad"] #music-tab {
-		width: 400px; /* Smaller width */
-		height: 400px; /* Smaller height */
-		margin: 2.5% 4% 0 0; /* Reduced margins */
-	}
-	body[data-device="Tablet/iPad"] #coverTitle img {
-		margin: 4%; /* Reduced margin */
-		width: 200px; /* Smaller image */
-	}
-	body[data-device="Tablet/iPad"] #coverTitle p {
-		width: 92%;
-		font-size: 2vw;					/* 				TO BE CHANGED			 */
-		padding: 0 4%;
-	}
-	body[data-device="Tablet/iPad"] .audio-player {
-		margin-top: 65%; /* Adjusted margin */
-		padding: 0 15px; /* Reduced padding */
-	}
-	body[data-device="Tablet/iPad"] #progress-bar {
-		width: 350px; /* Smaller bar */
-	}
-	body[data-device="Tablet/iPad"] #current-time,
-	body[data-device="Tablet/iPad"] #duration {
-		font-size: 0.9vw; /* Reduced from 1vw */
-		padding-bottom: 25px; /* Reduced padding */
-	}
-	body[data-device="Tablet/iPad"] #reset,
-	body[data-device="Tablet/iPad"] .audio-player a {
-		font-size: 1.3vw; /* Reduced from 1.5vw */
-	}
-	body[data-device="Tablet/iPad"] #play-pause-button {
-		font-size: 2.5vw; /* Reduced from 3vw */
-	}
+    body[data-device="Tablet/iPad"] .audioPlayer a {
+        font-size: 2vw; /* Reduced from 1.5vw */
+    }
+    body[data-device="Tablet/iPad"] #playPauseButton {
+        font-size: 2.5vw; /* Reduced from 3vw */
+    }
 /* ===================== */
 /* Phone Overrides       */
 /* ===================== */
 
 body[data-device="Phone"] .title {
     font-size: 4vw; /* Larger for readability */
-	margin-top: 2%; /* Makes even spacing */
+    margin-top: 2%; /* Makes even spacing */
 }
-	body[data-device="Phone"] h1 {
-		font-size: 8vw; /* Larger relative size */
-		padding: 0 10px 0 20px; /* Reduced padding */
-		margin: 0.2em 0; /* Reduced margin */
-	}
-	body[data-device="Phone"] hr {
-		width: 90%; /* Narrower for phone */
-	}
+    body[data-device="Phone"] h1 {
+        font-size: 8vw; /* Larger relative size */
+        padding: 0 10px 0 20px; /* Reduced padding */
+        margin: 0.2em 0; /* Reduced margin */
+    }
+    body[data-device="Phone"] hr {
+        width: 90%; /* Narrower for phone */
+    }
 body[data-device="Phone"] .song {
     display: flex;
     flex-direction: column; /* Stack vertically */
     align-items: center; /* Center align */
 }
-	body[data-device="Phone"] #main-lyrics {
-		width: 90%; /* Near-full width */
-		margin: 5% 5% 0; /* Adjusted margins */
-		font-size: 3.5vw; /* Larger for readability */
-		padding: 0 2%; /* Increased padding */
+    body[data-device="Phone"] #mainLyrics {
+        width: 90%; /* Near-full width */
+        margin: 5% 5% 0; /* Adjusted margins */
+        font-size: 3.5vw; /* Larger for readability */
+        padding: 0 2%; /* Increased padding */
+    }
+    body[data-device="Phone"] #musicTab {
+        width: 90%; /* Smaller for phone */
+        height: auto;
+        margin: 5% 5%;
+        padding-bottom: 20px;
+    }
+    body[data-device="Phone"] #coverTitle img {
+        display: none;
+    }
+    body[data-device="Phone"] #coverTitle p {
+        width: 92%;
+        font-size: 6vw;
+        padding: 0 4%;
+    }
+    body[data-device="Phone"] .audioPlayer {
+        margin-top: 3%; /* Adjusted for smaller tab */
+        padding: 0 10px; /* Reduced padding */
+    }
+    body[data-device="Phone"] #progressBar {
+        width: 95%; /* Keep consistent; was 80vw, but 95% works well */
+        margin-bottom: 10px;
+    }
+    body[data-device="Phone"] .timeContainer {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    body[data-device="Phone"] #currentTime,
+    body[data-device="Phone"] #duration {
+        font-size: 2.5vw; /* Larger for touch */
+        padding-bottom: 20px; /* Reduced padding */
+    }
+
+	body[data-device="Phone"] #reset {
+		font-size: 4vw; /* Larger for touch */
 	}
-	body[data-device="Phone"] #music-tab {
-		width: 90%; /* Smaller for phone */
-		height: auto;
-		margin: 5% 5%;
-		padding-bottom: 20px;
-	}
-	body[data-device="Phone"] #coverTitle img {
-		display: none;
-	}
-	body[data-device="Phone"] #coverTitle p {
-		width: 92%;
-		font-size: 6vw;
-		padding: 0 4%;
-	}
-	body[data-device="Phone"] .audio-player {
-		margin-top: 3%; /* Adjusted for smaller tab */
-		padding: 0 10px; /* Reduced padding */
-	}
-	body[data-device="Phone"] #progress-bar {
-		width: 80vw; /* Smaller bar */
-	}
-	body[data-device="Phone"] #current-time,
-	body[data-device="Phone"] #duration {
-		font-size: 2.5vw; /* Larger for touch */
-		padding-bottom: 20px; /* Reduced padding */
-	}
-	body[data-device="Phone"] #reset,
-	body[data-device="Phone"] .audio-player a {
-		font-size: 3vw; /* Larger for touch */
-	}
-	body[data-device="Phone"] #play-pause-button {
+	body[data-device="Phone"] .audioPlayer a {
 		font-size: 5vw; /* Larger for touch */
-		margin-left: 10%; /* Adjusted margin */
+	}
+	body[data-device="Phone"] #playPauseButton {
+		font-size: 5vw; /* Larger for touch */
 	}
 
 /* ================================= */

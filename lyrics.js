@@ -1710,6 +1710,49 @@ const lyricsData = {
             Halika na at tayo lang ang magkasama<br>
             Wala ng ibang hahanapin pang<br>
             Pagibig na alay sayo`
+    },
+
+// 37 -------------------------------------------------------------------------------------
+
+    "Seryoso_Na": {
+        title: "Seryoso Na",
+        author: "A. Lascano",
+        lyrics: 
+            `Wag ka na lumingon sa iba<br>
+            Deretso lang ang tingin<br>
+            Hindi na kailangan pang mangamba<br>
+            Sa'kin lang ang tingin<br>
+        <br>
+            Wag ka na mabahala hindi kita iiwan<br>
+            Wala ng makakalimutan sa akin na 'ng lahat<br>
+            Hindi mo maitatanggi halata ka na<br>
+        <br>
+            Ipagsisigawan kong gusto kita kahit na wala silang pakialam<br>
+            Ipagsisigawan kong gusto kita kahit na wala silang alam<br>
+            Kung gaano kita nakikita sa aking mga mata<br>
+        <br>
+            Kahit na paggising mo at puno pa ng muta<br>
+            Kitang kita ko ang ganda ng 'yong mukha<br>
+            Sa bawat oras na tayo'y magkausap<br>
+            Hindi mo ba nahalatang may kumikislap<br>
+        <br>
+            Wag ka na mabahala hindi kita iiwan<br>
+            Wala ng makakalimutan sa akin na 'ng lahat<br>
+            Hindi mo maitatanggi halata ka na<br>
+        <br>
+            Ipagsisigawan kong gusto kita kahit na wala silang pakialam<br>
+            Ipagsisigawan kong gusto kita kahit na wala silang alam<br>
+            Kung gaano kita nakikita sa aking mga mata<br>
+        <br>
+            Ipagsisigawan kong gusto kita kahit na wala silang pakialam sa ating dalawa<br>
+        <br>
+            Ipagsisigawan kong gusto kita kahit na wala silang pakialam<br>
+            Ipagsisigawan kong gusto kita kahit na wala silang alam<br>
+            Kung gaano kita nakikita sa aking mga mata<br>
+        <br>
+            Ipagsisigawan kong gusto kita kahit na wala silang pakialam<br>
+            Ipagsisigawan kong gusto kita kahit na wala silang alam<br>
+            Kung gaano kita nakikita sa aking mga mata`
     }
 };
 

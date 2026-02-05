@@ -1,94 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MAas' Song Compositions</title>
-	<link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
-	<link rel="stylesheet" type="text/css" href="index.css"> <!-- ONLY FOR HOME PAGE -->
-	<link rel="Icon" href="images/Title_Icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAas' Song Compositions</title>
+    <link rel="stylesheet" href="editall.css"> <!-- EVERYPAGE HAS IT -->
+    <link rel="stylesheet" type="text/css" href="index.css"> <!-- ONLY FOR HOME PAGE -->
+    <link rel="Icon" href="images/Title_Icon.png">
 </head>
 <body>
 
-	<nav id="navigation" class="sidenav"> <!-- OPEN/LEFT NAVIGATION -->
-		<div>
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
+    <nav id="navigation" class="sideNav"> <!-- OPEN/LEFT NAVIGATION -->
+        <div>
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()" style="display: inline;"><b>&times;</b></a>
 
-			<a href="index.html" style="display: inline;"><img src="images/Home.png" id="home-btn"></a>
-		</div>
+            <a href="index.html" style="display: inline;"><img src="images/Home.png" id="homeBtn"></a>
+        </div>
 
-		<input type="text" id="search-input" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
-			<ul id="song-menu"></ul>
-	</nav>
+        <input type="text" id="searchInput" onkeyup="mySearch()" placeholder="Search.." title="Type in a category">
+            <ul id="songMenu"></ul>
+    </nav>
 
-	<div class="topnav" id="top-nav"> <!-- TOP NAVIGATION -->
-		<p>
-			<span id="nav-songs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
-			<a href="composer.html" id="nav-link">Composer</a>
-			<a href="dedication.html" id="nav-link">Dedication</a>
-			<br>
-		</p>
-	</div>
-	
+    <div class="topNav" id="topNav"> <!-- TOP NAVIGATION -->
+        <p>
+            <span id="navSongs" style="cursor:pointer" onclick="openNav()"><img src="" alt="">Songs</span>
+            <a href="composer.html" id="navLink">Composer</a>
+            <a href="dedication.html" id="navLink">Dedication</a>
+            <br>
+        </p>
+    </div>
+    
 
-	<div class="main">
-		<header id="main-header">
-					<!-- MAIN HEADER -->
-			<h1><b>MAas'<br>Compositions</b></h1>
+    <div class="main">
+        <header id="mainHeader">
+                    <!-- MAIN HEADER -->
+            <h1><b>MAas'<br>Compositions</b></h1>
 
-			<div class="subtext"> <!-- SUB HEADER -->
-				<p id="intro-text">
-					Where melodies turn into memories
-						<br>
-					and every song tells a piece of my story.
-				</p>
-			</div>
-		</header>
-		<div id="image-container"><img src="images/AGA Guitar.png" id="main-image"></div>
-	</div>
+            <div class="subtext"> <!-- SUB HEADER -->
+                <p id="introText">
+                    Where melodies turn into memories
+                        <br>
+                    and every song tells a piece of my story.
+                </p>
+            </div>
+        </header>
+        <div id="imageContainer"><img src="images/AGA Guitar.png" id="mainImage"></div>
+    </div>
 
 
-	<div class="featured-songs-box"> <!-- FEATURED SONGS -->
-		<h2 class="fs-header">Featured Songs</h2>
-		<div class="song-covers" id="featured-song"></div>
-	</div>
+    <div class="featuredSongsBox"> <!-- FEATURED SONGS -->
+        <h2 class="fsHeader">Featured Songs</h2>
+        <div class="songCovers" id="featuredSong"></div>
+    </div>
 
 <script src="lyrics.js"></script><!-- DATA LYRICS -->
+
+<!-- JavaScript script on the UI/UX -->
 <script>
 
-		// Set Style with user's device
+        // Set Style with user's device
 
-	function detectDevice() {
-		const body = document.body;
-		const width = window.innerWidth;
-		const height = window.innerHeight;
-		const isPortrait = height > width;
+    function detectDevice() {
+        const body = document.body;
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const isPortrait = height > width;
 
-		let device;
+        let device;
 
-		if (width > 1200) {
-			device = "Desktop";
-		} else if (isPortrait && width <= 768) {
-			device = "Phone";
-		} else {
-			device = "Tablet/iPad";
-		}
+        if (width > 1200) {
+            device = "Desktop";
+        } else if (isPortrait && width <= 768) {
+            device = "Phone";
+        } else {
+            device = "Tablet/iPad";
+        }
 
-		body.setAttribute("data-device", device);
-		document.getElementById("debug").innerHTML = device;
+        body.setAttribute("data-device", device);
+        // Removed: document.getElementById("debug").innerHTML = device; (not present in HTML)
 
-		console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
-	}
+        console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
+    }
 
-		// Call detectDevice on page load
-		
-	document.addEventListener("DOMContentLoaded", function() {
-		detectDevice();
-	});
+        // Call detectDevice on page load
+        
+    document.addEventListener("DOMContentLoaded", function() {
+        detectDevice();
+    });
 
-		// Optional: Also call on window resize for dynamic updates
+        // Optional: Also call on window resize for dynamic updates
 
-	window.addEventListener("resize", detectDevice);
+    window.addEventListener("resize", detectDevice);
 
         // Navigation
 
@@ -101,11 +103,11 @@
     }
 
     function myFunction() {
-        var x = document.getElementById("top-nav");
-        if (x.classList === "topnav") {
+        var x = document.getElementById("topNav");
+        if (x.classList === "topNav") {
             x.classList += " responsive";
         } else {
-            x.classList = "topnav";
+            x.classList = "topNav";
         }
     }
 
@@ -113,9 +115,9 @@
 
     function mySearch() {
         var input, filter, ul, li, a, i;
-        input = document.getElementById("search-input");
+        input = document.getElementById("searchInput");
         filter = input.value.toUpperCase();
-        ul = document.getElementById("song-menu");
+        ul = document.getElementById("songMenu");
         li = ul.getElementsByTagName("li");
 
         for (i = 0; i < li.length; i++) {
@@ -130,7 +132,7 @@
 
         // Side Nav Song Titles
 
-    const menu = document.getElementById("song-menu");
+    const menu = document.getElementById("songMenu");
 
         Object.entries(lyricsData)
         .sort((a, b) => a[1].title.localeCompare(b[1].title))
@@ -145,26 +147,26 @@
             menu.appendChild(li);
         });
 
-		// Featured Songs
+        // Featured Songs
 
-	const featuredSong = document.getElementById("featured-song")
+    const featuredSong = document.getElementById("featuredSong")
 
         Object.entries(featuredSongList)
         .forEach(([key, song]) => {
             const a = document.createElement("a");
-			const img = document.createElement("img");
+            const img = document.createElement("img");
             const p = document.createElement("p");
-			const span = document.createElement("span")
+            const span = document.createElement("span")
 
-			img.src = song.cover;
+            img.src = song.cover;
             a.href = `lyrics.html?song=${key}`;
             p.textContent = song.title;
-			span.textContent = song.details;
+            span.textContent = song.details;
 
             featuredSong.appendChild(a);
             a.appendChild(img);
-			featuredSong.appendChild(p);
-			p.appendChild(span);
+            featuredSong.appendChild(p);
+            p.appendChild(span);
         });
 </script>
 </body>
