@@ -141,12 +141,11 @@ body[data-device="Tablet/iPad"] .topNav {
     margin-top: -30px; /* Reduced margin */
     margin-left: -8px;
     width: 102%; /* Slightly narrower */
-    font-size: 22px; /* Smaller font */
-    height: 45%; /* Reduced height */
+    font-size: 2rem;
 }
 body[data-device="Tablet/iPad"] .topNav a, body[data-device="Tablet/iPad"] .topNav span {
     padding: 12px 14px; /* Reduced padding */
-    font-size: 18px; /* Smaller font */
+    font-size: 1.5rem; /* Smaller font */
 }
 body[data-device="Tablet/iPad"] .sideNav {
     padding-top: 50px; /* Reduced padding */
