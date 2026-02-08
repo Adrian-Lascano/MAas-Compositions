@@ -2,7 +2,7 @@
 /* Desktop (Base Styles) */
 /* ===================== */
 
-.text-name {
+.textName {
     color: #2A9D8F;
     font-size: 3vw;
     width: 85%;
@@ -19,7 +19,7 @@
         animation: fadein 5s ease forwards;
         mask-repeat: no-repeat;
     }
-    #under-text {
+    #underText {
         font-size: 2vw;
         margin: 0;
         animation: undertextfade 2s ease forwards;
@@ -35,7 +35,7 @@
         animation: underlineFade 2s ease forwards;
         animation-delay: 2s;
     }
-    #text-tt {
+    #textTt {
         font-size: 1.5vw;
         font-family: Arial, sans-serif;
         color: white;
@@ -44,7 +44,7 @@
         animation: subtext 2s ease forwards;
         animation-delay: 4s;
     }
-    #spotify-link {
+    #spotifyLink {
         text-decoration: none;
         background-color: #2A9D8F;
         border-radius: 50px;
@@ -55,20 +55,20 @@
         animation-delay: 4s;
         opacity: 0;
     }
-    #spotify-link:hover {
+    #spotifyLink:hover {
         background-color: #0f3934;
     }
-    .social-links {
+    .socialLinks {
         width: 25%;
         margin-top: 20px;
         animation: link 3s ease forwards;
         animation-delay: 4s;
         opacity: 0;
     }
-    .social-links a img {
+    .socialLinks a img {
         width: 50px;
     }
-.aga-fade {
+.agaFade {
     max-width: 500px;
     border-radius: 40px;
     float: right;
@@ -78,14 +78,14 @@
     animation: image 5s ease forwards;
     z-index: 1;
 }
-.images-row {
+.imagesRow {
         width: 80%;
         margin: 5% auto;
         padding-top: 80px;
         column-count: 4;
         column-gap: 16px;
 }
-    .images-row img {
+    .imagesRow img {
         width: 100%;
         height: auto; /* Preserve aspect ratios */
         margin-bottom: 16px;
@@ -99,33 +99,33 @@
 /* ===================== */
 /* Tablet/iPad Overrides */
 /* ===================== */
-body[data-device="Tablet/iPad"] .text-name{
+body[data-device="Tablet/iPad"] .textName{
     padding-top: 1%;
 }
-    body[data-device="Tablet/iPad"] .text-name h1 {
+    body[data-device="Tablet/iPad"] .textName h1 {
         font-size: 6vw; /* Reduced from 3vw base */
     }
-    body[data-device="Tablet/iPad"] #under-text {
+    body[data-device="Tablet/iPad"] #underText {
         font-size: 2.3vw; /* Reduced from 2vw */
     }
     body[data-device="Tablet/iPad"] #underline {
         margin: 0.2em 0 0.4em 0;
     }
-    body[data-device="Tablet/iPad"] #text-tt {
+    body[data-device="Tablet/iPad"] #textTt {
         font-size: 1.7vw; /* Reduced from 1.5vw */
     }
-    body[data-device="Tablet/iPad"] #spotify-link {
+    body[data-device="Tablet/iPad"] #spotifyLink {
         font-size: 2vw; /* Reduced from 1.5vw */
     }
-    body[data-device="Tablet/iPad"] .social-links {
+    body[data-device="Tablet/iPad"] .socialLinks {
         justify-content: center;
         width: 30%; /* Slightly wider */
     }
-body[data-device="Tablet/iPad"] .aga-fade {
+body[data-device="Tablet/iPad"] .agaFade {
     max-width: 320px; /* Smaller image */
     margin: 3% 7% 4% 0;
 }
-body[data-device="Tablet/iPad"] .images-row {
+body[data-device="Tablet/iPad"] .imagesRow {
     column-count: 3; /* Fewer columns */
     width: 85%; /* Slightly wider */
 }
@@ -134,35 +134,35 @@ body[data-device="Tablet/iPad"] .images-row {
 /* Phone Overrides       */
 /* ===================== */
 
-body[data-device="Phone"] .text-name h1 {
+body[data-device="Phone"] .textName h1 {
     font-size: 7vw; /* Larger for readability */
 }
-    body[data-device="Phone"] #under-text {
+    body[data-device="Phone"] #underText {
         font-size: 2.5vw; /* Larger from 2vw */
     }
-    body[data-device="Phone"] #text-tt {
+    body[data-device="Phone"] #textTt {
         font-size: 2.2vw; /* Larger from 1.5vw */
         margin-bottom: 10px;
     }
-    body[data-device="Phone"] #spotify-link {
+    body[data-device="Phone"] #spotifyLink {
         font-size: 2.5vw; /* Larger for touch */
         padding: 5px 10px;
     }
-    body[data-device="Phone"] .social-links {
+    body[data-device="Phone"] .socialLinks {
         display: flex; /* Force horizontal layout */
         flex-wrap: nowrap; /* Prevent wrapping to new rows */
         width: 100%; /* Full width to fit all images */
         margin-top: 15px;
     }
-    body[data-device="Phone"] .social-links img {
+    body[data-device="Phone"] .socialLinks img {
         width: 30px; /* Smaller icons */
     }
-body[data-device="Phone"] .aga-fade {
+body[data-device="Phone"] .agaFade {
     max-width: 200px; /* Smaller image */
     margin: 5% auto; /* Center */
     float: right;
 }
-body[data-device="Phone"] .images-row {
+body[data-device="Phone"] .imagesRow {
     column-count: 2; /* Fewer columns for phones */
     width: 90%; /* Wider for small screens */
     padding-top: 40px; /* Reduced padding */
