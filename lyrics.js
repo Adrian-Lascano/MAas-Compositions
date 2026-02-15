@@ -1753,6 +1753,62 @@ const lyricsData = {
             Ipagsisigawan kong gusto kita kahit na wala silang pakialam<br>
             Ipagsisigawan kong gusto kita kahit na wala silang alam<br>
             Kung gaano kita nakikita sa aking mga mata`
+    },
+
+// 38 -------------------------------------------------------------------------------------
+
+    "Makatabi_Kita": {
+        title: "Makatabi Kita",
+        author: "A. Lascano",
+        lyrics: 
+            `Sa pagdating ng oras ng gabi<br>
+            Inaantay ko bigkasin ng 'yong labi<br>
+            Oo na kanina pa akong gising<br>
+            'Di na naman makatulog kakaisip<br>
+        <br>
+            Kay saya palang makasama ka<br>
+            Kahit na ayaw ng iba't ng tadhana<br>
+            Nauutal-utal pa naman kapag nahihiya<br>
+            Kaya't dinaan sa kanta at tsaka<br>
+        <br>
+            Kinuha ang gitara sabay naupo sa may dulo<br>
+            Paulit-ulit na humihiyaw sa kwarto<br>
+            Hindi ko kasi alam kung paano sasabihin sa'yo<br>
+            Gusto sana kitang makasama<br>
+            At dito na lang sa piling ko<br>
+            Tingnan mo lang ang mata ko<br>
+            Hawakan mo ang kamay ko<br>
+        <br>
+            Nagpapanggap na wala akong pakialam<br>
+            Pero bawat tawag mo, hindi ko na alam<br>
+            Kung ano pa ba ang nadarama at nilalaman<br>
+            Kaya't naisipan kong awitan at tsaka<br>
+        <br>
+            Kinuha ang gitara sabay naupo sa may dulo<br>
+            Paulit-ulit na humihiyaw sa kwarto<br>
+            Hindi ko kasi alam kung paano sasabihin sa'yo<br>
+            Gusto sana kitang makasama<br>
+            At dito na lang sa piling ko<br>
+            Tingnan mo lang ang mata ko<br>
+            Hawakan mo ang kamay ko<br>
+        <br>
+            Alam kong hindi ko pa alam ang lahat<br>
+            'Wag mo sanang ipagkait ang dapat<br>
+            Tingin ko naman kaya kong maging sapat<br>
+            Basta't makinig ka lang habang<br>
+        <br>
+            Kinuha ang gitara sabay naupo sa may dulo<br>
+            Paulit-ulit na humihiyaw sa kwarto<br>
+            Hindi ko kasi alam kung paano sasabihin sa'yo<br>
+            Gusto sana kitang makasama<br>
+            At dito na lang sa piling ko<br>
+            Tingnan mo lang ang mata ko<br>
+            Hawakan mo ang kamay ko<br>
+        <br>
+            Oo, alam ko<br>
+            Tanggalin mo na ang airpods sa tainga mo<br>
+            Madinig na sana ang kanta ko<br>
+            Na munting para sayo`
     }
 };
 
