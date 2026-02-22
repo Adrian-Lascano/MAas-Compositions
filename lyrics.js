@@ -381,7 +381,7 @@ const lyricsData = {
 
 // 10 -------------------------------------------------------------------------------------
 
-    "KNKP": {
+    "Kahit_Na_Kahit_Pa": {
         title: "Kahit Na Kahit Pa",
         author: "A. Lascano",
         lyrics: 
@@ -545,7 +545,7 @@ const lyricsData = {
 
 // 14 -------------------------------------------------------------------------------------
 
-    "NnB": {
+    "Ningning_Ng_Bituin": {
         title: "Ningning ng Bituin",
         author: "A. Lascano",
         lyrics: 
@@ -1077,7 +1077,7 @@ const lyricsData = {
 
 // 24 -------------------------------------------------------------------------------------
 
-    "PKN": {
+    "Paano_Kita_Nakilala": {
         title: "Paano Kita Nakilala",
         author: "A. Lascano",
         lyrics: 
@@ -1125,7 +1125,7 @@ const lyricsData = {
 
 // 25 -------------------------------------------------------------------------------------
 
-    "SHnS": {
+    "Sa_Habambuhay_Na_Sandali": {
         title: "Sa Habambuhay na Sandali",
         author: "A. Lascano",
         lyrics: 
@@ -1369,7 +1369,7 @@ const lyricsData = {
 
 // 30 -------------------------------------------------------------------------------------
 
-    "G_Okada": {
+    "Girl_In_Okada": {
         title: "Girl In Okada",
         author: "A. Lascano",
         lyrics: 
@@ -1464,7 +1464,7 @@ const lyricsData = {
 
 // 32 -------------------------------------------------------------------------------------
 
-    "TaN": {
+    "Timog_at_Norte": {
         title: "Timog at Norte",
         author: "A. Lascano",
         lyrics: 
@@ -1809,6 +1809,44 @@ const lyricsData = {
             Tanggalin mo na ang airpods sa tainga mo<br>
             Madinig na sana ang kanta ko<br>
             Na munting para sayo`
+    },
+
+// 39 -------------------------------------------------------------------------------------
+
+    "Sa_Unang_Pagkikita": {
+        title: "Sa Unang Pagkikita",
+        author: "A. Lascano",
+        lyrics: 
+            `Alam kong marami na akong nagawang kanta<br>
+            'Di mo ba naiisip na baka naman talaga<br>
+            Para sayo ang lahat ng ito<br>
+        <br>
+            Alam ko ang oras ng paggising at paglabas<br>
+            Inaantay ko kahit na umabot pa ng undas<br>
+            Para lamang makasama at makausap ko<br>
+        <br>
+            Kinakabahan na naman ako<br>
+            Saan nga ba patungo ang mga ito<br>
+            Kinakabahan na naman ako<br>
+            Pero dito sa piling mo lang sumasaya ako<br>
+        <br>
+            Sa unang pagkikita ang daming paghahanda<br>
+            Hindi ko kasi alam kung saan kakain at pupunta<br>
+            Kaya't naisipan kong hawakan ang kamay mo<br>
+        <br>
+            Dadalhin kita kahit na saan mo pa gusto<br>
+            Surpresa ang lahat kung saan man tayo patungo<br>
+            Basta't humawak ka lang sa kamay ko<br>
+        <br>
+            Kinakabahan na naman ako<br>
+            Saan nga ba patungo ang mga ito<br>
+            Kinakabahan na naman ako<br>
+            Pero dito sa piling mo lang ang gusto ko<br>
+        <br>
+            Sumasaya na ulit ako<br>
+            Libo-libong kanta ang naisusulat ko<br>
+            Pinakamasaya ako sayo<br>
+            Kinakabahan na naman ako`
     }
 };
 
