@@ -2319,40 +2319,40 @@ const lyricsData = {
         author: "A. Lascano",
         lyrics: 
             `Kamusta na ba ang araw mo<br>
-            Okay lang ba jan sa inyo<br>
+            Okay lang ba dyan sa inyo<br>
             Isang tawag lang, isang sulyap lang<br>
             Okay na ako<br>
         <br>
             Pa'no kung tayo talaga, tinatanggi mo lang<br>
             Kasi natatakot ka, na baka ikaw ay masaktan<br>
             Ewan pano ba, ganito ba magmahal<br>
-            Di rin sanay na kausap kita<br>
+            'Di rin sanay na kausap kita<br>
         <br>
             Makulimlim na araw<br>
             Ikay naaalala<br>
             Bilog na ang buwan<br>
-            Di ko parin alam<br>
+            'Di ko parin alam<br>
             Okay ba talaga ako<br>
         <br>
             Pa'no kung tayo talaga, tinatanggi mo lang<br>
             Kasi natatakot ka, na baka ikaw ay masaktan<br>
             Ewan pano ba, ganito ba magmahal<br>
-            Di rin sanay na kausap kita<br>
+            'Di rin sanay na kausap kita<br>
         <br>
-            Maputi na ang uwak, di ka na masilayan<br>
-            Namuti na ang larawan, di ka na makita<br>
+            Maputi na ang uwak, 'di ka na masilayan<br>
+            Namuti na ang larawan, 'di ka na makita<br>
             Ewan pano ba, ganito ba magmahal<br>
-            Di rin sanay na kausap kita<br>
+            'Di rin sanay na kausap kita<br>
         <br>
             Pa'no kung tayo talaga, tinatanggi mo lang<br>
             Kasi natatakot ka, na baka ikaw ay masaktan<br>
             Ewan pano ba, ganito ba magmahal<br>
-            Di rin sanay na kausap kita<br>
+            'Di rin sanay na kausap kita<br>
         <br>
-            Maputi na ang uwak, di ka na masilayan<br>
-            Namuti na ang larawan, di ka na makita<br>
+            Maputi na ang uwak, 'di ka na masilayan<br>
+            Namuti na ang larawan, 'di ka na makita<br>
             Ewan pano ba, ganito ba magmahal<br>
-            Di rin sanay na kausap kita`
+            'Di rin sanay na kausap kita`
     }
 };
 
