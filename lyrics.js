@@ -1847,6 +1847,512 @@ const lyricsData = {
             Libo-libong kanta ang naisusulat ko<br>
             Pinakamasaya ako sayo<br>
             Kinakabahan na naman ako`
+    },
+
+// 40 -------------------------------------------------------------------------------------
+
+    "Equation": {
+        title: "Equation",
+        author: "A. Lascano",
+        lyrics: 
+            `I have written too many songs<br>
+            But still don't know how to keep them all<br>
+            If there was someone who would listen to all my songs<br>
+            And then maybe I would fall<br>
+        <br>
+            For you even though you gave no sign<br>
+            Of chance that there could be us<br>
+            And I still took the chance to call your name<br>
+            But still you did not give a glance<br>
+        <br>
+            You are my favorite equation that I can't solve<br>
+            Every variable changes everytime<br>
+            Every translation could give me time<br>
+        <br>
+            Know that if the equation can't be solved on your own<br>
+            Then apply all the rules and the laws you will find<br>
+            Then hold my hand until we've solved<br>
+        <br>
+            This time will never be the list of all impossible answers<br>
+            Find your range<br>
+            You'll know that I'm in<br>
+            Then you would know that we are on a cartesian plane<br>
+        <br>
+            We will visit through every quadrant of the world<br>
+            Noting all the x and y's<br>
+            So we could remember every place we've been<br>
+            And for every combination of<br>
+        <br>
+            The perfect pairs<br>
+            The difference of having two perfect kids<br>
+            They would jump around and remove all the hate<br>
+            And the bad things while I remind you again that<br>
+        <br>
+            You are my favorite equation that I can't solve<br>
+            Every variable changes everytime<br>
+            Every translation could give me time<br>
+        <br>
+            Know that if the equation can't be solved on your own<br>
+            Then apply all the rules and the laws you will find<br>
+            Then hold my hand until we've solved<br>
+        <br>
+            This time will never be the list of all impossible answers<br>
+            Find your range<br>
+            You'll know that I'm in<br>
+            Then you would know that we are on a cartesian plane<br>
+        <br>
+            Could you remember every theorem that they gave like<br>
+            “They won't stay like that for long”<br>
+            But after all the years it feels so long<br>
+            Like it's longer than the very<br>
+        <br>
+            Open interval of limits and<br>
+            Will always promise that you'll<br>
+            Receive the highest degree<br>
+            So that you will be reminded of<br>
+        <br>
+            You are my favorite equation that I can't solve<br>
+            Every variable changes everytime<br>
+            Every translation could give me time<br>
+        <br>
+            Know that if the equation can't be solved on your own<br>
+            Then apply all the rules and the laws you will find<br>
+            Then hold my hand until we've solved<br>
+        <br>
+            This time will never be the list of all impossible answers<br>
+            Find your range<br>
+            You'll know that I'm in<br>
+            Then you would know that we are on a cartesian plane`
+    },
+
+// 41 -------------------------------------------------------------------------------------
+
+    "Dreams": {
+        title: "Dreams",
+        author: "A. Lascano",
+        lyrics: 
+            `They said if you can't sleep at night<br>
+            Someone has been thinking of you<br>
+            But my mind's a fire, it won't burn out<br>
+            Every thought just pulls me back to you<br>
+        <br>
+            Heartbeat racing, ceiling's staring<br>
+            Clock keeps ticking, thoughts won't fade<br>
+            Every shadow feels like your name<br>
+            I'm wide awake, I can't escape<br>
+        <br>
+            So I'm running through the dark, chasing after dreams<br>
+            Every sleepless hour, you're the only thing I see<br>
+            If the night won't let me rest, I'll burn until it's true<br>
+            I can't sleep at night because I'm stuck on you<br>
+        <br>
+            You're running running running<br>
+            Running inside my head<br>
+            And I'm fighting fighting fighting<br>
+            Fighting to escape my bed<br>
+        <br>
+            I don't know how to runaway<br>
+            I don't think there is another way<br>
+            So I'm running through the dark<br>
+            Thinking until its true<br>
+            That you're mine and after<br>
+            I'm your's too<br>
+        <br>
+            They said if you can't sleep at night<br>
+            Someone has been thinking of you<br>
+            But my mind's a fire, it won't burn out<br>
+            Every thought just pulls me back to you<br>
+        <br>
+            Heartbeat racing, ceiling's staring<br>
+            Clock keeps ticking, thoughts won't fade<br>
+            Every shadow feels like your name<br>
+            I'm wide awake, I can't escape<br>
+        <br>
+            So I'm running through the dark, chasing after dreams<br>
+            Every sleepless hour, you're the only thing I see<br>
+            If the night won't let me rest, I'll burn until it's true<br>
+            I can't sleep at night because I'm stuck on you<br>
+        <br>
+            You're running running running<br>
+            Running inside my head<br>
+            And I'm fighting fighting fighting<br>
+            Fighting to escape my bed<br>
+        <br>
+            I don't know how to runaway<br>
+            I don't think there is another way<br>
+            So I'm running through the dark<br>
+            Thinking until its true<br>
+            That you're mine and after<br>
+            I'm your's too`
+    },
+
+// 42 -------------------------------------------------------------------------------------
+
+    "Gift_In_The_Maze": {
+        title: "Gift In The Maze",
+        author: "A. Lascano",
+        lyrics: 
+            `Sa mga oras na 'di ko na mawari
+            Sa 'yong yakap nalang lumalapit
+            Kahit hindi mo dama ang aking pagtingin
+
+            Tanging gabi nalang ang nagigising susi
+            Para masabi lahat ng 'di masabi
+            Kahit na ang gulo ng damdamin kong ito
+
+            At sa bawat tibok, may salitang pilit na tinatago
+            Ngunit sa dilim, ikaw ang liwanag na 'di ko kayang itago pa
+
+            Sa pagpikit ko ng aking mga mata
+            Nakikita ko 'ng liwanag mong dala
+            Wag nang lumingon, tumingin ka sa'kin
+            'Di mo ba naririnig
+
+            Ang sigaw ng puso kong umiibig
+            Sa bawat tibok, ikaw ang sinasapit
+            Hindi mapigil ang aking damdamin
+            Ikaw na aking hinahanap sa pagsapit ng gabi
+
+            I know that I will take the long way around
+            I don't care as long as you're the one to be found
+            Open your arms and feel the wind inside my heart
+
+            Every step I take, the louder the sound
+            And it keeps my heart standing still on the ground
+            Wait for me to arrive, until then don't open your eyes
+
+            As I get closer and closer to you, mhmm
+            Don't forget to shout my name, let me hear your call
+
+            When I close my eyes only your light appears
+            Guiding me through the shadows, calming my fears
+            Don't you turn away, just stay with me
+            Can't you hear what I wanna be
+
+            I've been walking for miles, I've been shouting your name
+            Each heartbeat calls your name again
+            This endless longing I can't deny
+            You're the one I seek beneath the sky
+
+            You don't have to mind the others' mind
+            Just be closer to mine and you'll find
+            Every fear will fade and the stars align
+            Our love will stand to the test of time
+
+            When I close my eyes only your light appears (aking mata)
+            Guiding me through the shadows, calming my fears (liwanag mong dala)
+            Don't you turn away, just stay with me (tumingin ka sa'kin)
+            Can't you hear what I wanna be
+
+            It's the cry of love I can't restrain (sigaw ng puso)
+            Each heartbeat calls your name again (ikaw ang sinasapit)
+            This endless longing I can't deny ('di mapigil)
+            You're the one I seek beneath the sky (buong ng gabi)`
+    },
+
+// 43 -------------------------------------------------------------------------------------
+
+    "717": {
+        title: "717",
+        author: "A. Lascano",
+        lyrics: 
+            `Andito lang ako<br>
+            Gumagabay sayong pahinga<br>
+            Tama na Tahan na<br>
+        <br>
+            Naghihintay sayong mga mata<br>
+            Ibuhos lang lahat ng luha<br>
+            Hahagkan ka sa iyong buong pahinga<br>
+            Ako ng bahala, 'wag mag-alala dahil<br>
+        <br>
+            Andito lang ako<br>
+            Gumagabay sayong pahinga<br>
+            Tulog lang mahal ko<br>
+            Hindi ka na muling mag-iisa<br>
+            Tama na, Tahan na<br>
+        <br>
+            Aawitan ka ng kundiman<br>
+            Tuwing gabi ikaw ay aking hahagkan<br>
+            Halik sa labi mo ay iyong asahan<br>
+            Sa'king tabi lang ang daan dahil<br>
+        <br>
+            Andito lang ako<br>
+            Gumagabay sayong pahinga<br>
+            Tulog lang mahal ko<br>
+            Hindi ka na muling mag-iisa<br>
+            Tama na, Tahan na<br>
+        <br>
+            Andito lang ako<br>
+            Gumagabay sayong pahinga<br>
+            Tulog lang mahal ko<br>
+            Hindi ka na muling mag-iisa<br>
+            Tama na, Tahan na`
+    },
+
+// 44 -------------------------------------------------------------------------------------
+
+    "Ikatlo": {
+        title: "Ikatlo",
+        author: "A. Lascano",
+        lyrics: 
+            `Ibibigay aking kamay<br>
+            Dito lang humimlay<br>
+        <br>
+            Hindi ko pa<br>
+            Naririnig ang boses mo<br>
+            Paano ba<br>
+            Matatawag ang pangalan mo<br>
+        <br>
+            Alam kong hindi mo inaasahan<br>
+            Na ika'y aking sulyapan<br>
+            'Sang hiling ko lang naman<br>
+            Iyong mapagbigyan<br>
+        <br>
+            Gusto kitang isayaw<br>
+            Huwag ka lang bibitaw<br>
+            Gusto kitang isayaw<br>
+            Huwag ka lang bibitaw<br>
+        <br>
+            Hindi ko pa<br>
+            Kilala nang lubusan<br>
+            Paano ba<br>
+            Ika'y napusuan<br>
+        <br>
+            Alam kong hindi mo inaasahan<br>
+            Na ika'y aking sulyapan<br>
+            'Sang hiling ko lang naman<br>
+            Iyong mapagbigyan<br>
+        <br>
+            Gusto kitang isayaw<br>
+            Huwag ka lang bibitaw<br>
+            Gusto kitang isayaw<br>
+            Kahit na iba ang sigaw<br>
+        <br>
+            Ng puso mo<br>
+            Hangang dulo<br>
+            Maghihintay ako<br>
+            Hangang ikatlo<br>
+        <br>
+            Hayaan mo nalang<br>
+            Gusto parin kita<br>
+            Ayan ka na naman<br>
+            Sayong mata aking nakikita<br>
+        <br>
+            Gusto kitang isayaw<br>
+            Huwag ka lang bibitaw<br>
+            Gusto kitang isayaw<br>
+            Huwag ka lang bibitaw<br>
+        <br>
+            Gusto kitang isayaw<br>
+            Kahit na iba ang sigaw<br>
+            Gusto kitang isayaw<br>
+            Kahit na iba ang sigaw<br>
+            Ng puso mo`
+    },
+
+// 45 -------------------------------------------------------------------------------------
+
+    "Sana'y_Gabi_Nalang_Araw-Araw": {
+        title: "Sana'y Gabi Nalang Araw-Araw",
+        author: "A. Lascano",
+        lyrics: 
+            `Bawat gabing kay himbing<br>
+            Wala na ang yong paglalambing<br>
+            Damang dama ang lamig<br>
+            Nitong gabi oh kay hapdi<br>
+        <br>
+            Liwanag ng kalangitan<br>
+            Ang aking nag-iisang kapiling<br>
+            Wala ng makakapitan<br>
+            Salamat sa aking panaginip<br>
+        <br>
+            Sa panaginip na lamang ba, patawad na<br>
+            Ang gusto ko lang naman ay<br>
+        <br>
+            Mayakap mo ako ng mahigpit<br>
+            Maramdaman ko ang pag-ibig<br>
+            Hiling ko lang hindi nakapikit<br>
+            Kahit na, oh kay sakit<br>
+        <br>
+            Sinag ng buwan ay nakabibighani<br>
+            Tayo lamang ang saksi<br>
+            Ng ating pagmamahalan<br>
+            Gumising nga ba ang susi<br>
+        <br>
+            Sa panaginip na lamang ba, patawad na<br>
+            Ang gusto ko lang naman ay<br>
+        <br>
+            Mayakap mo ako ng mahigpit<br>
+            Maramdaman ko ang pag-ibig<br>
+            Hiling ko lang  hindi nakapikit<br>
+            Kahit na kay sakit<br>
+        <br>
+            Anino ng sana'y tayo ang tanaw<br>
+            Sana'y gabi na lang araw-araw<br>
+            Hindi na makagalaw<br>
+            Ngayon ako'y giniginaw<br>
+        <br>
+            Uh uh, uh uh<br>
+            Sana'y gabi na lang araw-araw<br>
+            Uh uh, uh uh<br>
+            Ngayon ako'y giniginaw`
+    },
+
+// 46 -------------------------------------------------------------------------------------
+
+    "Us_In_My_Universe": {
+        title: "Us In My Universe",
+        author: "A. Lascano",
+        lyrics: 
+            `Every Night I think of you<br>
+            Wondering of what you do<br>
+            I think I'll sleep into<br>
+            Skip this feeling blue<br>
+        <br>
+            I don't know what I saw in you<br>
+            I'd like to be crazy for you<br>
+            Ohhh, I get this feeling like<br>
+            Knowing that I should talk and try<br>
+        <br>
+            Every Night I think of you<br>
+            Wondering of what you do<br>
+            I think I'll sleep into<br>
+            Skip this feeling blue<br>
+        <br>
+            Late nights has been my friends<br>
+            Riding in my silver benz<br>
+            You've been running in my mind<br>
+            Looking for what did I find<br>
+        <br>
+            In you<br>
+            Girl I like surprises too<br>
+            When do you<br>
+            Plan a table for two<br>
+            I like you<br>
+        <br>
+            I'm not crazy for love but<br>
+            Seeing you is my favorite thing to do<br>
+            Ohhh, I get this feeling like<br>
+            Knowing that I should talk and try<br>
+        <br>
+            Every Night I think of you<br>
+            Wondering of what you do<br>
+            I think I'll sleep into<br>
+            Skip this feeling blue<br>
+        <br>
+            Telling my pillow everything<br>
+            Wishing that it is what you bring<br>
+            A perfect love for you and me<br>
+            Lying on my bed and<br>
+        <br>
+            Every Night I think of you<br>
+            Wondering of what you do<br>
+            I think I'll sleep into<br>
+            Skip this feeling blue<br>
+        <br>
+            Late nights has been my friends<br>
+            Riding in my silver benz<br>
+            You've been running in my mind<br>
+            Looking for what did I find<br>
+        <br>
+            Every Night I think of you<br>
+            Wondering of what you do<br>
+            I think I'll sleep into<br>
+            Skip this feeling blue<br>
+        <br>
+            Late nights has been my friends<br>
+            Riding in my silver benz<br>
+            You've been running in my mind<br>
+            Looking for what did I find<br>
+        <br>
+            In you<br>
+            Girl I like surprises too<br>
+            When do you<br>
+            Plan a table for two<br>
+            I like you<br>
+        <br>
+            I think I like you`
+    },
+
+// 47 -------------------------------------------------------------------------------------
+
+    "Sana'y_Gabi_Nalang_Araw-Araw": {
+        title: "Sana'y Gabi Nalang Araw-Araw",
+        author: "A. Lascano",
+        lyrics: 
+            `When I saw your eyes<br>
+            I knew you're the one for me<br>
+            From this day on<br>
+            When I look in your eyes it's setting me free<br>
+        <br>
+            I know that you're gone<br>
+            What I said it is done<br>
+            Yesterday was so fun<br>
+            But I think tomorrow will be<br>
+        <br>
+            The best day or the worst day of my life<br>
+            Now that I am free, I wanna be just a butterfly<br>
+        <br>
+            Your eyes is my favorite part of your face<br>
+            Your look reminisce my forbidden love<br>
+        <br>
+            I know that you're gone<br>
+            What I said it is done<br>
+            Yesterday was so fun<br>
+            But I think tomorrow will be<br>
+        <br>
+            The best day or the worst day of my life<br>
+            Now that I am free, I wanna be just a butterfly<br>
+            So I could fly by you<br>
+            Maybe land on your shoulders too<br>
+            So I could feel your touch just the first time<br>
+        <br>
+            This maybe the last<br>
+            Maybe I should say it fast<br>
+            That I like you one last time`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "Pa'no_Kung_Tayo_Talaga": {
+        title: "Pa'no Kung Tayo Talaga",
+        author: "A. Lascano",
+        lyrics: 
+            `Kamusta na ba ang araw mo<br>
+            Okay lang ba jan sa inyo<br>
+            Isang tawag lang, isang sulyap lang<br>
+            Okay na ako<br>
+        <br>
+            Pa'no kung tayo talaga, tinatanggi mo lang<br>
+            Kasi natatakot ka, na baka ikaw ay masaktan<br>
+            Ewan pano ba, ganito ba magmahal<br>
+            Di rin sanay na kausap kita<br>
+        <br>
+            Makulimlim na araw<br>
+            Ikay naaalala<br>
+            Bilog na ang buwan<br>
+            Di ko parin alam<br>
+            Okay ba talaga ako<br>
+        <br>
+            Pa'no kung tayo talaga, tinatanggi mo lang<br>
+            Kasi natatakot ka, na baka ikaw ay masaktan<br>
+            Ewan pano ba, ganito ba magmahal<br>
+            Di rin sanay na kausap kita<br>
+        <br>
+            Maputi na ang uwak, di ka na masilayan<br>
+            Namuti na ang larawan, di ka na makita<br>
+            Ewan pano ba, ganito ba magmahal<br>
+            Di rin sanay na kausap kita<br>
+        <br>
+            Pa'no kung tayo talaga, tinatanggi mo lang<br>
+            Kasi natatakot ka, na baka ikaw ay masaktan<br>
+            Ewan pano ba, ganito ba magmahal<br>
+            Di rin sanay na kausap kita<br>
+        <br>
+            Maputi na ang uwak, di ka na masilayan<br>
+            Namuti na ang larawan, di ka na makita<br>
+            Ewan pano ba, ganito ba magmahal<br>
+            Di rin sanay na kausap kita`
     }
 };
 
