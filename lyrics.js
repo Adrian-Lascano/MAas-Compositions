@@ -2353,6 +2353,84 @@ const lyricsData = {
             Namuti na ang larawan, 'di ka na makita<br>
             Ewan pano ba, ganito ba magmahal<br>
             'Di rin sanay na kausap kita`
+    },
+
+// 49 -------------------------------------------------------------------------------------
+
+    "Philocalist_in_Reverie": {
+        title: "Philocalist in Reverie",
+        author: "A. Lascano",
+        lyrics: 
+            `I know that you're something else<br>
+            Just like nobody else<br>
+            Because you got that different look, something on your face<br>
+        <br>
+            I think that I am in love<br>
+            With someone I can't have<br>
+            Because she got that difference that I can never face<br>
+        <br>
+            As long as I am here<br>
+            Please lend me your ear<br>
+            And never let my hand go<br>
+            Don't you overthink<br>
+            Never had to be<br>
+            Because I always know and<br>
+        <br>
+            I will go and wonder all the seven wonders in this world<br>
+            And don't forget to pack your things because you're coming with me<br>
+            We will capture every moment we spend on top of the grain of sand<br>
+            And don't forget that you're smile is the one and only thing<br>
+            That makes me smile<br>
+        <br>
+            I know that I'll be<br>
+            Genuinely grateful<br>
+            If I knew that you are the happiest human living<br>
+        <br>
+            I only know one thing<br>
+            Be grateful of our thing<br>
+            Where I will always find the answer to the question of living<br>
+        <br>
+            But as long as I am here<br>
+            Please lend me your ear<br>
+            And never let my hand go<br>
+            Don't you overthink<br>
+            Never had to be<br>
+            Because I always know and<br>
+        <br>
+            I will go and wonder all the seven wonders in this world<br>
+            And don't forget to pack your things because you're coming with me<br>
+            We will capture every moment we spend on top of the grain of sand<br>
+            And do't forget that you're smile is the one and only thing<br>
+            That makes me smile<br>
+        <br>
+            Remember that I'm always here and never leaving by your side<br>
+            Make me your pillow when everything is as heavy as a rock<br>
+            And tomorrow will be the future of ourselves<br>
+            While we spend the night together sharing different<br>
+            Stories of our lives<br>
+        <br>
+            Life is beautiful with you<br>
+            And I'm attracted in this view<br>
+            Then I will always stare at you<br>
+            While you don't realize what's happening in this world<br>
+            We will create our very own universe<br>
+        <br>
+            I will go and wonder all the seven wonders in this world<br>
+            And don't forget to pack your things because you're coming with me<br>
+            We will capture every moment we spend on top of the grain of sand<br>
+            And don't forget that you're smile is the one and only thing<br>
+            That makes me smile<br>
+            That makes me smile<br>
+        <br>
+            Remember that I'm always here and never leaving by your side<br>
+            Make me your pillow when everything is as heavy as a rock<br>
+            And tomorrow will be the future of ourselves<br>
+            While we spend the night together sharing different<br>
+            Stories of our lives<br>
+        <br>
+            I will always be there for you<br>
+            Will never leave you all alone<br>
+            Then we will always be`
     }
 };
 
