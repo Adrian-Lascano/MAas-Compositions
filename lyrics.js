@@ -599,7 +599,8 @@ const lyricsData = {
         <br>
             You can call me AGA short for my first names<br>
             I want to be your friend, wait it's not the end<br>
-            I can cook, I can sing you everyday, even wrote you this a song to play<br>
+            I can cook, I can sing you everyday<br>
+            Even wrote you this a song to play<br>
         <br>
             This is something I want to live about<br>
             I just want to make my papa proud<br>
@@ -2462,7 +2463,8 @@ const featuredSongList = {
         <br>
             You can call me AGA short for my first names<br>
             I want to be your friend, wait it's not the end<br>
-            I can cook, I can sing you everyday, even wrote you this a song to play<br>
+            I can cook, I can sing you everyday<br>
+            Even wrote you this a song to play<br>
         <br>
             This is something I want to live about<br>
             I just want to make my papa proud<br>
