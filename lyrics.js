@@ -592,10 +592,13 @@ const lyricsData = {
         title: "Samantha",
         author: "A. Lascano",
         lyrics: 
-            `She said something that I won't forget, so small to be a lawyer, do you get it<br>
-            Her hobbies are painting baking reading, not just a girl but wife for life<br>
+            `She said something that I won't forget<br>
+            So small to be a lawyer, do you get it<br>
+            Her hobbies are painting baking reading<br>
+            Not just a girl but wife for life<br>
         <br>
-            You can call me AGA short for my first names, I want to be your friend, wait it's not the end<br>
+            You can call me AGA short for my first names<br>
+            I want to be your friend, wait it's not the end<br>
             I can cook, I can sing you everyday, even wrote you this a song to play<br>
         <br>
             This is something I want to live about<br>
@@ -604,16 +607,20 @@ const lyricsData = {
             You got no choice, you're into this<br>
             Samantha it is<br>
         <br>
-            I'm sorry for thinking all these things,, I just want us to have some kinds of this<br>
-            A perfect life, husband wife and kids, nothing more but wife for life<br>
+            I'm sorry for thinking all these things<br>
+            I just want us to have some kinds of this<br>
+            A perfect life, husband wife and kids<br>
+            Nothing more but wife for life<br>
         <br>
             This is something I want to live about<br>
             I just want to make my papa proud<br>
             And if you are not saying yes to this<br>
             You got no choice, you're into this<br>
         <br>
-            I wake up everyday and I think of all the ways, is it possible to ask you out<br>
-            I think I found a way, this would be a special way, letting all my feelings out<br>
+            I wake up everyday and I think of all the ways<br>
+            Is it possible to ask you out<br>
+            I think I found a way, this would be a special way<br>
+            Letting all my feelings out<br>
         <br>
             There is a problem with me<br>
             'Cuz you know, I want you all for me<br>
@@ -2363,7 +2370,8 @@ const lyricsData = {
         lyrics: 
             `I know that you're something else<br>
             Just like nobody else<br>
-            Because you got that different look, something on your face<br>
+            Because you got that different look<br>
+            Something on your face<br>
         <br>
             I think that I am in love<br>
             With someone I can't have<br>
@@ -2372,6 +2380,7 @@ const lyricsData = {
             As long as I am here<br>
             Please lend me your ear<br>
             And never let my hand go<br>
+        <br>
             Don't you overthink<br>
             Never had to be<br>
             Because I always know and<br>
@@ -2393,6 +2402,7 @@ const lyricsData = {
             But as long as I am here<br>
             Please lend me your ear<br>
             And never let my hand go<br>
+        <br>
             Don't you overthink<br>
             Never had to be<br>
             Because I always know and<br>
@@ -2412,7 +2422,8 @@ const lyricsData = {
             Life is beautiful with you<br>
             And I'm attracted in this view<br>
             Then I will always stare at you<br>
-            While you don't realize what's happening in this world<br>
+            While you don't realize<br>
+            What's happening in this world<br>
             We will create our very own universe<br>
         <br>
             I will go and wonder all the seven wonders in this world<br>
@@ -2444,10 +2455,13 @@ const featuredSongList = {
                 I sent her the pictures through her social media.
                 That's when she told me everything inside this song.`,
         lyrics: 
-            `She said something that I won't forget, so small to be a lawyer, do you get it<br>
-            Her hobbies are painting baking reading, not just a girl but wife for life<br>
+            `She said something that I won't forget<br>
+            So small to be a lawyer, do you get it<br>
+            Her hobbies are painting baking reading<br>
+            Not just a girl but wife for life<br>
         <br>
-            You can call me AGA short for my first names, I want to be your friend, wait it's not the end<br>
+            You can call me AGA short for my first names<br>
+            I want to be your friend, wait it's not the end<br>
             I can cook, I can sing you everyday, even wrote you this a song to play<br>
         <br>
             This is something I want to live about<br>
@@ -2456,16 +2470,20 @@ const featuredSongList = {
             You got no choice, you're into this<br>
             Samantha it is<br>
         <br>
-            I'm sorry for thinking all these things,, I just want us to have some kinds of this<br>
-            A perfect life, husband wife and kids, nothing more but wife for life<br>
+            I'm sorry for thinking all these things<br>
+            I just want us to have some kinds of this<br>
+            A perfect life, husband wife and kids<br>
+            Nothing more but wife for life<br>
         <br>
             This is something I want to live about<br>
             I just want to make my papa proud<br>
             And if you are not saying yes to this<br>
             You got no choice, you're into this<br>
         <br>
-            I wake up everyday and I think of all the ways, is it possible to ask you out<br>
-            I think I found a way, this would be a special way, letting all my feelings out<br>
+            I wake up everyday and I think of all the ways<br>
+            Is it possible to ask you out<br>
+            I think I found a way, this would be a special way<br>
+            Letting all my feelings out<br>
         <br>
             There is a problem with me<br>
             'Cuz you know, I want you all for me<br>
