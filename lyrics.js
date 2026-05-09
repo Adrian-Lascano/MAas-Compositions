@@ -1,12 +1,16 @@
 const lyricsData = {
 // 1 -------------------------------------------------------------------------------------
-    "176_Days": {
+    "176_days": {
         title: "176 Days",
         author: "A. Lascano",
         lyrics: 
-            `Nung dati, nagsimula sa simpleng chat na "Ang ganda mo dyan, dyan ka na!"<br>
-            Naging magkaibigan, naging matalik na kaibigan<br>
-            Sabi mo, sa loob ng 107 na araw ako'y iyong napaibig hindi 107, kundi 176<br>
+            `Nung dati, nagsimula sa simpleng chat na<br>
+            "Ang ganda mo dyan, dyan ka na!"<br>
+            Naging magkaibigan<br>
+            Naging matalik na kaibigan<br>
+        <br>
+            Sabi mo, sa loob ng 107 na araw ako'y iyong napaibig<br>
+            Hindi 107, kundi 176<br>
             176 days the first time we talked about us<br>
             Until I told you the truth, inamin kong may gusto ako<br>
         <br>
@@ -32,39 +36,54 @@ const lyricsData = {
             Ang iba nilalabanan ang pusong unti-unting tumitibok para sayo<br>
             Kala ko kakayanin pero hindi rin pala, mas lalo lang akong nahulog sayo<br>
         <br>
-            Away, tampuhan, inis, kahit na anong relasyon, meron nito<br>
-            Away, tampuhan, inis, pero nasa tao kung paano ito lalagpasan<br>
+            Away, tampuhan, inis<br>
+            Kahit na anong relasyon, may roon nito<br>
+            Away, tampuhan, inis<br>
+            Pero nasa tao kung paano ito lalagpasan<br>
             Kung pipiliin pang manatili<br>
         <br>
             Kung sakaling dumating sa oras na mapagod o ayaw mo na<br>
-            Mahirap tanggapin pero kung 'yun' magpapasaya sayo, sige lang<br>
+            Mahirap tanggapin pero kung 'yon magpapasaya sayo, sige lang<br>
             Tulad ng sinabi ko, kahit ano at lahat gagawin para sayo<br>
             I'll do anything and everything just for you<br>
-            Pero sana naman wag matapos.. dahil..<br>
+            Pero sana naman wag matapos<br>
+            Dahil<br>
         <br>
             Nang dumating na sa puntong ilang beses nilabanan ang sarili ko<br>
             Ang iba nilalabanan ang pusong unti-unting tumitibok para sayo<br>
             Kala ko kakayanin pero hindi rin pala, mas lalo lang akong nahulog sayo<br>
         <br>
-            Saiyo, kailanman.. Hindi kita susukuan<br>
-            Saiyo, kailanman.. Hindi, kita bibitawan <br>
-            Saiyo, kailanman.. Hindi kita iiwan <br>
-            Saiyo, kailanman.. Palagi kang susuportahan <br>
-            Saiyo, kailanman.. Palagi kang aalagaan<br>
-            Saiyo, kailanman.. Palagi kang iingatan<br>
+            Saiyo, kailanman<br>
+            Hindi kita susukuan<br>
+            Saiyo, kailanman<br>
+            Hindi, kita bibitawan <br>
+            Saiyo, kailanman<br>
+            Hindi kita iiwan<br>
+            Saiyo, kailanman<br>
+            Palagi kang susuportahan<br>
+            Saiyo, kailanman<br>
+            Palagi kang aalagaan<br>
+            Saiyo, kailanman<br>
+            Palagi kang iingatan<br>
         <br>
-            Minahal kita! Minamahal kita! Mamahalin kita habang buhay!`
+            Minahal kita!<br>
+            Minamahal kita!<br>
+            Mamahalin kita habang buhay!`
     },
 
 // 2 -------------------------------------------------------------------------------------
 
-    "176_Days-Sad-Ver": {
+    "176_days-sad-version": {
         title: "176 Days (Sad Version)",
         author: "A. Lascano",
         lyrics: 
-            `Nung dati, nagsimula sa simpleng chat na "Ang ganda mo dyan, dyan ka na!"<br>
-            Naging magkaibigan, naging matalik na kaibigan<br>
-            Sabi mo, sa loob ng 107 na araw ako'y iyong napaibig hindi 107, kundi 176<br>
+            `Nung dati, nagsimula sa simpleng chat na<br>
+            "Ang ganda mo dyan, dyan ka na!"<br>
+            Naging magkaibigan<br>
+            Naging matalik na kaibigan<br>
+        <br>
+            Sabi mo, sa loob ng 107 na araw ako'y iyong napaibig<br>
+            Hindi 107, kundi 176<br>
             176 days the first time we talked about us<br>
             Until I told you the truth, inamin kong may gusto ako<br>
         <br>
@@ -90,31 +109,40 @@ const lyricsData = {
 			Ang iba kinakaya pero ako yung nahihirapan<br>
 			Kala ko kakayanin pero hindi rin pala, mas lalo lang akong nadurog sayo.<br>
         <br>
-            Away, tampuhan, inis, kahit na anong relasyon, meron nito<br>
-            Away, tampuhan, inis, pero nasa tao kung paano ito lalagpasan<br>
+            Away, tampuhan, inis<br>
+            Kahit na anong relasyon, may roon nito<br>
+            Away, tampuhan, inis<br>
+            Pero nasa tao kung paano ito lalagpasan<br>
             Kung pipiliin pang manatili<br>
         <br>
             Kung sakaling dumating sa oras na mapagod o ayaw mo na<br>
-            Mahirap tanggapin pero kung 'yun' magpapasaya sayo, sige lang<br>
+            Mahirap tanggapin pero kung 'yon magpapasaya sayo, sige lang<br>
             Tulad ng sinabi ko, kahit ano at lahat gagawin para sayo<br>
             I'll do anything and everything just for you<br>
-            pero sana naman wag matapos.. dahil..<br>
+            pero sana naman wag matapos<br>
+            Dahil<br>
         <br>
             Nang dumating na sa puntong hindi na kinaya ng sarili ko<br>
 			Ang iba kinakaya pero ako yung nahihirapan<br>
 			Kala ko kakayanin pero hindi rin pala, mas lalo lang akong nadurog sayo.<br>
         <br>
-            Saiyo, kailanman.. Hindi kita malilimutan<br>
-            Saiyo, kailanman.. Hindi, kita binitawan<br>
-            Saiyo, kailanman.. Ako ang naiwan<br>
-            Saiyo, kailanman.. Wala ng kinatatakutan<br>
+            Saiyo, kailanman<br>
+            Hindi kita malilimutan<br>
+            Saiyo, kailanman<br>
+            Hindi, kita binitawan<br>
+            Saiyo, kailanman<br>
+            Ako ang naiwan<br>
+            Saiyo, kailanman<br>
+            Wala ng kinatatakutan<br>
         <br>
-            Minahal kita at minahal kita at makakalimutan na kita.`
+            Minahal kita!<br>
+            At minahal kita!<br>
+            At makakalimutan na kita.`
     },
 
 // 3 -------------------------------------------------------------------------------------
 
-    "A_Filipino": {
+    "asignaturang_filipino": {
         title: "Asignaturang Filipino",
         author: "A. Lascano",
         lyrics: 
@@ -159,12 +187,17 @@ const lyricsData = {
 
 // 4 -------------------------------------------------------------------------------------
 
-    "Bahay-Bahayan": {
+    "bahay-bahayan": {
         title: "Bahay-Bahayan",
         author: "A. Lascano",
         lyrics: 
-            `Sa araw na ako'y iyong nilisan, hindi ka na muling nagpaalam, ako ngayo'y dinadala ng kaba<br>
-            Kailan ka ba babalik ng tahanan na dating ginawang bahay-bahayan, ako ngayo'y tinatakot ng kaba<br>
+            `Sa araw na ako'y iyong nilisan<br>
+            Hindi ka na muling nagpaalam<br>
+            Ako ngayo'y dinadala ng kaba<br>
+        <br>
+            Kailan ka ba babalik ng tahanan<br>
+            Na dating ginawang bahay-bahayan<br>
+            Ako ngayo'y tinatakot ng kaba<br>
         <br>
             Natatakot akong malaman ang dahilan ng 'yong paglisan<br>
             Hindi ko malaman ang katotohanan dahil ako'y naduduwag<br>
@@ -174,8 +207,13 @@ const lyricsData = {
             Mamimiss ko ang yakap at halik ng ating bawat ala-ala<br>
             Nakatago pa rin sa akin ang lahat ng ipit at kobre kama<br>
         <br>
-            Ngayong wala ng dahilan para ingatan ang lahat ng ating kailangan, O' kay sarap balikan lahat ng ala-ala<br>
-            Nandirito tayo sa ating hangganan, napupunong basang nauulanan, O' kay sakit balikan lahat ng ala-ala<br>
+            Ngayong wala ng dahilan para ingatan<br>
+            Ang lahat ng ating kailangan<br>
+            'O kay sarap balikan lahat ng ala-ala<br>
+        <br>
+            Nandirito tayo sa ating hangganan<br>
+            Napupunong basang nauulanan<br>
+            'O kay sakit balikan lahat ng ala-ala<br>
         <br>
             Natatakot akong malaman ang dahilan ng 'yong paglisan<br>
             Hindi ko malaman ang katotohanan dahil ako'y naduduwag<br>
@@ -212,7 +250,7 @@ const lyricsData = {
 
 // 5 -------------------------------------------------------------------------------------
 
-    "Di_na_Tayo": {
+    "di_na_tayo": {
         title: "Di na Tayo",
         author: "A. Lascano",
         lyrics: 
@@ -227,23 +265,26 @@ const lyricsData = {
             Para sa'yo, para sa'yo, para sa'yo (oh oh oh)<br>
             Para sa'yo, para sa'yo, para sa'yo<br>
         <br>
-            Di maiiwasan ang pagbabago ng bawat puso ng taong nagmamahal sa'yo hindi mo malaman ang totoo<br>
+            Di maiiwasan ang pagbabago<br>
+            Ng bawat puso ng taong nagmamahal sa'yo<br>
+            Hindi mo malaman ang totoo<br>
         <br>
             Lahat nagbabago pati ang ikot ng mundo para sa'yo<br>
             Ang lahat ng mga nangyayari, may rason para sa'yo<br>
-            Hindi na tayo, hindi na tayo, wala ng tayo, oh oh oh<br>
-            Hindi na tayo, hindi na tayo, wala ng tayo oh oh oh<br>
+            Hindi na tayo, hindi na tayo, wala ng tayo (oh oh oh)<br>
+            Hindi na tayo, hindi na tayo, wala ng tayo (oh oh oh)<br>
         <br>
             Lahat-lahat ng nangyayari, may rason para sa'yo<br>
             Nasaan ka man (malayo ka man, mawalay ka man)<br>
             Di ko na kailangan ang tulad mo<br>
-            kalaro, kasamang kumain sa laba-aah-s<br>
+            kalaro, kasamang kumain sa laba-a-s<br>
             (Labas labas)<br>
         <br>
             Lahat nagbabago pati ang ikot ng mundo para sa'yo<br>
             Ang lahat ng mga nangyayari, may rason para sa'yo (sa'yo)<br>
-            Hindi na tayo, hindi na tayo, hindi na tayo, oh oh oh<br>
-            Wala ng tayo, wala ng tayo, wala ng tayo oh oh oh<br>
+            Hindi na tayo, hindi na tayo, hindi na tayo (oh oh oh)<br>
+            Wala ng tayo, wala ng tayo, wala ng tayo (oh oh oh)<br>
+        <br>
             (La la la la, la la la la, la la la la la la la la)<br>
         <br>
             Di mo mababago ang ikot ng mundo dahil may rason para sa'yo`
@@ -251,7 +292,7 @@ const lyricsData = {
 
 // 6 -------------------------------------------------------------------------------------
 
-    "Everyday": {
+    "everyday": {
         title: "Everyday",
         author: "A. Lascano",
         lyrics: 
@@ -289,7 +330,7 @@ const lyricsData = {
 
 // 7 -------------------------------------------------------------------------------------
 
-    "HIV": {
+    "hiv": {
         title: "HIV",
         author: "A. Lascano",
         lyrics: 
@@ -298,13 +339,15 @@ const lyricsData = {
 
 // 8 -------------------------------------------------------------------------------------
 
-    "I_Gazo": {
+    "i_gazo": {
         title: "I Gazo",
         author: "A. Lascano",
         lyrics: 
-            `I guess it's time to move on the road ahead is calling me strong<br>
+            `I guess it's time to move on<br>
+            The road ahead is calling me strong<br>
             No more shadows where I don't belong<br>
-            I'll find my only light, I'll keep on moving on<br>
+            I'll find my only light<br>
+            I'll keep on moving on<br>
             Now I guess I'll be moving on<br>
         <br>
             The only thing I can't let go<br>
@@ -319,8 +362,10 @@ const lyricsData = {
         <br>
             If only I heard your voice<br>
         <br>
-            I guess it's time to leave this alone and there would be no more problems with that tone<br>
-            But I cannot let go of this phone, I want to be your home<br>
+            I guess it's time to leave this alone<br>
+            And there would be no more problems with that tone<br>
+            But I cannot let go of this phone<br>
+            I want to be your home<br>
             Leaving me with your haunting voice<br>
         <br>
             Forget that voice<br>
@@ -331,19 +376,23 @@ const lyricsData = {
             Forget this voice<br>
             Forget everything that leads me back to where<br>
         <br>
-            I guess it's time to move on the road ahead is calling me strong<br>
+            I guess it's time to move on<br>
+            The road ahead is calling me strong<br>
             No more shadows where I don't belong<br>
-            I'll find my only light, I'll keep on moving on<br>
+            I'll find my only light<br>
+            I'll keep on moving on<br>
             Now I guess I'll be moving on<br>
         <br>
-            I guess it's time to leave this alone and there would be no more problems with that tone<br>
-            But I cannot let go of this phone, I want to be your home<br>
+            I guess it's time to leave this alone<br>
+            And there would be no more problems with that tone<br>
+            But I cannot let go of this phone<br>
+            I want to be your home<br>
             Leaving me with your haunting voice`
     },
 
 // 9 -------------------------------------------------------------------------------------
 
-    "ILYSM": {
+    "ilysm": {
         title: "ILYSM",
         author: "A. Lascano",
         lyrics: 
@@ -381,7 +430,7 @@ const lyricsData = {
 
 // 10 -------------------------------------------------------------------------------------
 
-    "Kahit_Na_Kahit_Pa": {
+    "kahit_na_kahit_pa": {
         title: "Kahit Na Kahit Pa",
         author: "A. Lascano",
         lyrics: 
@@ -415,7 +464,7 @@ const lyricsData = {
 
 // 11 -------------------------------------------------------------------------------------
 
-    "Kumikinang": {
+    "kumikinang": {
         title: "Kumikinang",
         author: "A. Lascano",
         lyrics: 
@@ -431,8 +480,10 @@ const lyricsData = {
             Hindi na ko mag-iisip, may naririnig na tinig<br>
             Imahe kong nagmumula sa'yong bibig<br>
         <br>
-            Hindi naman ako mapapahiya, natotorpe, kinakabahan, natutulala<br>
-            Sa iyong ngiti mala-diwatang saya, perpektong mukha, nagbabakasakaling makapiling ka<br>
+            Hindi naman ako mapapahiya<br>
+            Natotorpe, kinakabahan, natutulala<br>
+            Sa iyong ngiti mala-diwatang saya<br>
+            Perpektong mukha, nagbabakasakaling makapiling ka<br>
         <br>
             'Di ko mabibilang bawat tala ng langit at lupa<br>
             O'kay ganda ng yong mukha<br>
@@ -463,7 +514,7 @@ const lyricsData = {
 
 // 12 -------------------------------------------------------------------------------------
 
-    "Mahal_Kita": {
+    "mahal_kita": {
         title: "Mahal Kita",
         author: "A. Lascano",
         lyrics: 
@@ -505,7 +556,7 @@ const lyricsData = {
 
 // 13 -------------------------------------------------------------------------------------
 
-    "Miss_A": {
+    "miss_a": {
         title: "Miss A.",
         author: "A. Lascano",
         lyrics: 
@@ -545,12 +596,14 @@ const lyricsData = {
 
 // 14 -------------------------------------------------------------------------------------
 
-    "Ningning_Ng_Bituin": {
+    "ningning_ng_bituin": {
         title: "Ningning ng Bituin",
         author: "A. Lascano",
         lyrics: 
-            `Sa iyong mata ako'y natutulala, bigla nalang bumabagal ang mundo<br>
-            Sa bawat kislap ng pilikmata, alam ko na, nahulog na nga 'ko sa'yo<br>
+            `Sa iyong mata ako'y natutulala<br>
+            Bigla nalang bumabagal ang mundo<br>
+            Sa bawat kislap ng pilikmata<br>
+            Alam ko na nahulog na nga 'ko sa'yo<br>
         <br>
             Araw araw, kong tinitingnan<br>
             Ang litratong kay ganda<br>
@@ -559,8 +612,10 @@ const lyricsData = {
             Maaari bang mapasakin ang<br>
             Nag-iisang bituin<br>
         <br>
-            Natatanging hiling ko lang sa iyo, hayaan mo sanang pagmasdan sa malayo<br>
-            Pinapangako kong wala ng ibang mata ang aking pagmamasdan, ikaw lamang sinta<br>
+            Natatanging hiling ko lang sa iyo<br>
+            Hayaan mo sanang pagmasdan sa malayo<br>
+            Pinapangako kong wala ng ibang mata<br>
+            Ang aking pagmamasdan, ikaw lamang sinta<br>
         <br>
             Araw araw, kong tinitingnan<br>
             Ang litratong kay ganda<br>
@@ -578,7 +633,6 @@ const lyricsData = {
             Hindi ko maiwasang tumingin sa 'yong liwanag<br>
             Maaari bang mapasakin ang<br>
             Nag-iisang bituin<br>
-        <br>
             Ang bituin<br>
         <br>
             Ang dami ko nang nakita<br>
@@ -588,7 +642,7 @@ const lyricsData = {
 
 // 15 -------------------------------------------------------------------------------------
 
-    "Samantha": {
+    "samantha": {
         title: "Samantha",
         author: "A. Lascano",
         lyrics: 
@@ -641,7 +695,7 @@ const lyricsData = {
 
 // 16 -------------------------------------------------------------------------------------
 
-    "Seth_and_Seren": {
+    "seth_and_seren": {
         title: "Seth and Seren",
         author: "A. Lascano",
         lyrics: 
@@ -678,7 +732,7 @@ const lyricsData = {
 
 // 17 -------------------------------------------------------------------------------------
 
-    "Solstice": {
+    "solstice": {
         title: "Solstice",
         author: "A. Lascano",
         lyrics: 
@@ -704,8 +758,9 @@ const lyricsData = {
         <br>
             I got tired for one day, but you 'ready gave up<br>
             How quickly your love has given me up<br>
-            But you forgot my love, which lasted through every season of your life<br>
-            and now that I'm letting go, you're clinging to the knife<br>
+            But you forgot my love<br>
+            Which lasted through every season of your life<br>
+            And now that I'm letting go, you're clinging to the knife<br>
         <br>
             When I gave in, you gave in too<br>
             I've let go of the need to win you<br>
@@ -725,13 +780,14 @@ const lyricsData = {
         <br>
             I got tired for one day, but you 'ready gave up<br>
             How quickly your love has given me up<br>
-            But you forgot my love, which lasted through every season of your life<br>
-            and now that I'm letting go, you're clinging to the knife`
+            But you forgot my love<br>
+            Which lasted through every season of your life<br>
+            And now that I'm letting go, you're clinging to the knife`
     },
 
 // 18 -------------------------------------------------------------------------------------
 
-    "Solemn_Vow": {
+    "solemn_vow": {
         title: "Solemn Vow",
         author: "A. Lascano",
         lyrics: 
@@ -794,7 +850,7 @@ const lyricsData = {
 
 // 19 -------------------------------------------------------------------------------------
 
-    "Pangalan": {
+    "pangalan": {
         title: "Pangalan",
         author: "A. Lascano",
         lyrics: 
@@ -856,7 +912,7 @@ const lyricsData = {
 
 // 20 -------------------------------------------------------------------------------------
 
-    "Poster": {
+    "poster": {
         title: "Poster",
         author: "A. Lascano",
         lyrics: 
@@ -908,7 +964,7 @@ const lyricsData = {
 
 // 21 -------------------------------------------------------------------------------------
 
-    "Verity": {
+    "verity": {
         title: "Verity",
         author: "A. Lascano",
         lyrics: 
@@ -953,7 +1009,7 @@ const lyricsData = {
 
 // 22 -------------------------------------------------------------------------------------
 
-    "Epoque": {
+    "epoque": {
         title: "Epoque",
         author: "A. Lascano",
         lyrics: 
@@ -1001,7 +1057,7 @@ const lyricsData = {
 
 // 23 -------------------------------------------------------------------------------------
 
-    "Amba": {
+    "amba": {
         title: "Amba",
         author: "A. Lascano",
         lyrics: 
@@ -1085,28 +1141,36 @@ const lyricsData = {
 
 // 24 -------------------------------------------------------------------------------------
 
-    "Paano_Kita_Nakilala": {
+    "paano_kita_nakilala": {
         title: "Paano Kita Nakilala",
         author: "A. Lascano",
         lyrics: 
-            `Sa madilim na paligid, ikaw lang ang nakikita ko<br>
-            Kahit na ang ingay ng mundo, rinig ang tibok ng puso ko<br>
+            `Sa madilim na paligid<br>
+            Ikaw lang ang nakikita ko<br>
+            Kahit na ang ingay ng mundo<br>
+            Rinig ang tibok ng puso ko<br>
         <br>
-            Hindi ko lang masabi, kaya't dinaan ko nalang sa tawa<br>
-            Hindi mo lang masabi, pero sayo lang ako nakamasid<br>
-            Kung mapapansin mo lang, ay halata naman<br>
+            Hindi ko lang masabi<br>
+            Kaya't dinaan ko nalang sa tawa<br>
+            Hindi mo lang masabi<br>
+            Pero sayo lang ako nakamasid<br>
+            Kung mapapansin mo lang<br>
+            Ay halata naman<br>
         <br>
             Na sa pagtitig ko sayong mga mata<br>
             May halong saya at kaba<br>
             Ano ba itong nadarama<br>
             Gusto kang makasama, pang habang buhay na pala<br>
         <br>
-            Ang talas ng iyong tingin, nung panahong di pa magkaunawa<br>
-            Balak kong kausapin kaya lang nahiya (sorry)<br>
+            Ang talas ng iyong tingin<br>
+            Noong panahong di pa magkaunawa<br>
+            Balak 'kong kausapin kaya lang nahiya (sorry)<br>
         <br>
-            Kahit na nakasalubong ka na, sabi ko ay wag na muna<br>
+            Kahit na nakasalubong ka na<br>
+            Sabi ko ay wag na muna<br>
             Baka kasi masanay ka sa piling kong masaya<br>
-            Kaya't kung mapapansin mo lang, sadya namang halata na ako<br>
+            Kaya't kung mapapansin mo lang<br>
+            Sadya namang halata na ako<br>
         <br>
             Na sa pagtitig ko sayong mga mata<br>
             May halong saya at kaba<br>
@@ -1116,8 +1180,8 @@ const lyricsData = {
             Akoy pataas at ikay pababa<br>
             At ang puso ko'y bigla lang nadala<br>
             Sa paglingon mo sakin kahit na<br>
-            Naka liko na ako minamasdan kita, kita<br>
-            Pinagmamasdan kita<br>
+            Naka liko na ako minamasdan kita<br>
+            Kita, Pinagmamasdan kita<br>
         <br>
             Kita, Kita, Pinagmamasdan kita<br>
             (Ohhh Ohhhh ohhhh oohhhh)<br>
@@ -1128,23 +1192,30 @@ const lyricsData = {
             Na sa pagtitig ko sayong mga mata<br>
             May halong saya at kaba<br>
             Ano ba itong nadarama<br>
-            Gusto kang makasama, pang habang buhay na pala`
+            Gusto kang makasama<br>
+            Pang habang buhay na pala`
     },
 
 // 25 -------------------------------------------------------------------------------------
 
-    "Sa_Habambuhay_Na_Sandali": {
+    "sa_habambuhay_na_sandali": {
         title: "Sa Habambuhay na Sandali",
         author: "A. Lascano",
         lyrics: 
-            `Itatanong ko lang kung nais mo rin naman akong alayan ng mga kantang walang<br>
-            Panghihinayang sa lahat ng oras na magkasama ikaw lang ang aking isasama<br>
+            `Itatanong ko lang kung nais mo rin naman<br>
+            Akong alayan ng mga kantang walang<br>
+            Panghihinayang sa lahat ng oras<br>
+            Na magkasama ikaw lang ang aking isasama<br>
         <br>
-            Sa lahat ng tatahakin ko sa'king kinabukasan hinding hindi maiiwasan na ika'y<br>
-            Mapusuan kasi nga sa 'yong pagkadalaga ay nagbabadya ng katangitanging mong kagandahan<br>
+            Sa lahat ng tatahakin ko sa'king kinabukasan<br>
+            Hinding hindi maiiwasan na ika'y<br>
+            Mapusuan kasi nga sa 'yong pagkadalaga<br>
+            Ay nagbabadya ng katangitanging mong kagandahan<br>
         <br>
-            Kaya naman ako'y iyong samahan sa lahat hindi maiiwanan at lagi lang tapat<br>
-            Ako sayo at wala ng ibang hinahanap humimlay na muna kasama ako<br>
+            Kaya naman ako'y iyong samahan sa lahat<br>
+            Hindi maiiwanan at lagi lang tapat<br>
+            Ako sayo at wala ng ibang hinahanap<br>
+            Humimlay na muna kasama ako<br>
         <br>
             Sa'king pahinga<br>
             Sa dibdib ay humiga<br>
@@ -1164,25 +1235,35 @@ const lyricsData = {
         <br>
             Wag na wag ka ng mangangamba nandito pa<br>
             Hindi naman aalis pagkat andyan ka na<br>
-            Makakasama mo ako at maaasahan sa lahat ng 'yong gagawin ikaw ay sasamahan<br>
+            Makakasama mo ako at maaasahan<br>
+            Sa lahat ng 'yong gagawin ikaw ay sasamahan<br>
         <br>
-            Sa habambuhay na sandali ikaw ay aking babantayan na at iingatan pa<br>
-            Mula sa lahat ng problemang malilimutan mo na lahat ng paulit-ulit kaya naman ay<br>
+            Sa habambuhay na sandali<br>
+            Ikaw ay aking babantayan na at iingatan pa<br>
+            Mula sa lahat ng problemang malilimutan mo na<br>
+            Lahat ng paulit-ulit kaya naman ay<br>
         <br>
-            Kung may sagot ka na sa'king tanong ay maaari bang malaman ang 'yong naramdaman<br>
-            Na sa gabing kay lamig na may yakap at halik ibabalik ko ang lahat ng nakaw kong halik<br>
+            Kung may sagot ka na sa'king tanong<br>
+            Ay maaari bang malaman ang 'yong naramdaman<br>
+            Na sa gabing kay lamig na may yakap at halik<br>
+            Ibabalik ko ang lahat ng nakaw kong halik<br>
         <br>
-            Hayaan mo sana ako'y magmasid-masid sayong kagandahan ako'y nananabik<br>
-            At sa pagmulat ko nagulat akong ngiting-ngiti na saking tabi ay mayroong napakarikit<br>
-            At habang tayo'y natutulog ay kay sarap naman pagmasdan ng iyong kagandahan<br>
-            At lalo na sa malapitan hindi ko na naman mapiligan ang nararamdaman kong<br>
+            Hayaan mo sana ako'y magmasid-masid<br>
+            Sayong kagandahan ako'y nananabik<br>
+            At sa pagmulat ko nagulat akong ngiting-ngiti<br>
+            Na saking tabi ay mayroong napakarikit<br>
+        <br>
+            At habang tayo'y natutulog<br>
+            Ay kay sarap naman pagmasdan ng iyong kagandahan<br>
+            At lalo na sa malapitan hindi ko na naman<br>
+            Mapiligan ang nararamdaman kong<br>
             Saya at kaba bakit ba hindi na mawala sa isip ko<br>
             Tulog na, pahinga, at aalagaan kita mahal ko`
     },
 
 // 26 -------------------------------------------------------------------------------------
 
-    "Gaya_Mo": {
+    "gaya_mo": {
         title: "Gaya Mo",
         author: "A. Lascano",
         lyrics: 
@@ -1219,7 +1300,7 @@ const lyricsData = {
 
 // 27 -------------------------------------------------------------------------------------
 
-    "Kalipay": {
+    "kalipay": {
         title: "Kalipay",
         author: "A. Lascano & M. Macasero",
         lyrics: 
@@ -1253,7 +1334,8 @@ const lyricsData = {
         <br>
             Sa matag buntag nga mohayag ang adlaw<br>
             Imong ngisi maoy akong kusog, akong paglaum<br>
-            Bisan layo ka, ikaw ra gihapon, ang kanta sa dughan, hangtod sa walay katapusan<br>
+            Bisan layo ka, ikaw ra gihapon, ang kanta sa dughan<br>
+            Hangtod sa walay katapusan<br>
             Hangtod sa walay<br>
         <br>
             Bisan asa, ikaw gihapon ang balay<br>
@@ -1276,7 +1358,7 @@ const lyricsData = {
 
 // 28 -------------------------------------------------------------------------------------
 
-    "Kalawakan": {
+    "kalawakan": {
         title: "Kalawakan",
         author: "A. Lascano",
         lyrics: 
@@ -1321,7 +1403,7 @@ const lyricsData = {
 
 // 29 -------------------------------------------------------------------------------------
 
-    "My_Time": {
+    "my_time": {
         title: "My Time",
         author: "A. Lascano",
         lyrics: 
@@ -1377,7 +1459,7 @@ const lyricsData = {
 
 // 30 -------------------------------------------------------------------------------------
 
-    "Girl_In_Okada": {
+    "girl_in_okada": {
         title: "Girl In Okada",
         author: "A. Lascano",
         lyrics: 
@@ -1392,8 +1474,10 @@ const lyricsData = {
             I think when I'm with you<br>
             It's the best time of my life<br>
         <br>
-            I met you in a place where I'm not supposed to be, thinking only one thing<br>
-            Just cannot stop staring at you, but I'm blushing when you look at me too<br>
+            I met you in a place where I'm not supposed to be<br>
+            Thinking only one thing<br>
+            Just cannot stop staring at you<br>
+            But I'm blushing when you look at me too<br>
         <br>
             I saw you, walking by my side<br>
             Thinking if I should try<br>
@@ -1411,10 +1495,15 @@ const lyricsData = {
             That girl wearing ordinary glasses<br>
             A girl in a beautiful dress<br>
         <br>
-            I met you in a place where I'm not supposed to be, thinking only one thing<br>
-            Just cannot stop staring at you, but I'm blushing when you look at me too<br>
-            Now I regret of not speaking to you, even though I felt that you wanted it too<br>
-            Wishing it is kind of drama, and I would see you again in Okada<br>
+            I met you in a place where I'm not supposed to be<br>
+            Thinking only one thing<br>
+            Just cannot stop staring at you<br>
+            But I'm blushing when you look at me too<br>
+        <br>
+            Now I regret of not speaking to you<br>
+            Even though I felt that you wanted it too<br>
+            Wishing it is kind of drama<br>
+            And I would see you again in Okada<br>
         <br>
             I wanna see you again<br>
             Girl in Okada`
@@ -1422,7 +1511,7 @@ const lyricsData = {
 
 // 31 -------------------------------------------------------------------------------------
 
-    "My_Promise": {
+    "my_promise": {
         title: "My Promise",
         author: "A. Lascano",
         lyrics: 
@@ -1472,7 +1561,7 @@ const lyricsData = {
 
 // 32 -------------------------------------------------------------------------------------
 
-    "Timog_at_Norte": {
+    "timog_at_norte": {
         title: "Timog at Norte",
         author: "A. Lascano",
         lyrics: 
@@ -1522,7 +1611,7 @@ const lyricsData = {
 
 // 33 -------------------------------------------------------------------------------------
 
-    "Serendipity": {
+    "serendipity": {
         title: "Serendipity",
         author: "A. Lascano",
         lyrics: 
@@ -1585,7 +1674,7 @@ const lyricsData = {
 
 // 34 -------------------------------------------------------------------------------------
 
-    "Medz": {
+    "medz": {
         title: "Medz",
         author: "A. Lascano",
         lyrics: 
@@ -1642,7 +1731,7 @@ const lyricsData = {
 
 // 35 -------------------------------------------------------------------------------------
 
-    "Persona": {
+    "persona": {
         title: "Persona",
         author: "A. Lascano",
         lyrics: 
@@ -1674,7 +1763,7 @@ const lyricsData = {
 
 // 36 -------------------------------------------------------------------------------------
 
-    "Pamana": {
+    "pamana": {
         title: "Pamana",
         author: "A. Lascano",
         lyrics: 
@@ -1722,7 +1811,7 @@ const lyricsData = {
 
 // 37 -------------------------------------------------------------------------------------
 
-    "Seryoso_Na": {
+    "seryoso_na": {
         title: "Seryoso Na",
         author: "A. Lascano",
         lyrics: 
@@ -1765,7 +1854,7 @@ const lyricsData = {
 
 // 38 -------------------------------------------------------------------------------------
 
-    "Makatabi_Kita": {
+    "makatabi_kita": {
         title: "Makatabi Kita",
         author: "A. Lascano",
         lyrics: 
@@ -1821,7 +1910,7 @@ const lyricsData = {
 
 // 39 -------------------------------------------------------------------------------------
 
-    "Sa_Unang_Pagkikita": {
+    "sa_unang_pagkikita": {
         title: "Sa Unang Pagkikita",
         author: "A. Lascano",
         lyrics: 
@@ -1859,7 +1948,7 @@ const lyricsData = {
 
 // 40 -------------------------------------------------------------------------------------
 
-    "Equation": {
+    "equation": {
         title: "Equation",
         author: "A. Lascano",
         lyrics: 
@@ -1935,7 +2024,7 @@ const lyricsData = {
 
 // 41 -------------------------------------------------------------------------------------
 
-    "Dreams": {
+    "dreams": {
         title: "Dreams",
         author: "A. Lascano",
         lyrics: 
@@ -1996,65 +2085,65 @@ const lyricsData = {
 
 // 42 -------------------------------------------------------------------------------------
 
-    "Gift_In_The_Maze": {
+    "gift_in_the_maze": {
         title: "Gift In The Maze",
         author: "A. Lascano",
         lyrics: 
-            `Sa mga oras na 'di ko na mawari
-            Sa 'yong yakap nalang lumalapit
-            Kahit hindi mo dama ang aking pagtingin
-
-            Tanging gabi nalang ang nagigising susi
-            Para masabi lahat ng 'di masabi
-            Kahit na ang gulo ng damdamin kong ito
-
-            At sa bawat tibok, may salitang pilit na tinatago
-            Ngunit sa dilim, ikaw ang liwanag na 'di ko kayang itago pa
-
-            Sa pagpikit ko ng aking mga mata
-            Nakikita ko 'ng liwanag mong dala
-            Wag nang lumingon, tumingin ka sa'kin
-            'Di mo ba naririnig
-
-            Ang sigaw ng puso kong umiibig
-            Sa bawat tibok, ikaw ang sinasapit
-            Hindi mapigil ang aking damdamin
-            Ikaw na aking hinahanap sa pagsapit ng gabi
-
-            I know that I will take the long way around
-            I don't care as long as you're the one to be found
-            Open your arms and feel the wind inside my heart
-
-            Every step I take, the louder the sound
-            And it keeps my heart standing still on the ground
-            Wait for me to arrive, until then don't open your eyes
-
-            As I get closer and closer to you, mhmm
-            Don't forget to shout my name, let me hear your call
-
-            When I close my eyes only your light appears
-            Guiding me through the shadows, calming my fears
-            Don't you turn away, just stay with me
-            Can't you hear what I wanna be
-
-            I've been walking for miles, I've been shouting your name
-            Each heartbeat calls your name again
-            This endless longing I can't deny
-            You're the one I seek beneath the sky
-
-            You don't have to mind the others' mind
-            Just be closer to mine and you'll find
-            Every fear will fade and the stars align
-            Our love will stand to the test of time
-
-            When I close my eyes only your light appears (aking mata)
-            Guiding me through the shadows, calming my fears (liwanag mong dala)
-            Don't you turn away, just stay with me (tumingin ka sa'kin)
-            Can't you hear what I wanna be
-
-            It's the cry of love I can't restrain (sigaw ng puso)
-            Each heartbeat calls your name again (ikaw ang sinasapit)
-            This endless longing I can't deny ('di mapigil)
+            `Sa mga oras na 'di ko na mawari<br>
+            Sa 'yong yakap nalang lumalapit<br>
+            Kahit hindi mo dama ang aking pagtingin<br>
+        <br>
+            Tanging gabi nalang ang nagigising susi<br>
+            Para masabi lahat ng 'di masabi<br>
+            Kahit na ang gulo ng damdamin kong ito<br>
+        <br>
+            At sa bawat tibok, may salitang pilit na tinatago<br>
+            Ngunit sa dilim, ikaw ang liwanag na 'di ko kayang itago pa<br>
+        <br>
+            Sa pagpikit ko ng aking mga mata<br>
+            Nakikita ko 'ng liwanag mong dala<br>
+            Wag nang lumingon, tumingin ka sa'kin<br>
+            'Di mo ba naririnig<br>
+        <br>
+            Ang sigaw ng puso kong umiibig<br>
+            Sa bawat tibok, ikaw ang sinasapit<br>
+            Hindi mapigil ang aking damdamin<br>
+            Ikaw na aking hinahanap sa pagsapit ng gabi<br>
+        <br>
+            I know that I will take the long way around<br>
+            I don't care as long as you're the one to be found<br>
+            Open your arms and feel the wind inside my heart<br>
+        <br>
+            Every step I take, the louder the sound<br>
+            And it keeps my heart standing still on the ground<br>
+            Wait for me to arrive, until then don't open your eyes<br>
+        <br>
+            As I get closer and closer to you<br>
+            Don't forget to shout my name, let me hear your call<br>
+        <br>
+            When I close my eyes only your light appears<br>
+            Guiding me through the shadows, calming my fears<br>
+            Don't you turn away, just stay with me<br>
+            Can't you hear what I wanna be<br>
+        <br>
+            I've been walking for miles, I've been shouting your name<br>
+            Each heartbeat calls your name again<br>
+            This endless longing I can't deny<br>
+            You're the one I seek beneath the sky<br>
+        <br>
+            You don't have to mind the others' mind<br>
+            Just be closer to mine and you'll find<br>
+            Every fear will fade and the stars align<br>
+            Our love will stand to the test of time<br>
+        <br>
+            When I close my eyes only your light appears (aking mata)<br>
+            Guiding me through the shadows, calming my fears (liwanag mong dala)<br>
+            Don't you turn away, just stay with me (tumingin ka sa'kin)<br>
+            Can't you hear what I wanna be<br>
+        <br>
+            It's the cry of love I can't restrain (sigaw ng puso)<br>
+            Each heartbeat calls your name again (ikaw ang sinasapit)<br>
+            This endless longing I can't deny ('di mapigil)<br>
             You're the one I seek beneath the sky (buong ng gabi)`
     },
 
@@ -2099,7 +2188,7 @@ const lyricsData = {
 
 // 44 -------------------------------------------------------------------------------------
 
-    "Ikatlo": {
+    "ikatlo": {
         title: "Ikatlo",
         author: "A. Lascano",
         lyrics: 
@@ -2160,7 +2249,7 @@ const lyricsData = {
 
 // 45 -------------------------------------------------------------------------------------
 
-    "Sana'y_Gabi_Nalang_Araw-Araw": {
+    "sanay_gabi_nalang_araw-araw": {
         title: "Sana'y Gabi Nalang Araw-Araw",
         author: "A. Lascano",
         lyrics: 
@@ -2208,7 +2297,7 @@ const lyricsData = {
 
 // 46 -------------------------------------------------------------------------------------
 
-    "Us_In_My_Universe": {
+    "us_in_my_universe": {
         title: "Us In My Universe",
         author: "A. Lascano",
         lyrics: 
@@ -2284,45 +2373,7 @@ const lyricsData = {
 
 // 47 -------------------------------------------------------------------------------------
 
-    "Sana'y_Gabi_Nalang_Araw-Araw": {
-        title: "Sana'y Gabi Nalang Araw-Araw",
-        author: "A. Lascano",
-        lyrics: 
-            `When I saw your eyes<br>
-            I knew you're the one for me<br>
-            From this day on<br>
-            When I look in your eyes it's setting me free<br>
-        <br>
-            I know that you're gone<br>
-            What I said it is done<br>
-            Yesterday was so fun<br>
-            But I think tomorrow will be<br>
-        <br>
-            The best day or the worst day of my life<br>
-            Now that I am free, I wanna be just a butterfly<br>
-        <br>
-            Your eyes is my favorite part of your face<br>
-            Your look reminisce my forbidden love<br>
-        <br>
-            I know that you're gone<br>
-            What I said it is done<br>
-            Yesterday was so fun<br>
-            But I think tomorrow will be<br>
-        <br>
-            The best day or the worst day of my life<br>
-            Now that I am free, I wanna be just a butterfly<br>
-            So I could fly by you<br>
-            Maybe land on your shoulders too<br>
-            So I could feel your touch just the first time<br>
-        <br>
-            This maybe the last<br>
-            Maybe I should say it fast<br>
-            That I like you one last time`
-    },
-
-// 48 -------------------------------------------------------------------------------------
-
-    "Pa'no_Kung_Tayo_Talaga": {
+    "pa'no_kung_tayo_talaga": {
         title: "Pa'no Kung Tayo Talaga",
         author: "A. Lascano",
         lyrics: 
@@ -2363,9 +2414,9 @@ const lyricsData = {
             'Di rin sanay na kausap kita`
     },
 
-// 49 -------------------------------------------------------------------------------------
+// 48 -------------------------------------------------------------------------------------
 
-    "Philocalist_in_Reverie": {
+    "philocalist_in_reverie": {
         title: "Philocalist in Reverie",
         author: "A. Lascano",
         lyrics: 
@@ -2376,7 +2427,8 @@ const lyricsData = {
         <br>
             I think that I am in love<br>
             With someone I can't have<br>
-            Because she got that difference that I can never face<br>
+            Because she got that difference<br>
+            That I can never face<br>
         <br>
             As long as I am here<br>
             Please lend me your ear<br>
@@ -2386,19 +2438,25 @@ const lyricsData = {
             Never had to be<br>
             Because I always know and<br>
         <br>
-            I will go and wonder all the seven wonders in this world<br>
-            And don't forget to pack your things because you're coming with me<br>
-            We will capture every moment we spend on top of the grain of sand<br>
-            And don't forget that you're smile is the one and only thing<br>
+            I will go and wonder all<br>
+            The seven wonders in this world<br>
+            And don't forget to pack your things<br>
+            Because you're coming with me<br>
+            We will capture every moment<br>
+            We spend on top of the grain of sand<br>
+            And don't forget that you're smile is<br>
+            The one and only thing<br>
             That makes me smile<br>
         <br>
             I know that I'll be<br>
             Genuinely grateful<br>
-            If I knew that you are the happiest human living<br>
+            If I knew that you are<br>
+            The happiest human living<br>
         <br>
             I only know one thing<br>
             Be grateful of our thing<br>
-            Where I will always find the answer to the question of living<br>
+            Where I will always find<br>
+            The answer to the question of living<br>
         <br>
             But as long as I am here<br>
             Please lend me your ear<br>
@@ -2408,14 +2466,20 @@ const lyricsData = {
             Never had to be<br>
             Because I always know and<br>
         <br>
-            I will go and wonder all the seven wonders in this world<br>
-            And don't forget to pack your things because you're coming with me<br>
-            We will capture every moment we spend on top of the grain of sand<br>
-            And do't forget that you're smile is the one and only thing<br>
+            I will go and wonder all<br>
+            The seven wonders in this world<br>
+            And don't forget to pack your things<br>
+            Because you're coming with me<br>
+            We will capture every moment<br>
+            We spend on top of the grain of sand<br>
+            And don't forget that you're smile is<br>
+            The one and only thing<br>
             That makes me smile<br>
         <br>
-            Remember that I'm always here and never leaving by your side<br>
-            Make me your pillow when everything is as heavy as a rock<br>
+            Remember that I'm always here<br>
+            And never leaving by your side<br>
+            Make me your pillow when everything<br>
+            Is as heavy as a rock<br>
             And tomorrow will be the future of ourselves<br>
             While we spend the night together sharing different<br>
             Stories of our lives<br>
@@ -2427,15 +2491,21 @@ const lyricsData = {
             What's happening in this world<br>
             We will create our very own universe<br>
         <br>
-            I will go and wonder all the seven wonders in this world<br>
-            And don't forget to pack your things because you're coming with me<br>
-            We will capture every moment we spend on top of the grain of sand<br>
-            And don't forget that you're smile is the one and only thing<br>
+            I will go and wonder all<br>
+            The seven wonders in this world<br>
+            And don't forget to pack your things<br>
+            Because you're coming with me<br>
+            We will capture every moment<br>
+            We spend on top of the grain of sand<br>
+            And don't forget that you're smile is<br>
+            The one and only thing<br>
             That makes me smile<br>
             That makes me smile<br>
         <br>
-            Remember that I'm always here and never leaving by your side<br>
-            Make me your pillow when everything is as heavy as a rock<br>
+            Remember that I'm always here<br>
+            And never leaving by your side<br>
+            Make me your pillow when everything<br>
+            Is as heavy as a rock<br>
             And tomorrow will be the future of ourselves<br>
             While we spend the night together sharing different<br>
             Stories of our lives<br>
@@ -2443,110 +2513,301 @@ const lyricsData = {
             I will always be there for you<br>
             Will never leave you all alone<br>
             Then we will always be`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "ang_nag-iisa": {
+        title: "Ang Nag-iisa",
+        author: "A. Lascano",
+        lyrics: 
+            `Sa pagbagsak ng 'yong buhok<br>
+            Inaabangan ko ang iyong paglingon<br>
+            Ng masilayan ko sana kung gaano kaganda<br>
+        <br>
+            Sa pagtulog at paggising<br>
+            Ikaw lang tanging nasa isip<br>
+            Oo na, sige na, gusto na nga kita<br>
+        <br>
+            Bawat bangon ikaw lang ang rason<br>
+            'Sang ngiti, dala ko'y natapon<br>
+            Dala ang puso kong nahulog sayo<br>
+        <br>
+            Sa pagtulog at paggising<br>
+            Ikaw lang tanging nasa isip<br>
+            Oo na, sige na, gusto na nga kita<br>
+        <br>
+            Inaalay ang kanta ko<br>
+            Sa binibing katulad mo<br>
+            Ngunit ikaw lamang nag-iisa<br>
+        <br>
+            Nais ko sanang dumalaw<br>
+            At mag-aalay ng bulaklak<br>
+            Magmamano kay tito at tita<br>
+            Sabay tanong kung mahal kita<br>
+        <br>
+            Sa pagtulog at paggising<br>
+            Ikaw lang tanging nasa isip<br>
+            Oo na, sige na, gusto na nga kita<br>
+        <br>
+            Inaalay ang kanta ko<br>
+            Sa binibing katulad mo<br>
+            Ngunit ikaw lamang nag-iisa<br>
+            Ang nag-iisa`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "melancholy": {
+        title: "Melancholy",
+        author: "A. Lascano",
+        lyrics: 
+            `As I get no sleep through the nights of this<br>
+            I ended up plucking with my fingertips<br>
+            I get anxiety before I sleep<br>
+            Thinking of all the possible ways to tell you my dreams<br>
+        <br>
+            Standing in the crowd laying on the grass<br>
+            Oh how I wish that the time was never fast<br>
+            I drew your back thought you'd look back<br>
+            And it's all because of you<br>
+        <br>
+            When I see you I feel the sky<br>
+            I see the wind I wanna fly<br>
+            I just wanna lay down with you<br>
+        <br>
+            I would give you three gerberas<br>
+            I'll walk with you inside Intra<br>
+            And then I'll bluntly say<br>
+            I like you in every single way<br>
+        <br>
+            By the time you hear this song<br>
+            It's been days since I sung other songs<br>
+            You're my APHRODITE and I'll be your PALAGI<br>
+            MANANATILI SA BAWAT SANDALI<br>
+        <br>
+            When I see you I feel the sky<br>
+            I see the wind I wanna fly<br>
+            I just wanna lay down with you<br>
+        <br>
+            I would give you three gerberas<br>
+            I'll walk with you inside Intra<br>
+            And then I'll bluntly say<br>
+            I like you in every single way<br>
+        <br>
+            I'll leave this melancholy stage<br>
+            I will tell you just how I feel<br>
+            She is a movie I'll watch all day<br>
+        <br>
+            Too far to reach but close to heart<br>
+            A ghost of what can never be<br>
+            Can you just keep me close<br>
+        <br>
+            When I hold you I feel the sky<br>
+            I see the wind I wanna fly<br>
+            I just wanna lay down with you<br>
+        <br>
+            I would give you three gerberas<br>
+            I'll walk with you inside Intra<br>
+            And then I'll bluntly say<br>
+            I like you in every single way<br>
+        <br>
+            When I hold you I feel the sky<br>
+            I see the wind I wanna fly<br>
+            I just wanna lay down with you<br>
+        <br>
+            I would give you three gerberas<br>
+            I'll walk with you inside Intra<br>
+            And then I'll bluntly say<br>
+            I like you in every single way<br>
+        <br>
+            I love you<br>
+            So close yet so far`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "cafune": {
+        title: "Cafuné",
+        author: "A. Lascano",
+        lyrics: 
+            `Isinusuko ko na<br>
+            Ang laban na ito<br>
+            Para naman malaya ka na<br>
+            Sa damdamin kong ito<br>
+        <br>
+            Susunugin ko na<br>
+            Lahat ng litrato mo, wallpaper ko<br>
+            Pagbigyan mo sana<br>
+            Awitan ka, sa ilalim ng punong<br>
+        <br>
+            Punong-puno ng ala-ala<br>
+            Itataas na ang puting bandana<br>
+            Susubukan kong tuparin ang pangako ko<br>
+            Na mamahalin ka kahit nasa malayo<br>
+        <br>
+            'Cuz baby I know<br>
+            You're ready to let me go<br>
+            Traveling the world<br>
+            When my only world was you<br>
+        <br>
+            You didn't give me a chance<br>
+            To  tell you how much i need you<br>
+            You left me on read<br>
+            When my last message was i love you<br>
+        <br>
+            Punong-puno ng ala-ala<br>
+            Itataas na ang puting bandana<br>
+            Susubukan kong tuparin ang pangako ko<br>
+            Na mamahalin ka kahit nasa malayo<br>
+        <br>
+            Cafuné with you my love<br>
+            Everynight just to make you fall asleep<br>
+            You were my favorite person<br>
+            You made me feel<br>
+        <br>
+            Cafuné with my love<br>
+            Now it's all, all gone<br>
+            Are we really, really done<br>
+            Where have you gone<br>
+        <br>
+            Punong-puno ng ala-ala<br>
+            Itataas na ang puting bandana<br>
+            Cafuné with you my love<br>
+            Everynight just to make you fall asleep<br>
+        <br>
+            Cafuné, cafuné<br>
+        <br>
+            Let us meet in the fields of green`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "loming_batangas": {
+        title: "Loming Batangas",
+        author: "A. Lascano",
+        lyrics: 
+            `Sana'y lumingon ka aking diwata<br>
+            Kahit gaano pa katagal<br>
+            Ako'y mag-aantay ng iyong pag dating<br>
+            Oh la la la la<br>
+        <br>
+            Nandito ako ngayon<br>
+            Sa Luneta<br>
+            Tapos deretso tayo<br>
+            Pa baba<br>
+        <br>
+            Marami pa tayong dadaanan<br>
+            Kung nagugutom ka ay magsabi lang<br>
+        <br>
+            Ipapatikim sayo ang Loming Batangas<br>
+            Bilisan mo at nauubos na ang oras<br>
+        <br>
+            Sana'y lumingon ka aking diwata<br>
+            Kahit gaano pa katagal<br>
+            Ako'y mag-aantay ng iyong pag dating<br>
+            Oh la la la la<br>
+        <br>
+            Simutin ang alay kong pag-ibig<br>
+            Hindi mo na makikita sa iba<br>
+            Tanging para sa iyo lamang ang lahat<br>
+            Oh la la la la<br>
+        <br>
+            Buksan mo muna<br>
+            Ang kurtina ng bintana<br>
+            Baka kasi<br>
+            Lumagpas ang byaheng bus<br>
+        <br>
+            Hindi pa dito tayo bababa<br>
+            Sa kabilang bayan pa<br>
+        <br>
+            Pero ayusin mo na ang gamit mo<br>
+            Kasi malapit na tayo<br>
+        <br>
+            Sana'y lumingon ka aking diwata<br>
+            Kahit gaano pa katagal<br>
+            Ako'y mag-aantay ng iyong pag dating<br>
+            Oh la la la la<br>
+        <br>
+            Simutin ang alay kong pag-ibig<br>
+            Hindi mo na makikita sa iba<br>
+            Tanging para sa iyo lamang ang lahat<br>
+        <br>
+            Kumusta ba ang Loming Batangas<br>
+            Pasado na ba ako sa'yo<br>
+            Este masarap ba ang Loming Batangas<br>
+            Kung gusto mo sayo na lang ako`
+    },
+
+// 48 -------------------------------------------------------------------------------------
+
+    "walang_iba": {
+        title: "Walang Iba",
+        author: "A. Lascano",
+        lyrics: 
+            `Naaalala ko pa nung unang nagkita<br>
+            'Di mapigilan ang mukha, tumatawa mag-isa<br>
+            Napapataawa, masaya akong nandito ka<br>
+            Sa ating dulo, 'di na kita bibitawan pa<br>
+        <br>
+            Sinusundan, kahit saan magpunta<br>
+            Baliw na sayo<br>
+            Sinisigaw ng damdamin ko ang pangalan mo<br>
+            Araw-araw kong tinitingnan litrato mo<br>
+            Nagbabakasakaling makausap mo naman ako<br>
+        <br>
+            Ikaw lamang ang gusto ko, walang iba<br>
+            Ikaw lamang ang nais ko, walang gustong iba<br>
+            Ikaw ang gusto ko makasama sa buhay ko<br>
+            Ikaw lang at ikaw, ikaw na talaga<br>
+        <br>
+            Kung 'di lang ako duwag, sana'y sinabi ko na sa'yong<br>
+            Ikaw lamang nagtutulak sakin araw-araw<br>
+            Bawat oras na naaalala ka hindi ko alam<br>
+            Kung paano ba ako aamin sayo<br>
+        <br>
+            Ikaw lamang ang gusto ko, walang iba<br>
+            Ikaw lamang ang nais ko, walang gustong iba<br>
+            Ikaw ang gusto ko makasama sa buhay ko<br>
+            Ikaw lang at ikaw, ikaw na talaga<br>
+        <br>
+            Nakatulala lamang sa iyo<br>
+            Nakatingin lamang sa iyo<br>
+            Nakangiti lamang sa iyo<br>
+        <br>
+            Kung di lang ako duwag, sana'y sinabi ko na sa'yong<br>
+            Ikaw lamang nagtutulak sakin araw-araw<br>
+            Bawat oras na naaalala ka hindi ko alam<br>
+            Kung paano ba ako aamin sayo<br>
+        <br>
+            Ikaw lamang ang gusto ko, walang iba<br>
+            Ikaw lamang ang nais ko, walang gustong iba<br>
+            Ikaw ang gusto ko makasama sa buhay ko<br>
+            Ikaw lang at ikaw, ikaw na talaga<br>
+            Walang iba<br>
+            Walang iba<br>
+            Walang iba<br>
+            Walang iba`
     }
 };
 
 const featuredSongList = {
-    "Samantha": {
+    "samantha": {
         title: "Samantha",
-        author: "A. Lascano",
         cover: ".png",
         details: `Samantha was made after I visited Bicol Naga.
                 I saw this girl and we ended up together in a picture.
                 I sent her the pictures through her social media.
-                That's when she told me everything inside this song.`,
-        lyrics: 
-            `She said something that I won't forget<br>
-            So small to be a lawyer, do you get it<br>
-            Her hobbies are painting baking reading<br>
-            Not just a girl but wife for life<br>
-        <br>
-            You can call me AGA short for my first names<br>
-            I want to be your friend, wait it's not the end<br>
-            I can cook, I can sing you everyday<br>
-            Even wrote you this a song to play<br>
-        <br>
-            This is something I want to live about<br>
-            I just want to make my papa proud<br>
-            And if you are not saying yes to this<br>
-            You got no choice, you're into this<br>
-            Samantha it is<br>
-        <br>
-            I'm sorry for thinking all these things<br>
-            I just want us to have some kinds of this<br>
-            A perfect life, husband wife and kids<br>
-            Nothing more but wife for life<br>
-        <br>
-            This is something I want to live about<br>
-            I just want to make my papa proud<br>
-            And if you are not saying yes to this<br>
-            You got no choice, you're into this<br>
-        <br>
-            I wake up everyday and I think of all the ways<br>
-            Is it possible to ask you out<br>
-            I think I found a way, this would be a special way<br>
-            Letting all my feelings out<br>
-        <br>
-            There is a problem with me<br>
-            'Cuz you know, I want you all for me<br>
-            I may not be the first, the second, or the third<br>
-            But remember this, “I'll be your final kiss”<br>
-        <br>
-            This is something I want to live about<br>
-            Something that would make my papa proud<br>
-            And I just heard you whispered yes to this<br>
-            I have no choice<br>
-            I wanna love you like this<br>
-        <br>
-            I'm gonna kiss you like this<br>
-        <br>
-            Samantha it is`
+                That's when she told me everything inside this song.`
     },
-    "NnB": {
+    "ningning_ng_bituin": {
         title: "Ningning ng Bituin",
-        author: "A. Lascano",
         cover: ".png",
         details: `This song is about looking into someone's eyes.
                 Looking at the most beautiful eyes you've ever seen, 
-                reminding you how you fell in love.`,
-        lyrics: 
-            `Sa iyong mata ako'y natutulala, bigla nalang bumabagal ang mundo<br>
-            Sa bawat kislap ng pilikmata, alam ko na, nahulog na nga 'ko sa'yo<br>
-        <br>
-            Araw araw, kong tinitingnan<br>
-            Ang litratong kay ganda<br>
-        <br>
-            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
-            Maaari bang mapasakin ang<br>
-            Nag-iisang bituin<br>
-        <br>
-            Natatanging hiling ko lang sa iyo, hayaan mo sanang pagmasdan sa malayo<br>
-            Pinapangako kong wala ng ibang mata ang aking pagmamasdan, ikaw lamang sinta<br>
-        <br>
-            Araw araw, kong tinitingnan<br>
-            Ang litratong kay ganda<br>
-        <br>
-            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
-            Maaari bang mapasakin ang<br>
-            Nag-iisang bituin<br>
-        <br>
-            Sa mga mata mo, kita ko ang mga tanawin<br>
-            Kung alam mo lang, ikaw ang nagbigay liwanag<br>
-            Sa gabing madilim, ikaw lang ang hinahanap<br>
-            Wala ng iba, o'kay ganda ng ningning<br>
-            Ng bituin (Ng bituin)<br>
-        <br>
-            Hindi ko maiwasang tumingin sa 'yong liwanag<br>
-            Maaari bang mapasakin ang<br>
-            Nag-iisang bituin<br>
-        <br>
-            Ang bituin<br>
-        <br>
-            And dami ko nang nakita<br>
-            Paborito ko ang<br>
-            Nag-iisa iyong bituin`
+                reminding you how you fell in love.`
     },
-    "Everyday": {
+    "everyday": {
         title: "Everyday",
         author: "A. Lascano",
         cover: ".png",
@@ -2585,147 +2846,22 @@ const featuredSongList = {
             I just want to be here again<br>
             So I will be your man and I will be yours everyday!`
     },
-    "Kalipay": {
+    "kalipay": {
         title: "Kalipay",
-        author: "A. Lascano & M. Macasero",
         cover: ".png",
         details: `Kalipay from Bisaya is Joy in English. I can't find a special way to make lyrics when i was writing this song
-                I remembered that I've encountered new people in my life last June 2025, She was wrote the Bisaya lyric parts of this song.`,
-        lyrics: 
-            `Sa lahat ng oras na aking sinayang<br>
-            'Di ko akalain ika'y aking mapapasaya<br>
-            Sa lahat ng kwento, sa ilalim ng buwan<br>
-            'Wag mo lang makalimutan ang iyong kagandahan<br>
-        <br>
-            Hawakan mo ang kamay ko<br>
-            At dadalhin kahit saan mo gusto<br>
-            Ikaw lang ang kasama ko<br>
-            Hanggang sa dulo<br>
-        <br>
-            Bisan asa, ikaw gihapon ang balay<br>
-            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
-            Walay lain pa na makapahapsay sa akong kasakit<br>
-            Kay ikaw akong kalipay, akong pahulay, akong langit<br>
-            (Ohhh)<br>
-        <br>
-            Bisan pa'g ang ulan moabot ug kalit<br>
-            Ikaw gihapon ang akong kalipay ug langit<br>
-            Kung mawala man ko sa landong sa kagabhion<br>
-            Ayaw kalimti, ikaw ang akong direksyon<br>
-        <br>
-            Pa-ra-pap-pa (6x)<br>
-        <br>
-            Kahit na ako ay malaos<br>
-            Ang pag-ibig ko'y hindi mauubos<br>
-            Sa pagdating ng unos<br>
-            At kahit pa ako'y mapaos<br>
-        <br>
-            Sa matag buntag nga mohayag ang adlaw<br>
-            Imong ngisi maoy akong kusog, akong paglaum<br>
-            Bisan layo ka, ikaw ra gihapon, ang kanta sa dughan, hangtod sa walay katapusan<br>
-            Hangtod sa walay<br>
-        <br>
-            Bisan asa, ikaw gihapon ang balay<br>
-            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
-            Walay lain pa na makapahapsay sa akong kasakit<br>
-            Kay ikaw akong kalipay, akong pa-<br>
-        <br>
-            Bisan asa, ikaw gihapon ang balay<br>
-            Sa tanang pagbati, ngalan nimo ang akong kalipay<br>
-            Walay lain pa na makapahapsay sa akong kasakit<br>
-            Kay ikaw akong kalipay, akong pahulay, akong langit<br>
-        <br>
-            Akong langit<br>
-            Akong kalipay<br>
-            Akong pahulay<br>
-            Akong langit<br>
-        <br>
-            Kalipay, Pahulay, Langit`
+                I remembered that I've encountered new people in my life last June 2025, She was wrote the Bisaya lyric parts of this song.`
     },
-    "Seth_and_Seren": {
+    "seth_and_seren": {
         title: "Seth and Seren",
-        author: "A. Lascano",
         cover: ".png",
         details: `Seth and Seren are names with special meaning. This song also came after the song Samantha,
-                just before the song Kalipay. Lyrics on this song are the message of the father to his two children.`,
-        lyrics: 
-            `I met your mom<br>
-            She is the most beautiful thing<br>
-            I laid my eyes on<br>
-        <br>
-            Now you're here<br>
-            Two of my treasures in life are with me<br>
-            Because you are so dear<br>
-        <br>
-            I can't put into words how I feel<br>
-            And I just wanted you to feel<br>
-        <br>
-            You're the most precious thing I have in my life<br>
-            I just want to hold you, I'll be holding you tight<br>
-        <br>
-            Seth and Seren<br>
-            Take care of your mom for me<br>
-            Just so you know I'll be always here<br>
-        <br>
-            Seth and Seren<br>
-            Love you both unconditionally<br>
-            Only that I wish that you'll remember me<br>
-        <br>
-            I can't put into words how I feel<br>
-            And I just wanted you to feel<br>
-        <br>
-            You're the most precious thing I have in my life<br>
-            I just want to hold you, I'll be holding you tight<br>
-            Now in the night, turn off the light<br>
-            I'll be your guiding light`
+                just before the song Kalipay. Lyrics on this song are the message of the father to his two children.`
     },
-    "SHnS": {
+    "sa_habambuhay_na_sandali": {
         title: "Sa Habambuhay na Sandali",
-        author: "A. Lascano",
         cover: ".png",
         details: `This is a lullaby song for someone who you want to be resting on your chest as you both lay down.
-                This song assures to that person it is safe to in your presence.`,
-        lyrics: 
-            `Itatanong ko lang kung nais mo rin naman akong alayan ng mga kantang walang<br>
-            Panghihinayang sa lahat ng oras na magkasama ikaw lang ang aking isasama<br>
-        <br>
-            Sa lahat ng tatahakin ko sa'king kinabukasan hinding hindi maiiwasan na ika'y<br>
-            Mapusuan kasi nga sa 'yong pagkadalaga ay nagbabadya ng katangitanging mong kagandahan<br>
-        <br>
-            Kaya naman ako'y iyong samahan sa lahat hindi maiiwanan at lagi lang tapat<br>
-            Ako sayo at wala ng ibang hinahanap humimlay na muna kasama ako<br>
-        <br>
-            Sa'king pahinga<br>
-            Sa dibdib ay humiga<br>
-            Hindi mo na kailangan pang<br>
-            Maghanap ng ibang yayakap kasi<br>
-        <br>
-            Hindi na bibitiw sa yakap<br>
-            Sayo lang ang lahat<br>
-            Ibibigay ang kumot<br>
-            Basta't lahat sapat<br>
-            Ipikit na 'yong mga mata<br>
-            At iyong makikita<br>
-            Lahat ng ninanais mo'y makakamit mo na<br>
-        <br>
-            La la la la…<br>
-            (Ohhhh)<br>
-        <br>
-            Wag na wag ka ng mangangamba nandito pa<br>
-            Hindi naman aalis pagkat andyan ka na<br>
-            Makakasama mo ako at maaasahan sa lahat ng 'yong gagawin ikaw ay sasamahan<br>
-        <br>
-            Sa habambuhay na sandali ikaw ay aking babantayan na at iingatan pa<br>
-            Mula sa lahat ng problemang malilimutan mo na lahat ng paulit-ulit kaya naman ay<br>
-        <br>
-            Kung may sagot ka na sa'king tanong ay maaari bang malaman ang 'yong naramdaman<br>
-            Na sa gabing kay lamig na may yakap at halik ibabalik ko ang lahat ng nakaw kong halik<br>
-        <br>
-            Hayaan mo sana ako'y magmasid-masid sayong kagandahan ako'y nananabik<br>
-            At sa pagmulat ko nagulat akong ngiting-ngiti na saking tabi ay mayroong napakarikit<br>
-            At habang tayo'y natutulog ay kay sarap naman pagmasdan ng iyong kagandahan<br>
-            At lalo na sa malapitan hindi ko na naman mapiligan ang nararamdaman kong<br>
-            Saya at kaba bakit ba hindi na mawala sa isip ko<br>
-            Tulog na, pahinga, at aalagaan kita mahal ko`
+                This song assures to that person it is safe to in your presence.`
     }
 };

@@ -74,8 +74,29 @@
 <!-- JavaScript script on the UI/UX -->
 <script>
 
-        // Set Style with user's device
+        // Wait for lyricsData to load before running everything
 
+    function initPage() {
+        const params = new URLSearchParams(window.location.search);
+        const songKey = params.get("song");
+
+        if (!songKey || !lyricsData || !lyricsData[songKey]) {
+            document.getElementById("songTitle").textContent = "Song not found";
+            return;
+        }
+
+        const song = lyricsData[songKey];
+        document.getElementById("pageTitle").textContent = song.title;
+        document.getElementById("songTitle").textContent = song.title;
+        document.getElementById("playingTitle").textContent = song.title;
+        document.getElementById("songAuthor").textContent = `by ${song.author}`;
+        document.getElementById("songLyrics").innerHTML = song.lyrics;
+
+            // Run after content is set
+        setTimeout(fitTitleLyrics, 100);
+    }
+
+        // Device detection
     function detectDevice() {
         const body = document.body;
         const width = window.innerWidth;
@@ -83,7 +104,6 @@
         const isPortrait = height > width;
 
         let device;
-
         if (width > 1200) {
             device = "Desktop";
         } else if (isPortrait && width <= 768) {
@@ -93,20 +113,9 @@
         }
 
         body.setAttribute("data-device", device);
-        document.getElementById("debug").innerHTML = device;
-
-        console.log("Width:", width, "Height:", height, "Orientation:", isPortrait ? "Portrait" : "Landscape", "Device:", device);
+        console.log("Device:", device);
+        return device;
     }
-
-        // Call detectDevice on page load
-
-    document.addEventListener("DOMContentLoaded", function() {
-        detectDevice();
-    });
-
-        // Optional: Also call on window resize for dynamic updates
-
-    window.addEventListener("resize", detectDevice);
 
         //Navigation
 
@@ -143,6 +152,22 @@
             }
         }
     }
+
+        //Side Nav Song Titles
+
+    const menu = document.getElementById("songMenu");
+    
+        Object.entries(lyricsData)
+        .sort((a, b) => a[1].title.localeCompare(b[1].title))
+        .forEach(([key, song]) => {
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.href = `lyrics.html?song=${key}`;
+            a.textContent = song.title;
+            li.appendChild(a);
+            menu.appendChild(li);
+        }
+    );
     
         // Get references to the audio element and custom controls
     const audio = document.getElementById('audioElement');
@@ -157,36 +182,36 @@
         return `${mins}:${secs.toString().padStart(2, '0')}`;
     }
 
-        // Update duration when metadata loads
+        //Update duration when metadata loads
     audio.addEventListener('loadedmetadata', () => {
         durationDisplay.textContent = formatTime(audio.duration);
         progressBar.max = audio.duration;
     });
 
-        // Update progress bar and current time as audio plays
+        //Update progress bar and current time as audio plays
     audio.addEventListener('timeupdate', () => {
         progressBar.value = audio.currentTime;
         currentTimeDisplay.textContent = formatTime(audio.currentTime);
     });
 
-        // Seek functionality via progress bar
+        //Seek functionality via progress bar
     progressBar.addEventListener('input', () => {
         audio.currentTime = progressBar.value;
     });
 
-        // Handle audio end
+        //Handle audio end
     audio.addEventListener('ended', () => {
         playPauseButton.textContent = 'Play';
         progressBar.value = 0;
         currentTimeDisplay.textContent = '0:00';
     });
 
-        // Error handling
+        //Error handling
     audio.addEventListener('error', () => {
         alert('Error loading audio file. Check the file path.');
         });
 
-        // Play/Pause button functionality
+        //Play/Pause button functionality
     playPauseButton.addEventListener('click', () => {
         if (audio.paused) {
             audio.play();
@@ -197,36 +222,53 @@
         }
     });
 
-        // Find Song ID
+        //Find Song ID
 
     const params = new URLSearchParams(window.location.search);
     const songKey = params.get("song");
 
         if (!songKey || !lyricsData[songKey]) {
-        document.getElementById("songTitle").textContent = "Song not found";
+            document.getElementById("songTitle").textContent = "Song not found";
         } else {
         const song = lyricsData[songKey];
+
         document.getElementById("pageTitle").textContent = song.title;
         document.getElementById("songTitle").textContent = song.title;
         document.getElementById("playingTitle").textContent = song.title;
         document.getElementById("songAuthor").textContent = `by ${song.author}`;
         document.getElementById("songLyrics").innerHTML = song.lyrics;
+
+        fitTitle();
     }
 
-        //Side Nav Song Titles
+        //Automatically adjust the VW unit size of title
 
-    const menu = document.getElementById("songMenu");
+    function fitTitle() {
+        console.log("fitTitleLyrics called");
+        
+        const title = document.getElementById("songTitle");
+        const containerTitle = document.querySelector(".title");
+        
+        let fontSizeTitle = 5; 
+        title.style.fontSize = fontSizeTitle + "vw";
 
-        Object.entries(lyricsData)
-        .sort((a, b) => a[1].title.localeCompare(b[1].title))
-        .forEach(([key, song]) => {
-            const li = document.createElement("li");
-            const a = document.createElement("a");
-            a.href = `lyrics.html?song=${key}`;
-            a.textContent = song.title;
-            li.appendChild(a);
-            menu.appendChild(li);
-        });
+        while (title.scrollWidth > containerTitle.offsetWidth && fontSizeTitle > 3) {
+            fontSizeTitle -= 0.2;
+            title.style.fontSize = fontSizeTitle + "vw";
+        }
+    }
+
+        // Initialize everything when DOM + lyricsData ready
+
+    document.addEventListener("DOMContentLoaded", function() {
+        detectDevice();
+        initPage();
+    });
+
+    window.addEventListener('resize', () => {
+        detectDevice();
+        fitTitle();
+    });
 </script>
 </body>
 </html>

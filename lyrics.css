@@ -12,9 +12,12 @@
 }
     h1 {
         color: #2A9D8F;
-        font-size: 5vw;
         padding: 0 15px 0 50px;
         margin: 0.4em 0;
+    }
+    #songAuthor {
+        flex-shrink: 0;
+        white-space: nowrap;
     }
     hr {
         width: 97.5%;
@@ -26,15 +29,17 @@
     align-items: flex-start;
 }
     #mainLyrics {
+        overflow: hidden;
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.2);
         box-shadow: 0 8px 32px 0 rgba(91, 91, 91, 0.37);
         border-radius: 20px;
+        display: block;
         width: 50%;
         margin: 3% 5%;
-        font-size: 1.3vw;
         color: #2E2E2E;
+        font-size: 1.5vw;
         padding: 0 1%;
     }
     #musicTab {
@@ -132,7 +137,6 @@ body[data-device="Tablet/iPad"] .song {
     body[data-device="Tablet/iPad"] #mainLyrics {
         width: 55%; /* Slightly wider */
         margin: 2.5% 4%; /* Reduced margins */
-        font-size: 1.5vw; /* Enlarged from 1.3vw */
         padding: 0 0.8%; /* Reduced padding */
     }
     body[data-device="Tablet/iPad"] #musicTab {
@@ -196,8 +200,8 @@ body[data-device="Phone"] .song {
     body[data-device="Phone"] #mainLyrics {
         width: 90%; /* Near-full width */
         margin: 5% 5% 0; /* Adjusted margins */
-        font-size: 3.5vw; /* Larger for readability */
         padding: 0 2%; /* Increased padding */
+        font-size: 3.3vw;
     }
     body[data-device="Phone"] #musicTab {
         width: 90%; /* Smaller for phone */
@@ -258,7 +262,7 @@ body[data-device="Phone"] .song {
         mask-size: 100%;
         mask-image: linear-gradient(
             to right,
-            rgba(0, 0, 0, 1) 70%,
+            rgba(0, 0, 0, 1) 100%,
             rgba(0, 0, 0, 0)
         );
     }
